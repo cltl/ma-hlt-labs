@@ -1,0 +1,188 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Lab-Assignment 2: Use Word Embeddings to extend Wordnet (max 20 points for your final grade)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Copyright: VU University of Amsterdam, Faculty of Humanities"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "In this assignment you:\n",
+    "\n",
+    "* Select a noun and verb for which you expect that the English WordNet has at least 10 descendants (hyponyms at any depth)\n",
+    "* select the word embedding model for a language of your choice, \n",
+    "* extract the 50 most similar words for your target word \n",
+    "* map these words to a wordnet in the same language:\n",
+    "    * which words are already there and what relations they have with your target word\n",
+    "    * which words are not there and what would be the relation to the target word (if any)\n",
+    "\n",
+    "We assume you have analysed the following notebooks:\n",
+    "\n",
+    "Lab2.1.NLTK_wordnet\n",
+    "Lab2.2 Wikipedia2Vec\n",
+    "Lab2.3 Create_embeddings_in_some_language\n",
+    "\n",
+    "You can follow the Wikipedia2Vec and Create_embeddings_in_some_language notebook instructions notebook to create the embeddings. \n",
+    "\n",
+    "This notebook should show how you applied these embeddings to your words. Insert Mark Down rows the explain your steps and discuss any problems or issues. Once you generated the output and explanation, convert this notebook to PDF using the menu \"File/Export Notebook As\". Submit both the PDF and the notebook as a zip file."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2.1 WordNet coverage over hyponyms: **[5 points]**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1) Select one noun and one verb for which the English WordNet has more than 10 descendants."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2) Get the lexical coverage for these hyponyms (at any depth) in a target language wordnet of your choice (not English)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## Here comes your code that obtain the hyponym coverage in your target language for the target noun and target verb of you choice"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3) How many synsets have lemmas in your target language and how many do not?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2.2 Wiki2Vec embeddings: [5 points]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1) Download the Wiki2Vec embeddings for your target language and load the model using the Wikipedia2Vec package"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2) Get the 50 most similar words for each of your target words"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3) For each of the most similar words that is NOT covered by your target language answer the following questions:\n",
+    "\n",
+    "* Is this word related to the target concept?\n",
+    "* What would be the proper WordNet relation?\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "4) Reflect on the following questions:\n",
+    "\n",
+    "* Are embeddings useful for completing WordNet?\n",
+    "* Are the new concepts similar or related?\n",
+    "* Is there a difference between the noun and verb?\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Embeddings from the Leipniz corpus: [10 points]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1) Download a text corpus from the Leipniz corpora collection for your target language"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2) Use the gensim pakcage to create an embedding model for your target language"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3) Get the 50 most similar words for the Wiki2Vec embeddings (re-use the result for 2.2 above) and for the Leipniz embeddings, compare the results and answer the following questions\n",
+    "\n",
+    "* which embeddings are better?\n",
+    "* can you explain why there is a difference?\n",
+    "* do you think you can compare a vector from the Wiki2Vec package with a vector from the Leipniz corpus built through the gensim package? If yes, explain how, if not explain why?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## End of assignment"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

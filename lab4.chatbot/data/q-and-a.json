@@ -1,0 +1,74 @@
+{"intents": [
+        {"category": "greeting",
+         "questions": ["Hi there", "How are you", "Is anyone there", "Hey", "Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help"]
+        },
+        {"category": "goodbye",
+         "questions": ["Bye", "See you later", "Goodbye", "Nice chatting with you", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"category": "thanks",
+         "questions": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"category": "options",
+         "questions": ["How could you help me", "What can you do", "What help you provide", "How you can be helpful", "What support is offered"],
+         "responses": ["I can answer questions related to NLP", "Offering support for common NLP questions"]
+        },
+        {"category": "sentence-splitting",
+         "questions": ["What is sentence splitting"],
+         "responses": ["Sentence splitting is splitting texts into sentences"]
+        },
+        {"category": "tokenization",
+         "questions": ["What is tokenization"],
+         "responses": ["Tokenization is splitting texts into individual words"]
+        }, 
+        {"category": "stop-words-recognition",
+         "questions": ["What is stop words recognition"],
+         "responses": ["Stop words recognition is identifying commonly used words (such as 'the', 'a(n)', 'in', etc.) in text, possibly to ignore them in other tasks"]
+        },
+        {"category": "pos",
+         "questions": ["What is part-of-speech tagging", "What is POS tagging"],
+         "responses": ["Part-of-speech (POS) tagging is identifying the parts of speech of words in context (verbs, nouns, adjectives, etc.)"]
+        },
+        {"category": "morphological-analysis",
+         "questions": ["What is morphological analysis"],
+         "responses": ["Morphological analysis is separating words into morphemes and identifying their classes (e.g. tense/aspect of verbs)"]
+        },
+        {"category": "stemming",
+         "questions": ["What is stemming"],
+         "responses": ["Stemming is identifying the stems of words in context by removing inflectional/derivational affixes, such as 'troubl' for 'trouble/troubling/troubled'"]
+        },
+        {"category": "lemmatization",
+         "questions": ["What is lemmatization"],
+         "responses": ["Lemmatization is identifying the lemmas (dictionary forms) of words in context, such as 'go' for 'go/goes/going/went'"]
+        },
+        {"category": "wsd",
+         "questions": ["What is Word Sense Disambiguation", "What is WSD"],
+         "responses": ["Word Sense Disambiguation (WSD) is assigning the correct meaning to words in context"]
+        },
+        {"category": "ner",
+         "questions": ["What is named Entity Recognition", "What is NER"],
+         "responses": ["Named Entity Recognition (NER) is identifying people, locations, organizations, etc. in text"]
+        },
+        {"category": "parsing",
+         "questions": ["What is constituency parsing", "What is dependency parsing"],
+         "responses": ["Constituency/dependency parsing is analyzing the grammatical structure of a sentence"]
+        },
+        {"category": "srl",
+         "questions": ["What is Semantic Role Labeling (SRL)", "What is SRL"],
+         "responses": ["Semantic Role Labeling (SRL) is analyzing the semantic structure of a sentence (who does what to whom, where and when)"]
+        },
+        {"category": "sentiment-analysis",
+         "questions": ["What is Sentiment Analysis"],
+         "responses": ["Sentiment Analysis is determining whether a text is mostly positive or negative"]
+        },
+        {"category": "embeddings",
+         "questions": ["What are Word Vectors", "What are Word Embeddings", "What is Semantic Similarity"],
+         "responses": ["Word Vectors (or Word Embeddings) and Semantic Similarity is representing the meaning of words as vectors (rows of real valued numbers) where each point captures a dimension of the word's meaning and where semantically similar words have similar vectors (very popular these days)"]
+        }
+]
+}
+
+
+

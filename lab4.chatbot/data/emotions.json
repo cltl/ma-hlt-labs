@@ -1,0 +1,32 @@
+{"intents": [
+        {"category": "anger",
+         "questions": [],
+         "responses": ["You sound agitated, is there something I can do to help?"]
+        },
+        {"category": "disgust",
+         "questions": [],
+         "responses": ["I agree, that is disgusting"]
+        },
+        {"category": "fear",
+         "questions": [],
+         "responses": ["You seem scared. Everything will be fine, do not worry"]
+        },
+        {"category": "joy",
+         "questions": [],
+         "responses": ["That's great!"]
+        },
+        {"category": "neutral",
+         "questions": [],
+         "responses": ["I see"]
+        },
+        {"category": "sadness",
+         "questions": [],
+         "responses": ["That is sad. I am sorry to hear"]
+        }, 
+        {"category": "surprise",
+         "questions": [],
+         "responses": ["I am just as shocked as you"]
+        }
+]
+}
+

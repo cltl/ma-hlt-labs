@@ -26,6 +26,34 @@
         {"category": "surprise",
          "questions": [],
          "responses": ["I am just as shocked as you"]
+        },
+        {"category": "anger",
+         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That type of music makes me angry as well"]
+        },
+        {"category": "disgust",
+         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["I dislike that music as well"]
+        },
+        {"category": "fear",
+         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["Those tunes are scary"]
+        },
+        {"category": "joy",
+         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That's a great beat!"]
+        },
+        {"category": "neutral",
+         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That music is fine"]
+        },
+        {"category": "sadness",
+         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That is a sad melody"]
+        },
+        {"category": "surprise",
+         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["I am just as shocked as you about this music"]
         }
 ]
 }

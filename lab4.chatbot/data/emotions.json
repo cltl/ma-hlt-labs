@@ -1,10 +1,10 @@
 {"intents": [
         {"category": "anger",
-         "questions": [],
+         "keywords": [],
          "responses": ["You sound agitated, is there something I can do to help?"]
         },
         {"category": "disgust",
-         "questions": [],
+         "keywords": [],
          "responses": ["I agree, that is disgusting"]
         },
         {"category": "fear",
@@ -12,47 +12,47 @@
          "responses": ["You seem scared. Everything will be fine, do not worry"]
         },
         {"category": "joy",
-         "questions": [],
+         "keywords": [],
          "responses": ["That's great!"]
         },
         {"category": "neutral",
-         "questions": [],
+         "keywords": [],
          "responses": ["I see"]
         },
         {"category": "sadness",
-         "questions": [],
+         "keywords": [],
          "responses": ["That is sad. I am sorry to hear"]
         }, 
         {"category": "surprise",
-         "questions": [],
+         "keywords": [],
          "responses": ["I am just as shocked as you"]
         },
         {"category": "anger",
-         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
          "responses": ["That type of music makes me angry as well"]
         },
         {"category": "disgust",
-         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
          "responses": ["I dislike that music as well"]
         },
         {"category": "fear",
-         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
          "responses": ["Those tunes are scary"]
         },
         {"category": "joy",
-         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
          "responses": ["That's a great beat!"]
         },
         {"category": "neutral",
-         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
          "responses": ["That music is fine"]
         },
         {"category": "sadness",
-         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
          "responses": ["That is a sad melody"]
         },
         {"category": "surprise",
-         "questions": ["music", "melody", "band", "song", "dance", "instrument"],
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
          "responses": ["I am just as shocked as you about this music"]
         }
 ]

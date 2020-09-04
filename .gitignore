@@ -40,3 +40,6 @@ venv.bak/
 *.sav
 *.bin
 */models/
+
+# Sensitive info
+lab4.chatbot/data/tokens.json

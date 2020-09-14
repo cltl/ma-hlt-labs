@@ -1,0 +1,13 @@
+A computer mouse is a hand-held pointing device that detects
+two-dimensional motion relative to a surface. This motion is typically
+translated into the motion of a pointer on a display, which allows a
+smooth control of the graphical user interface. The first public
+demonstration of a mouse controlling a computer system was in 1968.
+Originally wired to a computer, many modern mice are cordless, relying
+on short-range radio communication with the connected system. Mice
+originally used a ball rolling on a surface to detect motion, but modern
+mice often have optical sensors that have no moving parts. In addition
+to moving a cursor, computer mice have one or more buttons to allow
+operations such as selection of a menu item on a display. Mice often
+also feature other elements, such as touch surfaces and "wheels", which
+enable additional control and dimensional input.

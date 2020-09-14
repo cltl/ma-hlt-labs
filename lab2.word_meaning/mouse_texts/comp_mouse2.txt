@@ -1,0 +1,6 @@
+A computer mouse is a handheld hardware input device that controls a
+cursor in a GUI and can move and select text, icons, files, and folders.
+For desktop computers, the mouse is placed on a flat surface such as a
+mouse pad or a desk and is placed in front of your computer. The picture
+to the right is an example of a desktop computer mouse with two buttons
+and a wheel.

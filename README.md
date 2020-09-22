@@ -15,7 +15,7 @@ During the first LAB session you are getting prepared to work with the massive a
 * Anaconda environment: https://anaconda.org, which also install Python 3.7
 * Jupyter notebooks: https://jupyter.org. (you also may want to check out this: https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29 
 
-To prepare for the course, make sure you have installed Anaconda and you have familiarised yourself with the environment and with notebooks.We assume that you have basic programming skills in Python and that you can work in the Command Line. 
+To prepare for the course, make sure you have installed Anaconda and you have familiarised yourself with the environment and with notebooks.We assume that you have basic programming skills in Python and that you can work in the Command Line. Please follow the instruction in the document "getting-started.pdf".
 
 It is your own responsibility to have your skills up to date; without proper command line skills, you will not be able to attend the lab sessions. 
 

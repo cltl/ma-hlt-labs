@@ -42,4 +42,6 @@ venv.bak/
 */models/
 
 # Sensitive info
-lab4.chatbot/data/tokens.json
+*tokens.json
+*assignment-key*
+lab4.chatbot/data/test_set.txt

@@ -1,0 +1,214 @@
+{"intents": [
+        {"emotion": "anger",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["You sound agitated, is there something I can do to help?"]
+        },
+        {"emotion": "disgust",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["I agree, that is disgusting"]
+        },
+        {"emotion": "fear",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["You seem scared. Everything will be fine, do not worry"]
+        },
+        {"emotion": "joy",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["That's great!"]
+        },
+        {"emotion": "neutral",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["I see"]
+        },
+        {"emotion": "sadness",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["That is sad. I am sorry to hear"]
+        },
+        {"emotion": "surprise",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["I am just as shocked as you"]
+        },
+        {"emotion": "anger",
+         "topic":  "animals",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "disgust",
+         "topic":  "animals",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "fear",
+         "topic":  "animals",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "joy",
+         "topic":  "animals",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "neutral",
+         "topic":  "animals",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "sadness",
+         "topic":  "animals",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "surprise",
+         "topic":  "animals",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "anger",
+         "topic":  "people",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "disgust",
+         "topic":  "people",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "fear",
+         "topic":  "people",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "joy",
+         "topic":  "people",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "neutral",
+         "topic":  "people",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "sadness",
+         "topic":  "people",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "surprise",
+         "topic":  "people",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "anger",
+         "topic":  "sports",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "disgust",
+         "topic":  "sports",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "fear",
+         "topic":  "sports",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "joy",
+         "topic":  "sports",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "neutral",
+         "topic":  "sports",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "sadness",
+         "topic":  "sports",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "surprise",
+         "topic":  "sports",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "anger",
+         "topic":  "food",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "disgust",
+         "topic":  "food",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "fear",
+         "topic":  "food",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "joy",
+         "topic":  "food",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "neutral",
+         "topic":  "food",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "sadness",
+         "topic":  "food",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "surprise",
+         "topic":  "food",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "anger",
+         "topic":  "places",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "disgust",
+         "topic":  "places",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "fear",
+         "topic":  "places",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "joy",
+         "topic":  "places",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "neutral",
+         "topic":  "places",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "sadness",
+         "topic":  "places",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        },
+        {"emotion": "surprise",
+         "topic":  "places",
+         "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+         "responses": ["response1", "response2", "response3", "response4"]
+        }
+]
+}
+

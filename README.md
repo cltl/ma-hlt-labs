@@ -12,7 +12,7 @@ The notebooks are grouped into 3 lab sessions:
 During the first LAB session you are getting prepared to work with the massive amounts of tools and data that are available for many languages. We want you to work with on your own computer. A solid laptop and substantial disk space helps. We are going to use the following applications and toolkits:
 
 * The Terminal under Linux or Mac OS, the command line under windows.
-* Anaconda environment: https://anaconda.org, which also install Python 3.7
+* Anaconda environment: https://anaconda.org, which also install Python 3.7 or higher
 * Jupyter notebooks: https://jupyter.org. (you also may want to check out this: https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29 
 
 To prepare for the course, make sure you have installed Anaconda and you have familiarised yourself with the environment and with notebooks.We assume that you have basic programming skills in Python and that you can work in the Command Line. Please follow the instruction in the document "getting-started.pdf".

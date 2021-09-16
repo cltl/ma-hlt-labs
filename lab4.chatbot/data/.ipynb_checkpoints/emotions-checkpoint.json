@@ -1,0 +1,60 @@
+{"intents": [
+        {"category": "anger",
+         "keywords": [],
+         "responses": ["You sound agitated, is there something I can do to help?"]
+        },
+        {"category": "disgust",
+         "keywords": [],
+         "responses": ["I agree, that is disgusting"]
+        },
+        {"category": "fear",
+         "questions": [],
+         "responses": ["You seem scared. Everything will be fine, do not worry"]
+        },
+        {"category": "joy",
+         "keywords": [],
+         "responses": ["That's great!"]
+        },
+        {"category": "neutral",
+         "keywords": [],
+         "responses": ["I see"]
+        },
+        {"category": "sadness",
+         "keywords": [],
+         "responses": ["That is sad. I am sorry to hear"]
+        }, 
+        {"category": "surprise",
+         "keywords": [],
+         "responses": ["I am just as shocked as you"]
+        },
+        {"category": "anger",
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That type of music makes me angry as well"]
+        },
+        {"category": "disgust",
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["I dislike that music as well"]
+        },
+        {"category": "fear",
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["Those tunes are scary"]
+        },
+        {"category": "joy",
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That's a great beat!"]
+        },
+        {"category": "neutral",
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That music is fine"]
+        },
+        {"category": "sadness",
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["That is a sad melody"]
+        },
+        {"category": "surprise",
+         "keywords": ["music", "melody", "band", "song", "dance", "instrument"],
+         "responses": ["I am just as shocked as you about this music"]
+        }
+]
+}
+

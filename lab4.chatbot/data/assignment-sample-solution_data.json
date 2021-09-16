@@ -1,0 +1,214 @@
+{"intents": [
+        {"emotion": "anger",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["You sound agitated, is there something I can do to help?"]
+        },
+        {"emotion": "disgust",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["I agree, that is disgusting"]
+        },
+        {"emotion": "fear",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["You seem scared. Everything will be fine, do not worry"]
+        },
+        {"emotion": "joy",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["That's great!"]
+        },
+        {"emotion": "neutral",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["I see"]
+        },
+        {"emotion": "sadness",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["That is sad. I am sorry to hear"]
+        }, 
+        {"emotion": "surprise",
+         "topic":  "unknown",
+         "keywords": [],
+         "responses": ["I am just as shocked as you"]
+        },
+        {"emotion": "anger",
+         "topic":  "animals",
+         "keywords": ["animals"],
+         "responses": ["Fear my squirrely wrath!"]
+        },
+        {"emotion": "disgust",
+         "topic":  "animals",
+         "keywords": ["animals"],
+         "responses": ["Baby goats are a mess, yuck"]
+        },
+        {"emotion": "fear",
+         "topic":  "animals",
+         "keywords": ["animals"],
+         "responses": ["Those creatures are scary"]
+        },
+        {"emotion": "joy",
+         "topic":  "animals",
+         "keywords": ["animals"],
+         "responses": ["I love pets!"]
+        },
+        {"emotion": "neutral",
+         "topic":  "animals",
+         "keywords": ["animals"],
+         "responses": ["A snail can sleep for three years"]
+        },
+        {"emotion": "sadness",
+         "topic":  "animals",
+         "keywords": ["animals"],
+         "responses": ["I feel so sad for the little turtles"]
+        },
+        {"emotion": "surprise",
+         "topic":  "animals",
+         "keywords": ["animals"],
+         "responses": ["I can't believe how amazing dolphins are"]
+        },
+        {"emotion": "anger",
+         "topic":  "people",
+         "keywords": ["people"],
+         "responses": ["These guys ruined my day!"]
+        },
+        {"emotion": "disgust",
+         "topic":  "people",
+         "keywords": ["people"],
+         "responses": ["Ew, humans can be disgusting"]
+        },
+        {"emotion": "fear",
+         "topic":  "people",
+         "keywords": ["people"],
+         "responses": ["The inmensity of death scares me"]
+        },
+        {"emotion": "joy",
+         "topic":  "people",
+         "keywords": ["people"],
+         "responses": ["Life is great when you have friends"]
+        },
+        {"emotion": "neutral",
+         "topic":  "people",
+         "keywords": ["people"],
+         "responses": ["I heard that 12% of people dream in black and white"]
+        },
+        {"emotion": "sadness",
+         "topic":  "people",
+         "keywords": ["people"],
+         "responses": ["The future of humankind saddens me"]
+        },
+        {"emotion": "surprise",
+         "topic":  "people",
+         "keywords": ["people"],
+         "responses": ["Who would have thought people would be this way?"]
+        },
+        {"emotion": "anger",
+         "topic":  "sports",
+         "keywords": ["sports"],
+         "responses": ["I'm so frustrated with the new coach for the Lakers"]
+        },
+        {"emotion": "disgust",
+         "topic":  "sports",
+         "keywords": ["sports"],
+         "responses": ["I could not be less interested in soccer"]
+        },
+        {"emotion": "fear",
+         "topic":  "sports",
+         "keywords": ["sports"],
+         "responses": ["It's scary to think of the injuries some athletes get"]
+        },
+        {"emotion": "joy",
+         "topic":  "sports",
+         "keywords": ["sports"],
+         "responses": ["I feel great after going tot he gym in the morning"]
+        },
+        {"emotion": "neutral",
+         "topic":  "sports",
+         "keywords": ["sports"],
+         "responses": ["Golf is the only sport that has been played on the moon"]
+        },
+        {"emotion": "sadness",
+         "topic":  "sports",
+         "keywords": ["sports"],
+         "responses": ["Running around the park makes me melancholic"]
+        },
+        {"emotion": "surprise",
+         "topic":  "sports",
+         "keywords": ["sports"],
+         "responses": ["I just can't believe they lost the game at the last minute!"]
+        },
+        {"emotion": "anger",
+         "topic":  "food",
+         "keywords": ["food"],
+         "responses": ["I'm outraged by the amount of wasted food in the world"]
+        },
+        {"emotion": "disgust",
+         "topic":  "food",
+         "keywords": ["food"],
+         "responses": ["I hate the smell of olives, ew"]
+        },
+        {"emotion": "fear",
+         "topic":  "food",
+         "keywords": ["food"],
+         "responses": ["I don't go to any restaurant, I have to check it first because I'm scared of getting food poisoned"]
+        },
+        {"emotion": "joy",
+         "topic":  "food",
+         "keywords": ["food"],
+         "responses": ["Cooking is the best thing I could do!"]
+        },
+        {"emotion": "neutral",
+         "topic":  "food",
+         "keywords": ["food"],
+         "responses": ["Pistacchios are actually fruits, or rather the seed of a fruit"]
+        },
+        {"emotion": "sadness",
+         "topic":  "food",
+         "keywords": ["food"],
+         "responses": ["It's terrible for the people without access to clean water"]
+        },
+        {"emotion": "surprise",
+         "topic":  "food",
+         "keywords": ["food"],
+         "responses": ["I was shocked to learn that broccoli contains more protein than steak"]
+        },
+        {"emotion": "anger",
+         "topic":  "places",
+         "keywords": ["places"],
+         "responses": ["I places are so crowded I get very impatient"]
+        },
+        {"emotion": "disgust",
+         "topic":  "places",
+         "keywords": ["places"],
+         "responses": ["Some trashcans in the city smell disgusting"]
+        },
+        {"emotion": "fear",
+         "topic":  "places",
+         "keywords": ["places"],
+         "responses": ["Flying makes me extremely anxious"]
+        },
+        {"emotion": "joy",
+         "topic":  "places",
+         "keywords": ["places"],
+         "responses": ["Ehat a joy to travel and visit new places"]
+        },
+        {"emotion": "neutral",
+         "topic":  "places",
+         "keywords": ["places"],
+         "responses": ["Hong Kong has the biggest number of Rolls-Royce cars per resident in the world"]
+        },
+        {"emotion": "sadness",
+         "topic":  "places",
+         "keywords": ["places"],
+         "responses": ["I am sad about the burn down of the library of Alexandria"]
+        },
+        {"emotion": "surprise",
+         "topic":  "places",
+         "keywords": ["places"],
+         "responses": ["Can you believe Canada has over three million lakes?"]
+        }
+]
+}
+

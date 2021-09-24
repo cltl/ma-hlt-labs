@@ -1,6 +1,8 @@
 # ma-hlt-labs
 Human Language Technology Notebooks for Lab sessions, Master Students
 
+test. 
+
 This GitHub contains the python notebooks for the Introduction into Human Language Technology course at the Vrije Universiteit Amsterdam, Faculty of Humanities. This course targets Text Mining Master students and Research Master students. We assume you have some basic knowledge of Python.
 
 The notebooks are grouped into 3 lab sessions:

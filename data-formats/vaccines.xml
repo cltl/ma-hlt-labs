@@ -1,0 +1,19 @@
+<XML>
+<data>
+	<token id="1">
+		<form>Vaccines</form>
+		<pos>NS</pos>
+		<sentiment>0</sentiment>
+	</token>
+	<token id="1">
+		<form>are</form>
+		<pos>V</pos>
+		<sentiment>0</sentiment>
+	</token>
+	<token id="1">
+		<form>save</form>
+		<pos>A</pos>
+		<sentiment>1</sentiment>
+	</token>
+</data>
+</XML>

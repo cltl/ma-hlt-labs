@@ -1,0 +1,20 @@
+{
+	token: {
+		"id": "1",
+		"form": "Vaccines",
+		"pos": "NNS",
+		"sentiment": "0"
+	},
+	token: {
+		"id": "2",
+		"form": "are",
+		"pos": "V",
+		"sentiment": "0"
+	},
+	token: {
+		"id": "3",
+		"form": "safe",
+		"pos": "A",
+		"sentiment": "1"
+	},
+}

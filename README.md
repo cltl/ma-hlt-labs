@@ -19,7 +19,7 @@ We want you to work with on your own computer so that you can build your own cod
 * Anaconda environment: https://anaconda.org, which also install Python 3.7 or higher
 * Jupyter notebooks: https://jupyter.org. (you also may want to check out this: https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29 
 
-To prepare for the course, make sure you have installed Anaconda and you have familiarised yourself with the environment and with notebooks.We assume that you have basic programming skills in Python and that you can work in the Command Line. Please follow the instruction in the document [getting-started.pdf](./getting-started.pdf).
+To prepare for the course, make sure you have installed Anaconda and you have familiarised yourself with the environment and with notebooks.We assume that you have basic programming skills in Python and that you can work in the Command Line. Please follow the instruction in the document [getting-started.pdf](./HLT-Lab1-getting-started.pdf).
 
 In addition to the above tools, you need a plain text editor to inspect text files with language data. Note that this is not the same as Word or Pdf. Word and Pdf files are binary files and contain many other things besides the text (just like HTML files):
 

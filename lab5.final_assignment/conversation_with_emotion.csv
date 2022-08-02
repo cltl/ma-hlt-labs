@@ -1,0 +1,18 @@
+,utterance,speaker,turn_id,Sentiment,SentimentScore,Ekman,EkmanScore,Go,GoScore
+0,Hello Piek. How are you feeling today?,Eliza,1,ambiguous,0.12610651925206184,neutral,0.28712528944015503,curiosity,0.33082377910614014
+1,I am bored,Piek,1,negative,0.06772143656218593,neutral,0.1391400843858719,annoyance,0.16720564663410187
+2,Did you come to me because you are bored?,Eliza,1,ambiguous,0.13425459596328437,neutral,0.24997249245643616,curiosity,0.38339775800704956
+3,Yes,Piek,1,positive,0.029085119992184143,neutral,0.6115546226501465,neutral,0.6115546226501465
+4,You seem quite sure.,Eliza,1,positive,0.05927409693443527,neutral,0.19610977172851562,approval,0.570112407207489
+5,"I am, I am desperate",Piek,1,negative,0.037800840017470444,neutral,0.27976247668266296,neutral,0.27976247668266296
+6,"Why do you say that you am, you are desperate?",Eliza,1,ambiguous,0.13250698847696185,neutral,0.30729103088378906,curiosity,0.39176395535469055
+7,Because I want to have some fun,Piek,1,positive,0.06763016087158273,neutral,0.10045674443244934,amusement,0.21817713975906372
+8,Does that reason apply to anything else?,Eliza,1,ambiguous,0.1323029325576499,neutral,0.40879395604133606,neutral,0.40879395604133606
+9,No,Piek,1,negative,0.03860901419962333,neutral,0.495888352394104,neutral,0.495888352394104
+10,Please tell me more.,Eliza,1,ambiguous,0.03014260553754866,neutral,0.5682938098907471,neutral,0.5682938098907471
+11,Sometimes I am sad and I don’t want to have fun,Piek,1,negative,0.06610411416146565,sadness,0.13606976643204688,sadness,0.576105535030365
+12,Let's change focus a bit... Tell me about your family.,Eliza,1,positive,0.05039016330071414,neutral,0.3167738914489746,neutral,0.3167738914489746
+13,My family is big,Piek,1,positive,0.014944357661685595,neutral,0.7625131011009216,neutral,0.7625131011009216
+14,Why do you say that your family is big?,Eliza,1,ambiguous,0.1496805854840204,neutral,0.32336845993995667,curiosity,0.42861098051071167
+15,5 sisters and 4 vorthers,Piek,1,negative,0.007970935135910457,neutral,0.8676066994667053,neutral,0.8676066994667053
+16,Very interesting.,Eliza,1,positive,0.0698396161897108,joy,0.0698396161897108,excitement,0.3657703399658203

@@ -1,0 +1,22 @@
+,Unnamed: 0,utterance,speaker,turn_id,Gold
+0,0,Hello Piek. How are you feeling today?,Eliza,1,neutral
+1,1,I am sad,Piek,1,sadness
+2,2,How do you feel about being sad?,Eliza,1,neutral
+3,3,Bad,Piek,1,sadness
+4,4,How do you feel when you say that?,Eliza,1,neutral
+5,5,I feel better when I talk about it,Piek,1,joy
+6,6,Do you often feel better when you talk about it?,Eliza,1,neutral
+7,7,yes,Piek,1,neutral
+8,8,I see.,Eliza,1,neutral
+9,9,My cat died yesterday,Piek,1,sadness
+10,10,Why do you say that your cat died yesterday?,Eliza,1,neutral
+11,11,It made me sad,Piek,1,sadness
+12,12,Why do you say that it made you sad?,Eliza,1,neutral
+13,13,To explain it to you,Piek,1,neutral
+14,14,Please tell me more.,Eliza,1,neutral
+15,15,She was always on my side,Piek,1,neutral
+16,16,How do you feel when you say that?,Eliza,1,neutral
+17,17,She was 17 years old.,Piek,1,neutral
+18,18,I see.  And what does that tell you?,Eliza,1,neutral
+19,19,That I am a social person,Piek,1,neutral
+20,20,Very interesting.,Eliza,1,neutral

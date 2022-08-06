@@ -27,7 +27,7 @@ def analyze(statement):
 def talk_to_me():
     print("My name is {}. What is your name?".format(system_name))
     human_name=input("> ")
-    turn_id = 1
+    turn_id = 0
     prompt = "Hello {}. How are you feeling today?".format(human_name)
     turn = {'utterance':prompt, 'speaker': system_name, 'turn_id':turn_id}
     conversation.append(turn)
@@ -38,7 +38,7 @@ def talk_to_me():
 
         if statement.lower()=='stop' or statement.lower()== "quit":
             break
-            
+        turn_id += 1   
         turn = {'utterance':statement, 'speaker': human_name, 'turn_id':turn_id}
         conversation.append(turn)
 

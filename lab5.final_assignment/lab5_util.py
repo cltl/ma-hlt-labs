@@ -5,7 +5,6 @@ import gensim
 from gensim.models.word2vec import Word2Vec
 from collections import Counter
 
-
 def getMostFrequentWords(frequency_threshold, texts):
     ##### This code creates a list of words above the preset frequency threshold
     frequent_keywords = []
@@ -173,3 +172,13 @@ ekman_map={
 def sort_predictions(predictions):
     return sorted(predictions, key=lambda x: x['score'], reverse=True)
 
+
+### Given a Pandas dataframe "df" and a set of labels extracted from it
+### this function will filter out the labels that do NOT have "Eliza" as the speaker
+def remove_eliza_labels (df, labels:[]):
+    human_labels = []
+    speakers = df['speaker']
+    for speaker, label in zip(speakers, labels):
+        if not speaker=='Eliza':
+            human_labels.append(label)
+    return human_labels

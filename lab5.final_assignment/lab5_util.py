@@ -6,7 +6,7 @@ from gensim.models.word2vec import Word2Vec
 from collections import Counter
 
 
-### Use a mapping to get a dictionary of the mapped GO_emotion scores
+### Use a mapping to get a dictionary of the mapped GO_emotion scores above the thereshold
 def get_mapped_scores(emotion_map, go_emotion_scores, threshold):
     mapped_scores = {}
 
@@ -21,7 +21,8 @@ def get_mapped_scores(emotion_map, go_emotion_scores, threshold):
                         mapped_scores[key].append(prediction['score'])
     return mapped_scores
 
-### Get the averaged score for an emotion or sentiment from the GO_emotion scores mapped according to the emotion_map
+### Get the averaged score for an emotion or sentiment from the GO_emotion scores above a threshold
+### mapped according to the emotion_map
 def get_averaged_mapped_scores_by_threshold(emotion_map, go_emotion_scores, threshold):
     averaged_mapped_scores = []
     mapped_scores = get_mapped_scores(emotion_map, go_emotion_scores, threshold)

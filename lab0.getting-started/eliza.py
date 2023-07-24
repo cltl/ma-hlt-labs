@@ -36,7 +36,7 @@ def talk_to_me():
     while True:
         statement = input("> ")
 
-        if statement.lower()=='stop' or statement.lower()== "quit":
+        if statement.lower()=='stop' or statement.lower()== "quit" or statement.lower()== "bye":
             break
         turn_id += 1   
         turn = {'utterance':statement, 'speaker': human_name, 'turn_id':turn_id}

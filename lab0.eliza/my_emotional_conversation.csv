@@ -1,0 +1,8 @@
+,utterance,speaker,turn_id,Gold
+0,Hello Pi. How are you feeling today?,Eliza,0,neutral
+1,Sad,Pi,1,sadness
+2,Let's change focus a bit... Tell me about your family.,Eliza,1,neutral
+3,No,Pi,2,anger
+4,I see.  And what does that tell you?,Eliza,2,neutral
+5,Nothing,Pi,3,anger
+6,nothing.,Eliza,3,neutral

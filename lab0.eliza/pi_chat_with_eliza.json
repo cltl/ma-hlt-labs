@@ -1,0 +1,122 @@
+[
+    {
+        "utterance": "Hello Pi. How are you feeling today?",
+        "speaker": "Eliza",
+        "turn_id": 0,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I am sad",
+        "speaker": "Pi",
+        "turn_id": 1,
+        "Gold": "sadness"
+    },
+    {
+        "utterance": "How do you feel about being sad?",
+        "speaker": "Eliza",
+        "turn_id": 1,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Make me more sad",
+        "speaker": "Pi",
+        "turn_id": 2,
+        "Gold": "sadness"
+    },
+    {
+        "utterance": "Very interesting.",
+        "speaker": "Eliza",
+        "turn_id": 2,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "My cat died this week",
+        "speaker": "Pi",
+        "turn_id": 3,
+        "Gold": "sadness"
+    },
+    {
+        "utterance": "I see, your cat died this week.",
+        "speaker": "Eliza",
+        "turn_id": 3,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "We were very close",
+        "speaker": "Pi",
+        "turn_id": 4,
+        "Gold": "joy"
+    },
+    {
+        "utterance": "Why do you say that we were very close?",
+        "speaker": "Eliza",
+        "turn_id": 4,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "She liked me and followed me everywhere",
+        "speaker": "Pi",
+        "turn_id": 5,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Can you elaborate on that?",
+        "speaker": "Eliza",
+        "turn_id": 5,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I call her my shadow",
+        "speaker": "Pi",
+        "turn_id": 6,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Very interesting.",
+        "speaker": "Eliza",
+        "turn_id": 6,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I also liked her a lot",
+        "speaker": "Pi",
+        "turn_id": 7,
+        "Gold": "joy"
+    },
+    {
+        "utterance": "Very interesting.",
+        "speaker": "Eliza",
+        "turn_id": 7,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Now she is gone",
+        "speaker": "Pi",
+        "turn_id": 8,
+        "Gold": "sadness"
+    },
+    {
+        "utterance": "I see.  And what does that tell you?",
+        "speaker": "Eliza",
+        "turn_id": 8,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I miss her",
+        "speaker": "Pi",
+        "turn_id": 9,
+        "Gold": "sadness"
+    },
+    {
+        "utterance": "I see.",
+        "speaker": "Eliza",
+        "turn_id": 9,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "bye",
+        "speaker": "Pi",
+        "turn_id": 10,
+        "Gold": "neutral"
+    }
+]

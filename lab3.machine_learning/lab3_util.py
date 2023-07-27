@@ -4,7 +4,17 @@ from nltk.corpus import stopwords
 import gensim
 from gensim.models.word2vec import Word2Vec
 from collections import Counter
+import pandas
 
+# Fixing encoding problems and replacing the 'Utterance' columns with the cleaned strings
+def replace_weird_tokens_in_meld(df):
+    weird = ["\x92","\x97","\x91","\x93","\x94","\x85"]
+    utts = []
+    for utterance in df['Utterance']:
+        for w in weird:
+            utterance = utterance.replace(w, "'")
+        utts.append(utterance)
+    df['Utterance'] = utts
 
 def getMostFrequentWords(frequency_threshold, texts):
     ##### This code creates a list of words above the preset frequency threshold

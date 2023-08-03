@@ -50,18 +50,6 @@ ekman_map={
 "neutral": ["neutral"]
 }
 
-
 ### Sort a list of results in JSON format by the value of the score element
 def sort_predictions(predictions):
     return sorted(predictions, key=lambda x: x['score'], reverse=True)
-
-
-### Given a Pandas dataframe "df" and a set of labels extracted from it
-### this function will filter out the labels that do NOT have "Eliza" as the speaker
-def remove_eliza_labels (df, labels:[]):
-    human_labels = []
-    speakers = df['speaker']
-    for speaker, label in zip(speakers, labels):
-        if not speaker=='Eliza':
-            human_labels.append(label)
-    return human_labels

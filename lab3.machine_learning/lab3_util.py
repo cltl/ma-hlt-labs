@@ -5,6 +5,8 @@ import gensim
 from gensim.models.word2vec import Word2Vec
 from collections import Counter
 import pandas
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Fixing encoding problems and replacing the 'Utterance' columns with the cleaned strings
 def replace_weird_tokens_in_meld(df):
@@ -16,6 +18,17 @@ def replace_weird_tokens_in_meld(df):
         utts.append(utterance)
     df['Utterance'] = utts
 
+def plot_labels_with_counts(labels, values):
+    total = 0
+    for v in values:
+        total+=v
+    print('Total of values', total)
+    ax = sns.barplot(x=labels, y=values)
+    # Add values above bars
+    for i, v in enumerate(values):
+        ax.text(i, v + 0.2, str(int((v/total*100)))+'%', ha='center')
+    plt.show()
+    
 def getMostFrequentWords(frequency_threshold, texts):
     ##### This code creates a list of words above the preset frequency threshold
     frequent_keywords = []

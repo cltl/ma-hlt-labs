@@ -4,8 +4,42 @@ from nltk.corpus import stopwords
 import gensim
 from gensim.models.word2vec import Word2Vec
 from collections import Counter
+import pandas as pd
 
+def get_test_utterances_and_labels (df):
+    test_instances =[]
+    test_labels = []
+    for index, utterance in enumerate(df['utterance']):
+        if not df['speaker'].iloc[index]=='Eliza':
+            if not pd.isnull(df['utterance'].iloc[index]):
+                test_instances.append(utterance)
+                gold = df['Gold'].iloc[index]
+                test_labels.append(gold)
+    return test_instances, test_labels
+            
 
+# Fixing encoding problems and replacing the 'Utterance' columns with the cleaned strings
+def replace_weird_tokens_in_meld(df):
+    weird = ["\x92","\x97","\x91","\x93","\x94","\x85"]
+    utts = []
+    for utterance in df['Utterance']:
+        for w in weird:
+            utterance = utterance.replace(w, "'")
+        utts.append(utterance)
+    df['Utterance'] = utts
+    
+
+def plot_labels_with_counts(labels, values):
+    total = 0
+    for v in values:
+        total+=v
+    print('Total of values', total)
+    ax = sns.barplot(x=labels, y=values)
+    # Add values above bars
+    for i, v in enumerate(values):
+        ax.text(i, v + 0.2, str(int((v/total*100)))+'%', ha='center')
+    plt.show()
+    
 ### Use a mapping to get a dictionary of the mapped GO_emotion scores above the thereshold
 def get_mapped_scores(emotion_map, go_emotion_scores, threshold):
     mapped_scores = {}

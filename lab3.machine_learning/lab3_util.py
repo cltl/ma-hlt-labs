@@ -20,9 +20,8 @@ def replace_weird_tokens_in_meld(df):
 
 def plot_labels_with_counts(labels, values):
     total = 0
-    for v in values:
-        total+=v
-    print('Total of values', total)
+    total = sum(values)
+   # print('Total of values', total)
     ax = sns.barplot(x=labels, y=values)
     # Add values above bars
     for i, v in enumerate(values):

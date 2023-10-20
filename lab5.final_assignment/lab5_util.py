@@ -5,6 +5,8 @@ import gensim
 from gensim.models.word2vec import Word2Vec
 from collections import Counter
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 def get_test_utterances_and_labels (df):
     test_instances =[]

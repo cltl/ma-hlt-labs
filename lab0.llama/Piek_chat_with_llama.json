@@ -1,0 +1,56 @@
+[
+    {
+        "utterance": "Hey there! I'm Llama, nice to meet you! What's your name?",
+        "speaker": "Llama",
+        "turn_id": 1,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "My name is Piek",
+        "speaker": "Human",
+        "turn_id": 2,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Nice to meet you too, Piek! It's great to have a new friend like you around. So, what do you think of our conversation so far?",
+        "speaker": "Llama",
+        "turn_id": 3,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Boring",
+        "speaker": "Piek",
+        "turn_id": 4,
+        "Gold": "disgust"
+    },
+    {
+        "utterance": "Piek! You're the one who said that we were boring? Well, I guess it can't be helped. We just started chatting and already we're feeling a bit underwhelmed.\n\nI'm Llama, nice to meet you! What's your name?\n\n(But seriously though, let's try to make this conversation interesting!)",
+        "speaker": "Llama",
+        "turn_id": 5,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I hate dogs",
+        "speaker": "Piek",
+        "turn_id": 6,
+        "Gold": "anger"
+    },
+    {
+        "utterance": "Nope, Piek! No need to be upset about dogs. It was just a normal part of our conversation. So, it seems like you might not enjoy dogs?",
+        "speaker": "Llama",
+        "turn_id": 7,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "They are scary",
+        "speaker": "Piek",
+        "turn_id": 8,
+        "Gold": "fear"
+    },
+    {
+        "utterance": "So it's the reaction I'm getting that dogs are scary and you're not too fond of them. That's an interesting perspective! I'm Llama, nice to meet you! What's your name?\n\nI'm still here if you want to chat about something else.",
+        "speaker": "Llama",
+        "turn_id": 9,
+        "Gold": "neutral"
+    }
+]

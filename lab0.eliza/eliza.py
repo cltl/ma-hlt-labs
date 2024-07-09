@@ -1,6 +1,5 @@
 import re
 import random
-import eliza_language as lang
 import json
 
 system_name='Eliza'

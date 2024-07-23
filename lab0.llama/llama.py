@@ -1,7 +1,6 @@
 from openai import OpenAI
 import json
 
-
 class LlamaClient:
     
     def __init__(self, url="http://localhost:9001/v1", character="You are friendly."):
@@ -11,11 +10,15 @@ class LlamaClient:
         self._history = []
         self._conversation=[]
         self._turn_id = 0
-        self._instruct = [
-    {"role": "system", "content": "You are an intelligent assistant and your name is " + self._system_name+ ". Give short asnwers, no more than two sentences."},
-    {"role": "system", "content": character},
-    {"role": "system", "content": "Introduce yourself with your name " + self._system_name + " and start the conversation by asking for the name of the user. Ask the name."}
-        ]
+        self._instruct = []
+        self.create_chat_instruct(character)
+
+
+    def create_chat_instruct(self, character):
+        self._instruct = [{"role": "system", "content": "You are an intelligent assistant and your name is {}.".format(self._system_name)}]
+        self._instruct.append({"role": "system", "content": "Give short answers, no more than two sentences."})
+        self._instruct.append({"role": "system", "content": character})
+        self._instruct.append({"role": "system", "content": "Introduce yourself with your name {} and start the conversation by asking for the name of the user. Ask the name.".format(self._system_name)})
         print("My instructions are:", self._instruct)
 
     def talk_to_me(self):
@@ -129,3 +132,5 @@ if __name__ == "__main__":
     character="Your answers should be uncertain and emotional."
     llama = LlamaClient(url = url, character=character)
     llama.talk_to_me()
+
+                         

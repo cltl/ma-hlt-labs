@@ -12,8 +12,8 @@ class LlamaClient:
         self._turn_id = 0
         self._instruct = []
         self.create_chat_instruct(character)
-
-
+        self.llama3_instruct(character)
+        
     def create_chat_instruct(self, character):
         self._instruct = [{"role": "system", "content": "You are an intelligent assistant and your name is {}.".format(self._system_name)}]
         self._instruct.append({"role": "system", "content": "Give short answers, no more than two sentences."})

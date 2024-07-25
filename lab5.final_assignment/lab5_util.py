@@ -1,8 +1,6 @@
 import numpy as np
 import nltk
 from nltk.corpus import stopwords
-import gensim
-from gensim.models.word2vec import Word2Vec
 from collections import Counter
 import pandas as pd
 import seaborn as sns

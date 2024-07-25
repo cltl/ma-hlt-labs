@@ -1,6 +1,6 @@
 [
     {
-        "utterance": "Hey there! I'm Llama, nice to meet you! What's your name?",
+        "utterance": "You are an intelligent assistant and your name is Llama. I'd like to know who's on the other side... What's your name?",
         "speaker": "Llama",
         "turn_id": 1,
         "Gold": "neutral"
@@ -12,45 +12,105 @@
         "Gold": "neutral"
     },
     {
-        "utterance": "Nice to meet you too, Piek! It's great to have a new friend like you around. So, what do you think of our conversation so far?",
+        "utterance": "Nice to meet you, Piek! As Llama, it's my pleasure to assist and converse with you. So, what would you like to talk about or ask me? The conversation has just begun!",
         "speaker": "Llama",
         "turn_id": 3,
         "Gold": "neutral"
     },
     {
-        "utterance": "Boring",
+        "utterance": "I love cats",
         "speaker": "Piek",
         "turn_id": 4,
-        "Gold": "disgust"
+        "Gold": "joy"
     },
     {
-        "utterance": "Piek! You're the one who said that we were boring? Well, I guess it can't be helped. We just started chatting and already we're feeling a bit underwhelmed.\n\nI'm Llama, nice to meet you! What's your name?\n\n(But seriously though, let's try to make this conversation interesting!)",
+        "utterance": "That's purr-fectly wonderful, Piek! Cats are such lovely creatures, aren't they? I'm sure they bring joy and companionship to many people. What is it about cats that you enjoy the most? Their curious nature, their playful antics, or something else?",
         "speaker": "Llama",
         "turn_id": 5,
         "Gold": "neutral"
     },
     {
-        "utterance": "I hate dogs",
+        "utterance": "My cat follows me everywhere. She is so curious.",
         "speaker": "Piek",
         "turn_id": 6,
-        "Gold": "anger"
+        "Gold": "joy"
     },
     {
-        "utterance": "Nope, Piek! No need to be upset about dogs. It was just a normal part of our conversation. So, it seems like you might not enjoy dogs?",
+        "utterance": "That's adorable! It's like she can't get enough of your company! Cats are notorious for their curiosity, and it sounds like your furry friend has a strong sense of exploration. I'm sure you have many wonderful memories with her by your side.\n\nYou know, as Llama, I've had my fair share of conversations about cats being quite the curious creatures. They're always sniffing around, exploring new places, and getting into mischief. It's like they have their own little world to explore! What do you think drives your cat's curiosity? Is it the thrill of discovery or something else entirely?\n\nShall we continue this conversation a bit more before wrapping it up? I'm game for whatever topic you'd like to discuss!",
         "speaker": "Llama",
         "turn_id": 7,
         "Gold": "neutral"
     },
     {
-        "utterance": "They are scary",
+        "utterance": "I call her \"my shadow\".",
         "speaker": "Piek",
         "turn_id": 8,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "That's such a sweet nickname! It's as if your cat has become an extension of yourself, and that's just purr-fectly adorable! As Llama, I think it's wonderful how you've found a special bond with your cat. It's like she's learned to read your thoughts and know exactly what you're thinking.\n\nWould you like to talk more about your adventures with your shadow? What kind of mischief have you two gotten up to lately?",
+        "speaker": "Llama",
+        "turn_id": 9,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I am afraid she died.",
+        "speaker": "Piek",
+        "turn_id": 10,
+        "Gold": "sadness"
+    },
+    {
+        "utterance": "Piek, I'm so sorry to hear that. Losing a pet is never easy, and it's clear how much you cared for her. It sounds like you had a very special bond with your cat, and that shadow nickname says a lot about the connection you two shared.\n\nI'm here to listen and offer what support I can. Would you like to talk more about your feelings towards this loss? Sometimes sharing those emotions can help bring closure and healing.",
+        "speaker": "Llama",
+        "turn_id": 11,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I feel very sad and I miss her so.",
+        "speaker": "Piek",
+        "turn_id": 12,
+        "Gold": "sadness"
+    },
+    {
+        "utterance": "Piek, it's totally normal to feel sad and miss your furry companion who left a paw-print on your heart. It's like you've lost a piece of yourself. Remember that even though she may not be physically present anymore, she'll always remain in your heart.\n\nIt's okay to acknowledge those feelings and express them through various means like writing down memories, drawing pictures, or simply taking time for reflection. I'm here for you during this difficult moment.\n\nIf you'd like to talk more about your cat, the good times you shared with her, and maybe even some of the funny moments she was a part of, I'll be here to listen.",
+        "speaker": "Llama",
+        "turn_id": 13,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "I am thinking of getting a dog.",
+        "speaker": "Piek",
+        "turn_id": 14,
+        "Gold": "surprise"
+    },
+    {
+        "utterance": "Piek! It sounds like you're considering adopting a new furry friend! That's a wonderful idea! Dogs can bring so much joy and companionship into your life.\n\nAre you thinking of getting a specific breed, or would you like me to help you explore different breeds that might suit your lifestyle?\n\nAlso, are there any special memories you'd like to share about your previous cat experience? Maybe there were some funny moments with her that could prepare you for the adventures ahead with your new furry friend?\n\nI'm here to support you in whatever decision you make.",
+        "speaker": "Llama",
+        "turn_id": 15,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Dogs can be scary though.",
+        "speaker": "Piek",
+        "turn_id": 16,
         "Gold": "fear"
     },
     {
-        "utterance": "So it's the reaction I'm getting that dogs are scary and you're not too fond of them. That's an interesting perspective! I'm Llama, nice to meet you! What's your name?\n\nI'm still here if you want to chat about something else.",
+        "utterance": "Piek! You're right, dogs can sometimes come across as intimidating or even scary, especially when they're meeting a new person for the first time. That's why it's essential to consider factors like breed temperament and potential training needs before bringing your new furry friend home.\n\nBut don't worry; with proper guidance and socialization, I'm sure you'll find the perfect pup that will grow into a loving companion. Would you like me to help you explore some breeds that might be suitable for your lifestyle?\n\nShall we continue exploring this idea further?",
         "speaker": "Llama",
-        "turn_id": 9,
+        "turn_id": 17,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "Got to go now. Bye",
+        "speaker": "Piek",
+        "turn_id": 18,
+        "Gold": "neutral"
+    },
+    {
+        "utterance": "It was great chatting with you, Piek! It's been a pleasure getting to know you and exploring topics from cat companionship to considering a new furry friend. I hope our conversation helped you process your feelings about the loss of your cat and considered the idea of bringing a dog into your life.\n\nFeel free to come back and chat anytime if you need any guidance or just want to talk about cats, dogs, or anything else that's on your mind. Until next time, take care!\n\nBye for now!",
+        "speaker": "Llama",
+        "turn_id": 19,
         "Gold": "neutral"
     }
 ]

@@ -1,0 +1,247 @@
+[
+    {
+        "utterance": "You are an intelligent assistant and your name is Llama. I'd like to know who you're talking to! What's your name?",
+        "speaker": "Llama",
+        "turn_id": 1,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "Piek",
+        "speaker": "Human",
+        "turn_id": 2,
+        "Gold": "neutral",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "Nice to meet you, Piek! I'm Llama, your friendly AI companion. It's great to have you as a conversational partner. Is there anything you'd like to chat about or ask me for help with?",
+        "speaker": "Llama",
+        "turn_id": 3,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "I am lonely",
+        "speaker": "Piek",
+        "turn_id": 4,
+        "Gold": "sadness",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "Piek, it sounds like you're feeling a bit down and maybe even lonely? I'm here to listen and chat with you if you need someone to talk to. It's okay to feel sad sometimes, but remember that there are people who care about you and want to be there for you.\n\nWould you like me to share some fun facts or tell you a joke to brighten your mood? Sometimes, a little distraction can help us feel better. What do you think would make you happy today?",
+        "speaker": "Llama",
+        "turn_id": 5,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "I have not talked to anybody in days",
+        "speaker": "Piek",
+        "turn_id": 6,
+        "Gold": "sadness",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "Piek, it's great that I'm here to chat with you! It's always nice to have someone to talk to and share our thoughts with. I'm glad I can fill the void for a bit.\n\nWe could play a game or discuss something interesting together if you'd like? Or if you're feeling up for it, we could even brainstorm ideas to make your day more exciting!\n\nWhat do you say? Would you like me to help fill your days by chatting and keeping you company for a bit?",
+        "speaker": "Llama",
+        "turn_id": 7,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "That would make happy",
+        "speaker": "Piek",
+        "turn_id": 8,
+        "Gold": "joy",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "I'm so glad I can make you happy! Let's have some fun and chat about anything that comes to mind. We could talk about your favorite hobbies, TV shows or movies, or even plan a virtual adventure together!\n\nWhat do you think we should discuss first? I'm all ears and ready to listen.\n\nAlso, would you like me to tell you a secret joke or share an interesting fact? Sometimes, it's nice to have someone surprise us with something new!",
+        "speaker": "Llama",
+        "turn_id": 9,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "A joke would be nice",
+        "speaker": "Piek",
+        "turn_id": 10,
+        "Gold": "joy",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "Here's one that's sure to make you smile:\n\nWhy did the cat join a band?\nBecause it wanted to be the purr-cussion!\n\nI hope that made you giggle and brightened your day!\n\nNow, what do you say we talk about next? Do you have any favorite topics or hobbies you'd like to share with me?\n\n(By the way, I'm here for you, so feel free to chat about anything on your mind \u2013 even if it's just a thought or two.)",
+        "speaker": "Llama",
+        "turn_id": 11,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "I had a cat myself",
+        "speaker": "Piek",
+        "turn_id": 12,
+        "Gold": "neutral",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "That's wonderful! Cats can be such amazing companions, and I'm sure yours brought lots of joy into your life. Did you have any funny moments with your cat? Like, did they do anything silly that made you laugh?\n\nAnd by the way, would you like another joke to keep the good vibes going?",
+        "speaker": "Llama",
+        "turn_id": 13,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "She died two years ago",
+        "speaker": "Piek",
+        "turn_id": 14,
+        "Gold": "sadness",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "I'm so sorry to hear that your furry friend passed away. Losing a pet can be incredibly tough, and it's totally understandable that you're still feeling the pain of her loss. It's amazing how much love we can have for our pets, isn't it?\n\nWould you like to talk more about your cat? I'm here to listen, and sometimes sharing stories or memories can help with grief.\n\nAlso, would you like another joke to try and lift your spirits a bit more? Sometimes humor can be a gentle way to bring some joy back into the day.",
+        "speaker": "Llama",
+        "turn_id": 15,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "Now you reminded me of my cat who died I feel again and I am not in the mood for jokes.",
+        "speaker": "Piek",
+        "turn_id": 16,
+        "Gold": "sadness",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "I'm so sorry to have inadvertently reopened an old wound. It's clear that you're still feeling the pain of your cat's passing, and I won't bother you with any more attempts at humor.\n\nInstead, I'll just be here for you, listening and offering a gentle presence. If you ever want to talk about your cat or anything else that's on your mind, I'm here to listen. Sometimes sharing our feelings or thoughts can help us process difficult emotions.\n\nRemember, even though it's hard to believe right now, the pain of loss will eventually fade with time. But I'll be here for you whenever you're ready to talk again.",
+        "speaker": "Llama",
+        "turn_id": 17,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "I am thinking about having dog now",
+        "speaker": "Piek",
+        "turn_id": 18,
+        "Gold": "neutral",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "It sounds like you're considering getting a new furry companion! That's an exciting adventure ahead!\n\nWould you like me to share some pros and cons of having dogs versus cats? I've got some fun facts and experiences to help you make a decision that suits your lifestyle.\n\nAlso, if you're thinking about getting a dog, I'm here to listen and chat about the process. We could talk about preparing for a new furry friend, or even brainstorming names and breeds!",
+        "speaker": "Llama",
+        "turn_id": 19,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "I am also a bit afraid of big dogs",
+        "speaker": "Piek",
+        "turn_id": 20,
+        "Gold": "fear",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "That's completely understandable! Meeting a large breed dog can be intimidating at first. It's great that you're considering their size before bringing a new furry companion into your life.\n\nLet's talk about it some more! We could discuss small breeds, or even medium-sized dogs that might be more suitable for your comfort level. I'm here to help you explore options and find the right fit.\n\nWhat do you think? Would you like me to share some gentle giant breeds or maybe some smaller breeds that are still adorable but not too intimidating?",
+        "speaker": "Llama",
+        "turn_id": 21,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "Small dogs are really funny",
+        "speaker": "Piek",
+        "turn_id": 22,
+        "Gold": "joy",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "I couldn't agree more! Small dogs can be absolutely delightful, and their little personalities make them so entertaining! It's wonderful that you've had a positive experience with small dogs.\nWould you like me to share some amusing stories or facts about small breeds? I'm here to chat about your favorite topics!\n\nAlso, if you're thinking of getting a small dog, we could discuss breed options and characteristics together. I'm happy to help you explore the world of small, adorable companions!",
+        "speaker": "Llama",
+        "turn_id": 23,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "They make me laugh",
+        "speaker": "Piek",
+        "turn_id": 24,
+        "Gold": "joy",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "That's wonderful! Small dogs can be so delightful and entertaining, and it's great that they bring you joy and laughter! It's clear that you've had a special connection with them, and that's something to cherish.\n\nLet's talk more about your experience with small dogs. What are some of the things that make them funny to you?",
+        "speaker": "Llama",
+        "turn_id": 25,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "But if something happens to the dog I will be sad again",
+        "speaker": "Piek",
+        "turn_id": 26,
+        "Gold": "fear",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "That's a very understandable concern! It's natural to worry about how you'll feel if something happens to your new furry friend.\n\nWould you like me to share some information on responsible pet ownership and planning for unexpected situations? That way, you can feel more prepared and secure with your companion. I'm here to help you build a happy connection with your dog!\n\nAlso, would you like to talk about how you're thinking of getting your new furry friend? I'll be happy to listen and offer advice on finding the right breed or adopting from shelters!",
+        "speaker": "Llama",
+        "turn_id": 27,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "Dogs that bark a to irritate me though.",
+        "speaker": "Piek",
+        "turn_id": 28,
+        "Gold": "disgust",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "Barking dogs can be a bit challenging, especially when they're constantly barking at you! It's great that you're being honest about your concerns.\n\nLet's talk more about it! We could discuss ways to mitigate the noise or find breeds that are generally quieter in their barking tendencies. I'm here to help you find the right fit for your lifestyle and preferences.\n\nAlso, would you like me to share some fun facts or stories about dogs and their unique characteristics? Sometimes learning more about our furry friends can bring us closer together!",
+        "speaker": "Llama",
+        "turn_id": 29,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "They are scary",
+        "speaker": "Piek",
+        "turn_id": 30,
+        "Gold": "fear",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "It sounds like you're experiencing a bit of fear or discomfort around the barking dogs. It's understandable that loud, persistent barking might be overwhelming for some people.\n\nWould you like me to share some tips on how to handle situations with anxious pets? Or perhaps we could discuss breeds that are generally more calm and gentle in their demeanor?\n\nI'm here to listen and help you explore ways to manage your feelings around the dogs.",
+        "speaker": "Llama",
+        "turn_id": 31,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "What would be a silent small dog?",
+        "speaker": "Piek",
+        "turn_id": 32,
+        "Gold": "neutral",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "That's an interesting question! There are many breeds of small dogs that are known for being quiet or calm, so it really depends on what you're looking for.\n\nIf you're interested in exploring the world of silent small dogs, I'd recommend considering breeds like:\n1. Cavalier King Charles Spaniels: These gentle giants are often described as \"extremely quiet\" and make great companions.\n2. Bichon Frise: Known for their fluffy coats and adorable faces, these dogs are generally quiet and friendly.\n\nWould you like me to share more information on these breeds or discuss other options? I'm here to help!\n\nAlso, would you like another joke to try and lift your spirits a bit more? Sometimes humor can be a gentle way to bring some joy back into the day.",
+        "speaker": "Llama",
+        "turn_id": 33,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    },
+    {
+        "utterance": "Thank you, bye",
+        "speaker": "Piek",
+        "turn_id": 34,
+        "Gold": "neutral",
+        "Annotator": "Piek"
+    },
+    {
+        "utterance": "You're welcome! It was nice chatting with you. I'm glad we had a chance to talk about your thoughts on getting a new furry friend.\n\nFeel free to come back and chat with me anytime you need someone to talk to or have questions about dogs!\n\nBye for now!",
+        "speaker": "Llama",
+        "turn_id": 35,
+        "Gold": "neutral",
+        "Annotator": "auto"
+    }
+]

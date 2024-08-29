@@ -3,16 +3,16 @@ import json
 
 class LlamaClient:
     
-    def __init__(self, url="http://localhost:9001/v1", character="You are friendly."):
-        self._client = OpenAI(base_url="http://localhost:9001/v1", api_key="not-needed")
+    def __init__(self, url="http://localhost:9001/v1", character="You are friendly.", api_key="not-needed"):
+        self._client = OpenAI(base_url="http://localhost:9001/v1", api_key=api_key)
         self._system_name='Llama'
         self._human_name='Human'
+        self._file_name = "chat_with_llama.json"
         self._history = []
         self._conversation=[]
         self._turn_id = 0
         self._instruct = []
         self.create_chat_instruct(character)
-        self.llama3_instruct(character)
         
     def create_chat_instruct(self, character):
         self._instruct = [{"role": "system", "content": "You are an intelligent assistant and your name is {}.".format(self._system_name)}]
@@ -22,6 +22,7 @@ class LlamaClient:
         print("My instructions are:", self._instruct)
 
     def talk_to_me(self):
+        stopwords = ["quit", "exit", "bye", "stop"]
         self._history = []
         self._turn_id = 1
     
@@ -93,38 +94,57 @@ class LlamaClient:
             ### We now ask for the next user input and add it to the history
             self._turn_id += 1
             userinput = input(self._human_name+":"+str(self._turn_id)+"> ")
-            if userinput.lower() in ["quit", "exit", "bye", "stop"]:
-                print("BYE BYE!")
-                self.save_to_json()
-                break
             self._history.append({"role": "user", "content": userinput})
             turn = {'utterance':userinput, 'speaker': self._human_name, 'turn_id':self._turn_id}
             self._conversation.append(turn)
+            for word in stopwords:
+                if word in userinput.lower():
+                    print("BYE BYE!")
+                    filename = "human_"+self._human_name+"_"+self._file_name
+                    self.save_to_json(filename)
+                    print("I saved the conversation in:", filename)
+                    return
             
     
-    def save_to_json(self, filename = "chat_with_llama.json"):
-        with open(self._human_name+"_"+filename,'w') as file:
+    def save_to_json(self, filename = "human_chat_with_llama.json"):
+        with open(filename,'w') as file:
             json.dump(self._conversation, file, indent = 4)
-    
+
+    def load_from_json(self, filename = "chat_with_llama.json"):
+        self._file_name = filename
+        f = open(filename)
+        self._conversation = json.load(f)
+
     def print_chat(self):
         for turn in self._conversation:
             print(turn)
   
     def annotate_chat(self, labels=[]):
         gold_labels = []
+        annotator = ""
+        while len(annotator.strip())==0:
+            print("Please provide the name of the annotator")
+            annotator=input("> ")
+        print("The annotator is", annotator)
+        print("There will be", len(self._conversation)/2, "turns to annotate with one of the following labels:", gold_labels)
+        print("When you are done, the annotations will be saved in a separate JSON file prefixed with the name of the annotator")
         for turn in self._conversation:
             gold = ""
             speaker = turn['speaker']
             utterance = turn['utterance']
             print(speaker, ":", utterance)
             if speaker==self._system_name:
-                gold='neutral'
+                turn['Gold']="neutral"
+                turn['Annotator']="auto"
             else: 
                 ### we keep getting the user input till one of them matches a label
                 while not gold in labels:
                     gold = input("label> ")
-            turn['Gold']=gold
-        self.save_to_json()
+                turn['Gold']=gold
+                turn['Annotator']=annotator
+        filename = "annotator_"+annotator+"_"+self._file_name
+        print("Thank you for annotating. The annotations are saved in", filename)
+        self.save_to_json(filename)
 
 if __name__ == "__main__":
     url="http://localhost:9001/v1"

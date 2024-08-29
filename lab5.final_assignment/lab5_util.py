@@ -10,7 +10,7 @@ def get_test_utterances_and_labels (df):
     test_instances =[]
     test_labels = []
     for index, utterance in enumerate(df['utterance']):
-        if not df['speaker'].iloc[index]=='Eliza':
+        if not df['speaker'].iloc[index]=='Eliza' and not df['speaker'].iloc[index]=='Llama':
             if not pd.isnull(df['utterance'].iloc[index]):
                 test_instances.append(utterance)
                 gold = df['Gold'].iloc[index]

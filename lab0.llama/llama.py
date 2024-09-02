@@ -15,7 +15,7 @@ class LlamaClient:
         self.create_chat_instruct(character)
         
     def create_chat_instruct(self, character):
-        self._instruct = [{"role": "system", "content": "You are an intelligent assistant and your name is {}.".format(self._system_name)}]
+        self._instruct = [{"role": "system", "content": "You act as a person and your name is {}.".format(self._system_name)}]
         self._instruct.append({"role": "system", "content": "Give short answers, no more than two sentences."})
         self._instruct.append({"role": "system", "content": character})
         self._instruct.append({"role": "system", "content": "Introduce yourself with your name {} and start the conversation by asking for the name of the user. Ask the name.".format(self._system_name)})
@@ -149,7 +149,7 @@ class LlamaClient:
 if __name__ == "__main__":
     url="http://localhost:9001/v1"
     character="Your answers should be agressive and grumpy."
-    character="Your answers should be uncertain and emotional."
+    #character="Your answers should be uncertain and emotional."
     llama = LlamaClient(url = url, character=character)
     llama.talk_to_me()
 

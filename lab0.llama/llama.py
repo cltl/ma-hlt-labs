@@ -4,7 +4,7 @@ import json
 class LlamaClient:
     
     def __init__(self, url="http://localhost:9001/v1", character="You are friendly.", api_key="not-needed"):
-        self._client = OpenAI(base_url="http://localhost:9001/v1", api_key=api_key)
+        self._client = OpenAI(base_url=url, api_key=api_key)
         self._system_name='Llama'
         self._human_name='Human'
         self._file_name = "chat_with_llama.json"
@@ -75,16 +75,19 @@ class LlamaClient:
             completion = self._client.chat.completions.create(
                 model="local-model", # this field is currently unused
                 messages=self._history,
-                temperature=0.8,
+                temperature=0.3,
                 stream=True,
             )
-        
+
+            print(self._system_name+":"+str(self._turn_id)+"> ")
             new_message = {"role": "system", "content": ""}
             response = ""
             for chunk in completion:
                 if chunk.choices[0].delta.content:
                     response += chunk.choices[0].delta.content
-            print(self._system_name+":"+str(self._turn_id)+"> "+response)
+                  #  print(chunk.choices[0].delta.content
+                    print(chunk.choices[0].delta.content, end="", flush=True)
+            #print(self._system_name+":"+str(self._turn_id)+"> "+response)
             new_message["content"] = response
             self._history.append(new_message)
             turn = {'utterance':new_message['content'], 'speaker': self._system_name, 'turn_id':self._turn_id}

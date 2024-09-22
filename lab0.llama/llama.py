@@ -3,8 +3,9 @@ import json
 
 class LlamaClient:
     
-    def __init__(self, url="http://localhost:9001/v1", character="You are friendly.", api_key="not-needed"):
+    def __init__(self, url="http://localhost:9001/v1", character="You are friendly.", api_key="not-needed", ctx_limit=2048):
         self._client = OpenAI(base_url=url, api_key=api_key)
+        self._ctx = ctx_limit
         self._system_name='Llama'
         self._human_name='Human'
         self._file_name = "chat_with_llama.json"
@@ -20,6 +21,18 @@ class LlamaClient:
         self._instruct.append({"role": "system", "content": character})
         self._instruct.append({"role": "system", "content": "Introduce yourself with your name {} and start the conversation by asking for the name of the user. Ask the name.".format(self._system_name)})
         print("My instructions are:", self._instruct)
+
+    def add_to_history_check_context_limit(self, input):
+        context = ""
+        for message in self._history:
+            context += str(message)
+        if len(context+str(input))>self._ctx:
+            if len(self._history)>4:
+                ##### shorten the history with 4 turns
+                self._history = self._history[4:]
+            else:
+                self._history ==[]
+        self._history.append(input)
 
     def talk_to_me(self):
         stopwords = ["quit", "exit", "bye", "stop"]
@@ -44,7 +57,7 @@ class LlamaClient:
         print(self._system_name+":"+str(self._turn_id)+"> "+response)
         ### We extend the history with new message
         new_message["content"] += response
-        self._history.append(new_message)
+        self.add_to_history_check_context_limit(new_message)
         ### We also save the turn in conversation
         turn = {'utterance':new_message['content'], 'speaker': self._system_name, 'turn_id':self._turn_id}
         self._conversation.append(turn)
@@ -54,7 +67,7 @@ class LlamaClient:
         self._turn_id += 1
         userinput=input("Human"+":"+str(self._turn_id)+"> ")
         ### We add your input to the history and the conversation as well
-        self._history.append({"role": "user", "content": userinput})
+        self.add_to_history_check_context_limit({"role": "user", "content": userinput})
         turn = {'utterance':userinput, 'speaker': self._human_name, 'turn_id':self._turn_id}
         self._conversation.append(turn)
     
@@ -89,7 +102,7 @@ class LlamaClient:
                     print(chunk.choices[0].delta.content, end="", flush=True)
             #print(self._system_name+":"+str(self._turn_id)+"> "+response)
             new_message["content"] = response
-            self._history.append(new_message)
+            self.add_to_history_check_context_limit(new_message)
             turn = {'utterance':new_message['content'], 'speaker': self._system_name, 'turn_id':self._turn_id}
             self._conversation.append(turn)
             print()
@@ -97,7 +110,7 @@ class LlamaClient:
             ### We now ask for the next user input and add it to the history
             self._turn_id += 1
             userinput = input(self._human_name+":"+str(self._turn_id)+"> ")
-            self._history.append({"role": "user", "content": userinput})
+            self.add_to_history_check_context_limit({"role": "user", "content": userinput})
             turn = {'utterance':userinput, 'speaker': self._human_name, 'turn_id':self._turn_id}
             self._conversation.append(turn)
             for word in stopwords:
@@ -121,7 +134,7 @@ class LlamaClient:
     def print_chat(self):
         for turn in self._conversation:
             print(turn)
-  
+
     def annotate_chat(self, labels=[]):
         gold_labels = []
         annotator = ""

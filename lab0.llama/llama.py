@@ -135,14 +135,58 @@ class LlamaClient:
         for turn in self._conversation:
             print(turn)
 
+    def get_annotator(self, d:dict):
+        for item in d:
+            if "Annotator" in item:
+                annotator = item["Annotator"]
+                if not annotator=="auto":
+                    return annotator
+        return ""
+
+    def annotate_multi_chat(self, labels=[]):
+        annotator = ""
+        if len(self._conversation)>0:
+            annotator = self.get_annotator(self._conversation[0])
+        while len(annotator.strip())==0:
+            print("Please provide the name of the annotator")
+            annotator=input("> ")
+        print("The annotator is", annotator)
+        print("There will be", len(self._conversation), "conversations to annotate with one of the following labels:", labels)
+        print("When you are done, the annotations will be saved in a separate JSON file prefixed with the name of the annotator")
+        print("Turns that are already annotated are skipped.")
+        for conversation in self._conversation:
+            print("Labels", labels)
+            print("This conversation has", len(conversation), "turns.")
+            input("Press ENTER to start> ")
+            for turn in conversation:
+                speaker = turn['speaker']
+                utterance = turn['utterance']
+                turn_id = turn["turn_id"]
+                print(turn_id, speaker, ":", utterance)
+                if speaker==self._system_name:
+                    turn['Gold']="neutral"
+                    turn['Annotator']="auto"
+                elif not turn['Gold']:
+                    gold = ""
+                    ### we keep getting the user input till one of them matches a label
+                    while not gold in labels:
+                        gold = input("Enter GOLD label> ")
+                    turn['Gold']=gold
+                    turn['Annotator']=annotator
+                else:
+                    print("The GOLD label is",turn['Gold'])
+            print("---------- DONE ---------")
+        filename = "annotator_"+annotator+"_"+self._file_name
+        print("Thank you for annotating. The annotations are saved in", filename)
+        self.save_to_json(filename)
+        
     def annotate_chat(self, labels=[]):
-        gold_labels = []
         annotator = ""
         while len(annotator.strip())==0:
             print("Please provide the name of the annotator")
             annotator=input("> ")
         print("The annotator is", annotator)
-        print("There will be", len(self._conversation)/2, "turns to annotate with one of the following labels:", gold_labels)
+        print("There will be", len(self._conversation)/2, "turns to annotate with one of the following labels:", labels)
         print("When you are done, the annotations will be saved in a separate JSON file prefixed with the name of the annotator")
         for turn in self._conversation:
             gold = ""

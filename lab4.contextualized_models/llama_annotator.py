@@ -13,9 +13,9 @@ class LlamaAnnotator:
 
     def create_label_instruct(self, labels =[], examples=[]):
         self._instruct = [{"role": "system", "content": "You are an intelligent assistant."}]
-        self._instruct.append({"role": "system", "content": "You will receive utterances from a conversation as Input in JSON format."})
-        self._instruct.append({"role": "system", "content": "You need to decide whether one of the following labels apply:{}".format(str(labels))})
-        self._instruct.append({"role": "system", "content": "Output the most appropriate label in JSON format."})
+        self._instruct.append({"role": "system", "content": "You will receive an utterance from a conversation as Input in text format."})
+        self._instruct.append({"role": "system", "content": "You need to determine the emotion expressed in the utterance and respond with one of the following labels:{}".format(str(labels))})
+        #self._instruct.append({"role": "system", "content": "Output the most appropriate label in JSON format."})
         self._instruct.append({"role": "system", "content": "Do not output anything else."})
         if examples:
             self._instruct.append({"role": "system", "content": "Here are a few examples:"})
@@ -27,18 +27,20 @@ class LlamaAnnotator:
     def annotate(self, input=[]):
         annotations = []
         for text in input:
+            ### history is reset after every turn
             self._history = self._instruct
-            self._history.append({"role": "user", "content": "Input: {}".format(text)})
+            self._history.append({"role": "user", "content": "{}".format(text)})
             ### We call the openai client with a low temperature for the first turn
             completion = self._client.chat.completions.create(
                 model="local-model", # this field is currently unused
                 messages=self._history,
                 temperature=0.0,
-                stream=True,
+                stream=False,
             )
             response = ""
             for chunk in completion:
-                if chunk.choices[0].delta.content:
+                print(chunk) 
+                if 'choices' in chunk  and chunk.choices[0].delta.content:
                     response += chunk.choices[0].delta.content
             annotations.append({"Input": text, "Output": response})
         return annotations

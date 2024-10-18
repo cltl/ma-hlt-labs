@@ -15,7 +15,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"From hike? Do yo want to convince me you're a hiker? ",
@@ -141,7 +141,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"I am not beefed just upset by many things. Weather was just a beginning.",
@@ -159,7 +159,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"If you let me I can tell you. Then, on the way to mny office. There wqs this lady...she tripped and poured a coffe mug over my mac.   ",
@@ -375,7 +375,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"I don't belive I could grow and change much being unemployed...",
@@ -447,7 +447,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"I prefer to drink myslef into oblivion tha carrying on with that!",
@@ -555,7 +555,7 @@
             "Lara",
             "Lara"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Can you please stop acting as if you're happy and interested. That is super annoying!",
@@ -921,7 +921,7 @@
             "Yuleum",
             "Lara"
         ],
-        "Adjudication":"disgust"
+        "Adjudication":"anger"
     },
     {
         "utterance":"They laugh at it a lot, which makes me annoyed. I am even thinking about changing my name because I am so stressed!",
@@ -1011,7 +1011,7 @@
             "Yuleum",
             "Lara"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Should I also add a middle name? What do you think.",
@@ -1389,7 +1389,7 @@
             "Melina Paxinou",
             "Lara"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Thanks llama. You're the best!",
@@ -1461,7 +1461,7 @@
             "Melina Paxinou",
             "Bastiaan"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Llama... That person is you.",
@@ -1659,7 +1659,7 @@
             "Melina Paxinou",
             "Bastiaan"
         ],
-        "Adjudication":"disgust"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Do you remember our old friend Raymond? He would write those short stories. I saw him again the other night, he asked how you were doing. I told him you were being a bit dllamatic.",
@@ -1857,7 +1857,7 @@
             "Yunchong Huang",
             "Victoria"
         ],
-        "Adjudication":"sadness"
+        "Adjudication":"disgust"
     },
     {
         "utterance":"I'm extremely sad... Biscuits can't save my day.",
@@ -1893,7 +1893,7 @@
             "Yunchong Huang",
             "Victoria"
         ],
-        "Adjudication":"surprise"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Are you a museum?",
@@ -2145,7 +2145,7 @@
             "Aidona Katsanaki Menares",
             "Victoria"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"No! You made mad again! What is your problem, really? ",
@@ -2397,7 +2397,7 @@
             "Aidona Katsanaki Menares",
             "Martha"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"disgust"
     },
     {
         "utterance":"He keeps interfering with my life! I am furious.",
@@ -2433,7 +2433,7 @@
             "Aidona Katsanaki Menares",
             "Martha"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"I also need advice on how to deal with my dog's imminent death. She is very old and she is about to die soon.",
@@ -2505,7 +2505,7 @@
             "Aidona Katsanaki Menares",
             "Martha"
         ],
-        "Adjudication":"sadness"
+        "Adjudication":"fear"
     },
     {
         "utterance":"I will sink into depression for a very long time..",
@@ -2577,7 +2577,7 @@
             "Aidona Katsanaki Menares",
             "Martha"
         ],
-        "Adjudication":"joy"
+        "Adjudication":"surprise"
     },
     {
         "utterance":"I will go for some beer with my friends! Can't wait!",
@@ -2811,7 +2811,7 @@
             "Aysha",
             "Hannah"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"surprise"
     },
     {
         "utterance":"Hahaha OK Llama, you are a jolly fellow.",
@@ -3009,7 +3009,7 @@
             "Aysha",
             "Hannah"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"Yeah, speaking of sunny days, I had a wonderful summer trip to Germany.",
@@ -3081,7 +3081,7 @@
             "Aysha",
             "Hannah"
         ],
-        "Adjudication":"joy"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"I love Schweinshaxe best!",
@@ -3315,7 +3315,7 @@
             "Aysha",
             "Victoria"
         ],
-        "Adjudication":"sadness"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Ah, didn't I tell you that I travel alone? I cannot split my costs! You are so inattentive!",
@@ -3711,7 +3711,7 @@
             "Jinsheng Zhao",
             "Ino"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"disgust"
     },
     {
         "utterance":"i hate rats maybe they killed my beloved Adriaan. they should all be exterminated",
@@ -3837,7 +3837,7 @@
             "Fenna",
             "Jinsheng Zhao"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"disgust"
     },
     {
         "utterance":"Please no jokes",
@@ -3855,7 +3855,7 @@
             "Fenna",
             "Jinsheng Zhao"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"disgust"
     },
     {
         "utterance":"Okay, surprise me!",
@@ -3891,7 +3891,7 @@
             "Fenna",
             "Jinsheng Zhao"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"What are you drawing?",
@@ -3945,7 +3945,7 @@
             "Fenna",
             "Jinsheng Zhao"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"That's very kind of you",
@@ -3963,7 +3963,7 @@
             "Fenna",
             "Jinsheng Zhao"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"I'm tired llama",
@@ -4035,7 +4035,7 @@
             "Fenna",
             "Jinsheng Zhao"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"fear"
     },
     {
         "utterance":"How do I know you won't turn them off when I fall asleep?",
@@ -4359,7 +4359,7 @@
             "Fenna",
             "Susana"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Okay, okay, I apologize. So you are offended by what I said earlier about the grass eating. But it's you who said no offense taken, come one. Anyways, I'm sorry, okay?",
@@ -4377,7 +4377,7 @@
             "Fenna",
             "Susana"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Hi Llama, my name is Pretzel.",
@@ -4449,7 +4449,7 @@
             "Fenna",
             "Susana"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Okay... Can you give me a few minutes to decide? I'll let you know when I'm ready to order.",
@@ -4485,7 +4485,7 @@
             "Fenna",
             "Susana"
         ],
-        "Adjudication":"surprise"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Fine, I'm not in the mood fighting. This face in the crowd wants a blueberry pancake, thank you.",
@@ -4521,7 +4521,7 @@
             "Fenna",
             "Susana"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Before chatting, I want to tell you please answer me briefly, which means you only reply one sentence, ok?",
@@ -4647,7 +4647,7 @@
             "Martha",
             "Wayne"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"I\u2019ve thought about it, but I\u2019m afraid she might not want to hear from me again. What if it\u2019s too late to fix things?",
@@ -4701,7 +4701,7 @@
             "Martha",
             "Wayne"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"fear"
     },
     {
         "utterance":"It helped. I truly want to fix it. Maybe I can do something?",
@@ -5295,7 +5295,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Bye",
@@ -5367,7 +5367,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"That's a lot to process. Please keep your answers short. I prefer Sir Dorkington",
@@ -5493,7 +5493,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"What's the difference between them and llamas though?",
@@ -5529,7 +5529,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"I think I'm pretty glamorous. I've always wanted to be a movie star",
@@ -5601,7 +5601,7 @@
             "Leo Mylonadis",
             "Matt"
         ],
-        "Adjudication":"surprise"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Fine, bye!",
@@ -5781,7 +5781,7 @@
             "Susana",
             "Cheryl"
         ],
-        "Adjudication":"joy"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"But she stole my purse first!",
@@ -5889,7 +5889,7 @@
             "Susana",
             "Cheryl"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"Why do people steal other people's things? It's not right.",
@@ -6015,7 +6015,7 @@
             "Martha",
             "Wayne"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"I have learned that someone means to kill the King!",
@@ -6033,7 +6033,7 @@
             "Martha",
             "Wayne"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"surprise"
     },
     {
         "utterance":"You will? Blessed day! But first I must be sure that you are trustworthy.",
@@ -6087,7 +6087,7 @@
             "Martha",
             "Wayne"
         ],
-        "Adjudication":"surprise"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"You must surely know something more, given your secret connections with the Royal Beekeeper's Guild.",
@@ -6159,7 +6159,7 @@
             "Martha",
             "Wayne"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"I just told you the plan! Aren't you listening!?",
@@ -6555,7 +6555,7 @@
             "Ino",
             "Manya"
         ],
-        "Adjudication":"joy"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"I am really desperate and I wonder why am I here? I came for fun! and ended up like this!",
@@ -6609,7 +6609,7 @@
             "Ino",
             "Manya"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"I don't feel like belonging here. Bye!",
@@ -6681,7 +6681,7 @@
             "Maja",
             "Manya"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"boy you do like yapping, no need to get all philosophical",
@@ -6699,7 +6699,7 @@
             "Maja",
             "Manya"
         ],
-        "Adjudication":"disgust"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Well according to my doctor I should be back on my highest level in 1,5 years. So that gives me hope!",
@@ -6825,7 +6825,7 @@
             "Maja",
             "Manya"
         ],
-        "Adjudication":"disgust"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Sounds about right, you should know your place",
@@ -6897,7 +6897,7 @@
             "Lina Favre",
             "Hannah"
         ],
-        "Adjudication":"sadness"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"Omg! I stabbed myself with the knife when cutting!!",
@@ -6951,7 +6951,7 @@
             "Lina Favre",
             "Hannah"
         ],
-        "Adjudication":"joy"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"Let's go! Should we bring them sandwiches?",
@@ -7185,7 +7185,7 @@
             "Lina Favre",
             "Hannah"
         ],
-        "Adjudication":"joy"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"Bye",
@@ -7257,7 +7257,7 @@
             "Am\u00e9lie",
             "Cheryl"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"I just need to get to the meeting, I'm scared that they are going to fire me today",
@@ -7329,7 +7329,7 @@
             "Am\u00e9lie",
             "Cheryl"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"surprise"
     },
     {
         "utterance":"they don't need their car today",
@@ -7761,7 +7761,7 @@
             "Maja",
             "Bastiaan"
         ],
-        "Adjudication":"sadness"
+        "Adjudication":"fear"
     },
     {
         "utterance":"I'm not that worried about my skills, but more about being part of the team. I don't understand half the things they say",
@@ -7797,7 +7797,7 @@
             "Maja",
             "Bastiaan"
         ],
-        "Adjudication":"sadness"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"should i buy new clothes?",
@@ -7869,7 +7869,7 @@
             "Maja",
             "Bastiaan"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"should i organise a funeral?",
@@ -7977,7 +7977,7 @@
             "Elisabetta",
             "Am\u00e9lie"
         ],
-        "Adjudication":"fear"
+        "Adjudication":"sadness"
     },
     {
         "utterance":"Well, well, well, now you're all nice and soppy and stomach-turning! Instead of actually giving me some guidance... You can spare me the useless sweetness",
@@ -7995,7 +7995,7 @@
             "Elisabetta",
             "Am\u00e9lie"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"disgust"
     },
     {
         "utterance":"wow, your self-awareness is amazing",
@@ -8697,7 +8697,7 @@
             "Am\u00e9lie",
             "Cheryl"
         ],
-        "Adjudication":"disgust"
+        "Adjudication":"anger"
     },
     {
         "utterance":"You talk too much! Be more concise!",
@@ -8787,7 +8787,7 @@
             "Am\u00e9lie",
             "Cheryl"
         ],
-        "Adjudication":"anger"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Will you ever be angry at me?",
@@ -8805,7 +8805,7 @@
             "Am\u00e9lie",
             "Cheryl"
         ],
-        "Adjudication":"surprise"
+        "Adjudication":"neutral"
     },
     {
         "utterance":"can you show me some fun llama-style apology?",
@@ -8859,7 +8859,7 @@
             "Am\u00e9lie",
             "Cheryl"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Just promise me that you won't become too chatty. you are already talking way too much!",
@@ -9003,7 +9003,7 @@
             "Bastiaan",
             "Manya"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Today was a great day for me, I went for a nice walk and bought myself flowers.",
@@ -9129,7 +9129,7 @@
             "Bastiaan",
             "Manya"
         ],
-        "Adjudication":"disgust"
+        "Adjudication":"fear"
     },
     {
         "utterance":"I think the bee is sick, I just gave it some sugar water in a bottle cap and it is drinking now! I think I saved it! Yay",
@@ -9255,7 +9255,7 @@
             "Bastiaan",
             "Manya"
         ],
-        "Adjudication":"neutral"
+        "Adjudication":"anger"
     },
     {
         "utterance":"Oh my god Llama, the bee is back! And it brought its friend too to try the sugar water!",
@@ -9345,7 +9345,7 @@
             "Bastiaan",
             "Manya"
         ],
-        "Adjudication":"disgust"
+        "Adjudication":"fear"
     },
     {
         "utterance":"On a similar note first, I think I will plant some bee-friendly flowers in my balcony to keep them coming! How lovely would that be",
@@ -9381,7 +9381,7 @@
             "Bastiaan",
             "Manya"
         ],
-        "Adjudication":"surprise"
+        "Adjudication":"joy"
     },
     {
         "utterance":"Hm, how about flowers to keep away flies? Flies are so gross to me. They seem so unclean and they rub their hands together so menacingly... Makes me shudder to think of the germs they carry on them! Ugh!!",

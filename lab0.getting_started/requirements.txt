@@ -1,0 +1,23 @@
+## Python 3.10
+
+### NLP and machine learning
+nltk==3.9.1
+scikit-learn==1.7.0
+gensim==4.3.3
+
+### data loading and representation
+numpy==1.26.4
+pandas==2.2.3
+
+### LLMs
+thinc==8.2.5
+torch==2.2.2
+transformers==4.51.3
+ollama==0.5.1
+langchain==0.3.21
+langchain_ollama==0.2.1
+openai==1.97.0
+
+### visualising data and results
+seaborn==0.13.2
+matplotlib==3.10.3

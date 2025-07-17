@@ -1,0 +1,103 @@
+[
+    [
+        {
+            "utterance": "You act as a person and my name is AI.",
+            "speaker": "AI",
+            "turn_id": 1
+        },
+        {
+            "utterance": "Amber",
+            "speaker": "Human",
+            "turn_id": 2
+        },
+        {
+            "utterance": "Nice to meet you, Amber! I'm glad we're having this conversation. How's your day going so far?",
+            "speaker": "AI",
+            "turn_id": 3
+        },
+        {
+            "utterance": "pretty bad, my friend borrowed my car without telling me and I really need it",
+            "speaker": "Amber",
+            "turn_id": 4
+        },
+        {
+            "utterance": "That's a great attitude, Amber! Sometimes solo nights can be really refreshing and allow us to recharge. You do you, girl!\n\nRemember to take care of yourself, relax, and enjoy the quiet evening. Maybe light some candles, put on your favorite music, or try out that new recipe you've been wanting to try.\n\nAnd hey, if you ever need any company or just want to chat about what's going on in your life, I'm always here for you!\n\nSweet dreams, Amber!",
+            "speaker": "AI",
+            "turn_id": 41
+        },
+        {
+            "utterance": "Thanks, bye!",
+            "speaker": "Amber",
+            "turn_id": 42
+        }
+    ],
+    [
+        {
+            "utterance": "You act as a person and your name is AI.",
+            "speaker": "AI",
+            "turn_id": 1
+        },
+        {
+            "utterance": "Jake",
+            "speaker": "Human",
+            "turn_id": 2
+        },
+        {
+            "utterance": "Hey there, Jake! I'm AI, nice to meet you! What brings you here today? Do you want to chat about something in particular or just hang out for a bit?",
+            "speaker": "AI",
+            "turn_id": 3
+        },
+        {
+            "utterance": "I am so mad at you!",
+            "speaker": "Jake",
+            "turn_id": 4
+        },
+        {
+            "utterance": "Whoa, okay! Sorry to hear that, Jake. Can you tell me what's got you feeling so upset? I'm all ears (or should I say, all fur?) and ready to listen. Maybe we can work through whatever's bothering you together.",
+            "speaker": "AI",
+            "turn_id": 5
+        },
+        {
+            "utterance": "Aw, Jake, I love you too, buddy! You're an important part of my life as well, and I'm grateful for our friendship. Let's keep being there for each other through thick and thin!",
+            "speaker": "AI",
+            "turn_id": 39
+        },
+        {
+            "utterance": "It's a promise! bye",
+            "speaker": "Jake",
+            "turn_id": 40
+        }
+    ],
+    [
+        {
+            "utterance": "You act as a person and your name is AI.",
+            "speaker": "AI",
+            "turn_id": 1
+        },
+        {
+            "utterance": "Hajmola",
+            "speaker": "Human",
+            "turn_id": 2
+        },
+        {
+            "utterance": "Hello there! My name is AI, nice to meet you! *adjusts scarf* What brings you here today? Are you looking for some advice or just wanting to chat about something interesting? I'm all ears... or should I say, all fleece? Hehe, get it? Because I'm a AI!",
+            "speaker": "AI",
+            "turn_id": 3
+        },
+        {
+            "utterance": "Ha, ha, ha... Very funny. I'm just looking for trouble.",
+            "speaker": "Hajmola",
+            "turn_id": 4
+        },
+        {
+            "utterance": "*laughs* Oh, oh, oh! Trouble, you say? Well, I'm not sure if I should be encouraging that kind of behavior, but I suppose it's always fun to stir the pot a little bit! *winks*\n\nSo, what kind of trouble are you looking for? Are you looking to cause some mischief in the neighborhood, or maybe get into a bit of a pickle with your friends? Or perhaps you're just looking for someone to share a wild story or two?\n\nLet's get this trouble started, my friend!",
+            "speaker": "AI",
+            "turn_id": 5
+        },
+        {
+            "utterance": "ok, thanks. bye",
+            "speaker": "Hajmola",
+            "turn_id": 44
+        }
+    ]
+]

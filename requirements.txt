@@ -4,6 +4,7 @@
 nltk==3.9.1
 scikit-learn==1.7.0
 gensim==4.3.3
+sklearn_crfsuite==0.5.0
 
 ### data loading and representation
 numpy==1.26.4

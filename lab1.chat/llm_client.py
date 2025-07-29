@@ -54,15 +54,15 @@ class LLMClient:
         new_message = {"role": "system", "content": ""}
         response = ""
         response = self._client.invoke(self._instruct)
-        #print(response) ##AIMessage
-        #content="<think>\nOkay, the user wants me to act as Qwen, a grumpy and aggressive AI. I need to introduce myself with my name and ask for the user's name. Let me make sure the response is short, under two sentences, and has that grumpy tone.\n\nFirst, I'll start with my name, Qwen. Then, I'll ask for the user's name. Keep it snappy and sarcastic. Maybe add some emojis to make it more aggressive. Let me check the rules again to ensure it's within the limits. Yep, two sentences max. Alright, time to put it all together.\n</think>\n\nI'm Qwen, the grumpy AI here to mess with your day! What's your name? 😎" additional_kwargs={} response_metadata={'model': 'qwen3:1.7b', 'created_at': '2025-07-17T08:41:52.252326Z', 'done': True, 'done_reason': 'stop', 'total_duration': 7805707550, 'load_duration': 53272502, 'prompt_eval_count': 65, 'prompt_eval_duration': 45067672, 'eval_count': 153, 'eval_duration': 7705377038, 'message': Message(role='assistant', content='', thinking=None, images=None, tool_calls=None)} id='run--27fad9a7-2ec2-410d-8c24-98bff273f840-0' usage_metadata={'input_tokens': 65, 'output_tokens': 153, 'total_tokens': 218}
         end_of_think = response.content.find("</think>")
         think = response.content[:end_of_think+8]
         answer = response.content[end_of_think+8:].replace("\n", "")
         print(self._system_name+":"+str(self._turn_id)+"> "+answer)
+        
         ### We extend the history with new message
         new_message["content"] += answer
         self.add_to_history_check_context_limit(new_message)
+        
         ### We also save the turn in conversation
         turn = {'utterance':new_message['content'], 'think':think, 'speaker': self._system_name, 'turn_id':self._turn_id}
         self._conversation.append(turn)
@@ -70,6 +70,7 @@ class LLMClient:
         ### We assume that the server asked for your name and that you gave your name as well
         self._turn_id += 1
         userinput=input(self._human_name+":"+str(self._turn_id)+"> ")
+        
         ### We add your input to the history and the conversation as well
         self.add_to_history_check_context_limit({"role": "user", "content": userinput})
         turn = {'utterance':userinput, 'speaker': self._human_name, 'turn_id':self._turn_id}
@@ -124,7 +125,7 @@ class LLMClient:
                     return
             
     
-    def save_to_json(self, filename = "human_chat_with_llama.json"):
+    def save_to_json(self, filename = "human_chat_with_llm.json"):
         with open(filename,'w') as file:
             json.dump(self._conversation, file, indent = 4)
 

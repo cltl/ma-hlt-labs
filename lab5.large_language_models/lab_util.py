@@ -18,17 +18,6 @@ def get_test_utterances_and_labels (df):
     return test_instances, test_labels
             
 
-# Fixing encoding problems and replacing the 'Utterance' columns with the cleaned strings
-def replace_weird_tokens_in_meld(df):
-    weird = ["\x92","\x97","\x91","\x93","\x94","\x85"]
-    utts = []
-    for utterance in df['Utterance']:
-        for w in weird:
-            utterance = utterance.replace(w, "'")
-        utts.append(utterance)
-    df['Utterance'] = utts
-    
-
 def plot_labels_with_counts(labels, values):
     total = 0
     for v in values:

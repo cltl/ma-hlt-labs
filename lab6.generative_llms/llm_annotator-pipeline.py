@@ -1,21 +1,18 @@
-from langchain_ollama import ChatOllama
 import json
 from datetime import datetime
+from transformers import pipeline
 
 #https://ollama.com/models
 #ollama pull qwen3:1.7b
 
 ekman_labels = ["anger", "disgust", "fear", "joy", "sadness", "surprise", "neutral"]
 
+pipe = pipeline("text-generation", model="Qwen/Qwen3-1.7B-Base")
+
 class LLMAnnotator:
     
-    def __init__(self,  model="qwen3:1.7b", labels=ekman_labels, examples=[], max_context=5):
-        
-        self._client = ChatOllama(
-            model=model,
-            temperature= 0.0,
-            #num_predict = 20, ## max number of tokens to predict
-        )
+    def __init__(self, model="Qwen/Qwen3-1.7B-Base", labels=ekman_labels, examples=[], max_context=5):
+        self._client = pipeline("text-generation", model=model)
         self._max_context = max_context
         self._history = []
         self._instruct = []
@@ -61,9 +58,10 @@ class LLMAnnotator:
         ## if the history exceeds the maximum context length, we trim it by one
         if len(self._history)>self._max_context:
             self._history = self._history[1:]
-    
+
         prompt = self._instruct+self._history
-        response = self._client.invoke(prompt)
+        response = pipe(prompt)
+        #response = self._client.invoke(prompt)
         
         ### We need to remove the <think></think> part from the output
         end_of_think = response.content.find("</think>")

@@ -14,6 +14,7 @@ class LLMClient:
         self._client = ChatOllama(
             model=model,
             temperature= temperature,
+            think=False,
             num_predict = 256, ## max number of tokens to predict
         )
         self._ctx = ctx_limit

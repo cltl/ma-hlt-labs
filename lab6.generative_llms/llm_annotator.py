@@ -13,6 +13,7 @@ class LLMAnnotator:
         
         self._client = ChatOllama(
             model=model,
+            think=False,
             temperature= 0.0,
             #num_predict = 20, ## max number of tokens to predict
         )

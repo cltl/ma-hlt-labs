@@ -25,7 +25,10 @@ We want you to work on your own computer so that you can create your own code an
 * Anaconda environment: https://anaconda.org, which also installs Python 3.10 or higher
 * Jupyter notebooks: https://jupyter.org. (you also may want to check out this: https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29 
 
-To prepare for the course, make sure you have installed Anaconda and you familiarised yourself with the environment and with notebooks. We assume that you have basic programming skills in Python and that you can work in the Command Line from a terminal. Please follow the instruction in the document [getting-started.pdf](./HLT-Lab1-getting-started.pdf).
+To prepare for the course, make sure you have installed Anaconda and you familiarised yourself with the environment and with notebooks. 
+Please follow the instruction in the document [HLT-getting-started.pdf](./HLT-getting-started.pdf), which you find at the root of this repository.
+
+We assume that you have basic programming skills in Python and that you can work in the Command Line from a terminal. 
 
 In addition to the above tools, you need a plain text editor to inspect text files that form your data. Note that this is not the same as Word or Adobe. Word and PDF files are binary files and contain many other things besides the text (just like HTML files on websites continue instructions how to visualise text). The following text editors can be used:
 

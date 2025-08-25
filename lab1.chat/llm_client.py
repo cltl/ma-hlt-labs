@@ -3,10 +3,11 @@ import json
 
 #https://ollama.com/models
 #ollama pull qwen3:1.7b
+#ollama pull qwen3:0.6b
 
 class LLMClient:
     
-    def __init__(self,  model="qwen3:1.7b",
+    def __init__(self,  model="qwen3:0.6b",
                         temperature=0.1, 
                         character="You are friendly.", 
                         ctx_limit=2048):

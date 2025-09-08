@@ -21,7 +21,7 @@ class LLMClient:
         self._ctx = ctx_limit
         self._system_name="AI"
         self._human_name='Human'
-        self._file_name = "chat_with_"+model+".json"
+        self._file_name = "chat_with_"+model.replace(":", "")+".json"
         self._history = []
         self._conversation=[]
         self._turn_id = 0

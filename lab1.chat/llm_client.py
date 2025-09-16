@@ -49,6 +49,7 @@ class LLMClient:
 
     def talk_to_me(self):
         stopwords = ["quit", "exit", "bye", "stop"]
+        self._conversation = []
         self._history = []
         self._turn_id = 1
 
@@ -134,7 +135,8 @@ class LLMClient:
     def load_from_json(self, filename = "chat_with_llm.json"):
         self._file_name = filename
         f = open(filename)
-        self._conversation = json.load(f)
+        data = json.load(f)
+        self._conversation = data["conversations"]
 
     def print_chat(self):
         for turn in self._conversation:

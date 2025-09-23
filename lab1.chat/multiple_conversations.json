@@ -1,4 +1,9 @@
-[
+{
+    "persona": "Amber",
+    "friends": [
+        "Jake"
+    ],
+    "conversations": [
     [
         {
             "utterance": "You act as a person and my name is AI.",
@@ -100,4 +105,5 @@
             "turn_id": 44
         }
     ]
-]
+	]
+}

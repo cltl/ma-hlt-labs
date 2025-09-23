@@ -1,5 +1,6 @@
 from langchain_ollama import ChatOllama
 import json
+import os
 
 #https://ollama.com/models
 #ollama pull qwen3:1.7b
@@ -139,7 +140,7 @@ class LLMClient:
             for word in stopwords:
                 if word in userinput.lower():
                     print("BYE BYE!")
-                    filename = "human_"+self._human_name+"_"+self._file_name
+                    filename = "human_"+self._human_name+"_"+ os.path.basename(self._file_name)
                     self.save_to_json(filename)
                     print("I saved the conversation in:", filename)
                     return

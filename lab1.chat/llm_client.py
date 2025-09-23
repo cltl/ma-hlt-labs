@@ -136,7 +136,10 @@ class LLMClient:
         self._file_name = filename
         f = open(filename)
         data = json.load(f)
-        self._conversation = data["conversations"]
+        if "conversations" in data:
+            self._conversation = data["conversations"]
+        else:
+            self._conversation = data
 
     def print_chat(self):
         for turn in self._conversation:

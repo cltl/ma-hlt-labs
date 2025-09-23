@@ -1,7 +1,6 @@
 {
     "persona": "Ada1",
     "friends": [
-        "Ada2",
         "Bill"
     ],
     "conversations": [

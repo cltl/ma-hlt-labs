@@ -21,6 +21,9 @@ class LLMClient:
         self._ctx = ctx_limit
         self._system_name="AI"
         self._human_name='Human'
+        self._annotator = ""
+        self._persona= ""
+        self._friends = []
         self._file_name = "chat_with_"+model.replace(":", "")+".json"
         self._history = []
         self._conversation=[]
@@ -80,15 +83,29 @@ class LLMClient:
         self._conversation.append(turn)
     
         ### We try to get you name from the input
-        if userinput.lower().startswith("my name is "):
-            self._human_name = userinput[11:]
-        elif userinput.lower().startswith("i am called "):
-            self._human_name = userinput[11:]
-        elif userinput.lower().startswith("they call me "):
-            self._human_name = userinput[13:]
+        # if userinput.lower().startswith("my name is "):
+        #     self._human_name = userinput[11:]
+        # elif userinput.lower().startswith("i am called "):
+        #     self._human_name = userinput[11:]
+        # elif userinput.lower().startswith("they call me "):
+        #     self._human_name = userinput[13:]
+        # else:
+        #     self._human_name = userinput
+
+        if userinput.lower().find("my name is ")>0:
+            idx = userinput.lower().find("my name is ")
+            self._human_name = userinput[idx+11:]
+        elif userinput.lower().find("i am called ")>0:
+            idx = userinput.lower().find("i am called ")
+            self._human_name = userinput[idx+11:]
+        elif userinput.lower().find("they call me ")>0:
+            idx = userinput.lower().find("they call me ")
+            self._human_name = userinput[idx+13:]
         else:
             self._human_name = userinput
-        
+        if not self._human_name:
+            self._human_name="Human"
+        self._persona = self._human_name
         while True:
             ### We now iteratively call the server through the client with a high temperature
             ### We add the history as the prompt 
@@ -129,17 +146,40 @@ class LLMClient:
             
     
     def save_to_json(self, filename = "human_chat_with_llm.json"):
+        my_data = {"persona":self._persona, "friends":self._friends, "annotator": self._annotator}
+        my_data["conversations"]=[self._conversation]
         with open(filename,'w') as file:
-            json.dump(self._conversation, file, indent = 4)
+            json.dump(my_data, file, indent = 4)
 
     def load_from_json(self, filename = "chat_with_llm.json"):
+        self.__init__()
         self._file_name = filename
         f = open(filename)
         data = json.load(f)
+        if "friends" in data:
+            self._friends = data["friends"]
+        else:
+            self._friends = []
+        if "persona" in data:
+            self._persona = data["persona"]
+        else:
+            self._persona = ""
+        if "annotator" in data:
+            self._annotator = data["annotator"]
+        else:
+            self._annotator = ""
         if "conversations" in data:
             self._conversation = data["conversations"]
         else:
-            self._conversation = data
+            self._conversations = []
+
+        
+        print("Persona:", self._persona)
+        print("Friends:", self._friends)
+        print("Annotator:", self._annotator)
+        print("Conversations:", len(self._conversation))
+        for nr, conversation in enumerate(self._conversation):
+            print('Conversation', nr, "has", len(conversation), 'turns in total (persona and AI)')
 
     def print_chat(self):
         for turn in self._conversation:
@@ -163,12 +203,12 @@ class LLMClient:
 
     def annotate_multi_chat(self, labels=[]):
         annotator = ""
-        if len(self._conversation)>0:
-            annotator = self.get_annotator(self._conversation[0])
-        while len(annotator.strip())==0:
-            print("Please provide the name of the annotator")
-            annotator=input("> ")
-        print("The annotator is", annotator)
+        if not self._annotator:
+            print("You first need to set the annotator!!!!")
+            while len(self._annotator.strip())==0:
+                print("Please provide the name of the annotator")
+                self._annotator=input("> ")
+        print("The annotator is", self._annotator)
         print("There will be", len(self._conversation), "conversations to annotate with one of the following labels:", labels)
         print("When you are done, the annotations will be saved in a separate JSON file prefixed with the name of the annotator")
         print("Turns that are already annotated are skipped.")
@@ -185,16 +225,20 @@ class LLMClient:
                     turn['Gold']="neutral"
                     turn['Annotator']="auto"
                 elif not 'Gold' in turn or not turn['Gold']:
-                    gold = ""
-                    ### we keep getting the user input till one of them matches a label
-                    while not gold in labels:
-                        gold = input("Enter GOLD label> ")
-                    turn['Gold']=gold
-                    turn['Annotator']=annotator
+                    if speaker in self._friends or speaker == self._persona:
+                        gold = ""
+                        ### we keep getting the user input till one of them matches a label
+                        while not gold in labels:
+                            print('GOLD labels', labels)
+                            gold = input("Enter one of the GOLD labels> ")
+                        turn['Gold']=gold
+                        turn['Annotator']=self._annotator
+                    else:
+                        print("Some other speaker", speaker, "Not in:", self._friends, self._persona)
                 else:
                     print("The GOLD label is",turn['Gold'])
             print("---------- DONE ---------")
-        filename = "annotator_"+annotator+"_"+self._file_name
+        filename = "annotator_"+self._annotator+"_"+self._file_name
         print("Thank you for annotating. The annotations are saved in", filename)
         self.save_to_json(filename)
         

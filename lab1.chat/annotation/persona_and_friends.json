@@ -1,0 +1,122 @@
+{
+    "Ada1": [
+        "Ada2",
+        "Bill"
+    ],
+    "Ada2": [
+        "Bill",
+        "Bizmuth"
+    ],
+    "Bill": [
+        "Bizmuth",
+        "Brenda"
+    ],
+    "Bizmuth": [
+        "Brenda",
+        "Carla"
+    ],
+    "Brenda": [
+        "Carla",
+        "Dana"
+    ],
+    "Carla": [
+        "Dana",
+        "Dean"
+    ],
+    "Dana": [
+        "Dean",
+        "Friday"
+    ],
+    "Dean": [
+        "Friday",
+        "Gale"
+    ],
+    "Friday": [
+        "Gale",
+        "Gino"
+    ],
+    "Gale": [
+        "Gino",
+        "Jackson"
+    ],
+    "Gino": [
+        "Jackson",
+        "Jake"
+    ],
+    "Jackson": [
+        "Jake",
+        "Jason"
+    ],
+    "Jake": [
+        "Jason",
+        "Joe"
+    ],
+    "Jason": [
+        "Joe",
+        "Lennart"
+    ],
+    "Joe": [
+        "Bill",
+        "Lennart"
+    ],
+    "Lennart": [
+        "Dean",
+        "Jason"
+    ],
+    "Lina ": [
+        "Louise",
+        "Marco"
+    ],
+    "Louise": [
+        "Marco",
+        "Maria1"
+    ],
+    "Marco": [
+        "Maria1",
+        "Maria2"
+    ],
+    "Maria1": [
+        "Paul",
+        "Maria2"
+    ],
+    "Maria2": [
+        "Martin",
+        "Max"
+    ],
+    "Martin": [
+        "Max",
+        "Ms. Potts"
+    ],
+    "Max": [
+        "Ms. Potts",
+        "Nymera Vaelith"
+    ],
+    "Ms. Potts": [
+        "Nymera Vaelith",
+        "Oek"
+    ],
+    "Nymera Vaelith": [
+        "Oek",
+        "Paul"
+    ],
+    "Oek": [
+        "Paul",
+        "Pink"
+    ],
+    "Paul": [
+        "Pink",
+        "Star."
+    ],
+    "Pink": [
+        "Star.",
+        "Woland"
+    ],
+    "Star.": [
+        "Ada1",
+        "Woland"
+    ],
+    "Woland": [
+        "Ada1",
+        "Ada2"
+    ]
+}

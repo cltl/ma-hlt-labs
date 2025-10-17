@@ -10,13 +10,13 @@ def get_test_utterances_and_labels (df):
     test_instances =[]
     test_labels = []
     for index, utterance in enumerate(df['utterance']):
-        if not df['speaker'].iloc[index]=='Eliza' and not df['speaker'].iloc[index]=='Llama':
+        if not df['speaker'].iloc[index]=='Eliza' and not df['speaker'].iloc[index]=='Llama' and not df['speaker'].iloc[index]=='LLM' and not df['speaker'].iloc[index]=='AI':
             if not pd.isnull(df['utterance'].iloc[index]):
                 test_instances.append(utterance)
-                gold = df['Gold'].iloc[index]
+                gold = df['Adjudication'].iloc[index]
                 test_labels.append(gold)
     return test_instances, test_labels
-            
+
 
 def plot_labels_with_counts(labels, values):
     total = 0

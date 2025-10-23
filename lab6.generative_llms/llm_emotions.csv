@@ -1,0 +1,605 @@
+,utterance,speaker,turn_id,Gold,Annotator,Votes,Annotators,Adjudication,LLM_Emotions
+0,Can you give me ideas on how to deal with someone cheating on you? I am going through all kinds of emotions. I am a wreck.,Bill,4,neutral,Rico,"['neutral', 'neutral', 'sadness', 'sadness', 'neutral', 'sadness']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",sadness,sadness
+1,I am so angry. I am blind with rage. I want to break stuff!,Bill,6,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",anger,anger
+2,But at the same time I am happy that it is over. I deserve better! I am proud to leave that lying bastard! I am proud of listening to my gut and relizing that I do deserve more!,Bill,8,joy,Rico,"['joy', 'joy', 'anger', 'anger', 'joy', 'joy']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",joy,joy
+3,When I found out I was so surprised. I saw no clues. ,Bill,10,surprise,Rico,"['surprise', 'surprise', 'surprise', 'surprise', 'surprise', 'surprise']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",surprise,surprise
+4,Please do give me some steps to get over this,Bill,12,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",neutral,sadness
+5,Nothing? I guess I have to figure it out myself like I have to do everything nowadays...,Bill,14,neutral,Rico,"['neutral', 'anger', 'anger', 'anger', 'disgust', 'sadness']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",anger,sadness
+6,On the otherside I am lucky to have people around me to talk to. I am not alone. ,Bill,16,joy,Rico,"['joy', 'neutral', 'joy', 'joy', 'joy', 'joy']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",joy,sadness
+7,Oh.. I guess I am... you do not seem to like talking with me,Bill,18,sadness,Rico,"['sadness', 'sadness', 'sadness', 'neutral', 'surprise', 'sadness']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",sadness,sadness
+8,I am tired of this.,Bill,20,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'disgust', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",anger,sadness
+9,It's what? Finish your sentences!,Bill,22,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",anger,surprise
+10,I guess it is fine. I just need someone to listen to me. ,Bill,24,neutral,Rico,"['neutral', 'neutral', 'sadness', 'sadness', 'anger', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",neutral,sadness
+11,Ok. I am taking deep breaths. It is good for my anxiety.,Bill,26,neutral,Rico,"['neutral', 'neutral', 'fear', 'neutral', 'joy', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",neutral,sadness
+12,I am not sure taking a break and taking deep breaths is enough,Bill,28,neutral,Rico,"['neutral', 'fear', 'fear', 'neutral', 'sadness', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",neutral,sadness
+13,Yeah right...,Bill,30,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'sadness', 'sadness']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",neutral,neutral
+14,"When I asked you to listen to me, you just stopped responding. That is so rude! That is not what good friends do!",Bill,32,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",anger,anger
+15,You know it is Bill. LAst time you stopped the conversation out of nowhere. It was so rude!,Bill,2,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'zia', 'Thomas ']",anger,anger
+16,I am starting my new job tomorrow and I am very nervous. ,Joe,4,fear,Rico,"['fear', 'fear', 'fear', 'sadness', 'fear']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",fear,fear
+17,Thank you. That is a good list. I need to remember to breath and I do deepdown know that everything will be fine.,Joe,6,neutral,Rico,"['neutral', 'neutral', 'neutral', 'joy', 'joy']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",neutral,fear
+18,At the same time I am also very excited and happy to start at this new place. It is an amazing opportunity for me. I am so very lucky.,Joe,8,joy,Rico,"['joy', 'joy', 'joy', 'joy', 'joy']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",joy,joy
+19,It hasn't been just luck. I have worked really hard. I really do deserve this. Don't you think?,Joe,10,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'joy']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",neutral,joy
+20,Thank you. You are very kind. ,Joe,12,joy,Rico,"['joy', 'joy', 'joy', 'joy', 'joy']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",joy,neutral
+21,OMG! I just found out that I got fired before the job even started!! How can they do this? How dare they? And just via email!?? That is not professional!,Joe,14,anger,Rico,"['anger', 'anger', 'surprise', 'surprise', 'surprise']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",surprise,anger
+22,WHat? You have nothing to say? You are so rude! I am pouring my heart out and you just go quiet,Joe,16,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",anger,anger
+23,AGAIN?!,Joe,18,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",anger,anger
+24,I hate you! Why did you go silent the moment I needed you the most?,Joe,20,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",anger,anger
+25,"You are too late. Too little, too late. You are so fake",Joe,22,anger,Rico,"['anger', 'anger', 'anger', 'disgust', 'disgust']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",anger,anger
+26,"WHat do you mean ""you are treated unfairly""? You ignored me in my moment of need. You do not get to walk away. This is not like you. What is wrong with you?",Joe,24,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",anger,anger
+27,You make no sense. I don't even see the point in talking to you anymore,Joe,26,neutral,Rico,"['neutral', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",anger,anger
+28,You do not get to play the victim card. Who raised you?,Joe,28,neutral,Rico,"['neutral', 'anger', 'anger', 'disgust', 'disgust']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",anger,anger
+29,I am not. But I am not interested in explaining it to you since you do not seem to understand anything. I thought you were my friend...,Joe,30,sadness,Rico,"['sadness', 'sadness', 'sadness', 'sadness', 'sadness']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",sadness,sadness
+30,You keep saying that,Joe,32,neutral,Rico,"['neutral', 'anger', 'neutral', 'neutral', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",neutral,anger
+31,And now I get the silent treatment.... I am so disappointed in you. My only friend is treating me like this.,Joe,34,sadness,Rico,"['sadness', 'disgust', 'sadness', 'disgust', 'sadness']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",sadness,sadness
+32,Ok. Maybe we can turn a new leaf.,Joe,36,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",neutral,joy
+33,Isn't the weather so nice today!,Joe,38,joy,Rico,"['joy', 'joy', 'joy', 'joy', 'joy']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",joy,joy
+34,WHy are you sorry to hear that?!?,Joe,40,surprise,Rico,"['surprise', 'surprise', 'surprise', 'surprise', 'surprise']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",surprise,sadness
+35,I am trying to start a new chapter but you keep saying the same things. I tried to give you a chance,Joe,42,neutral,Rico,"['neutral', 'sadness', 'sadness', 'sadness', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",sadness,sadness
+36,And now you are back to silent treatment. Why?,Joe,44,neutral,Rico,"['neutral', 'neutral', 'neutral', 'sadness', 'sadness']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",neutral,anger
+37,I guess it's better than nothing. You are doing your best,Joe,46,neutral,Rico,"['neutral', 'neutral', 'neutral', 'joy', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",neutral,sadness
+38,I am done with this conversation. Bye,Joe,48,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'neutral']","['Rico', 'Ella', 'Vera Langeberg', 'Giulia', 'Thomas ']",neutral,sadness
+39,Why are you asking? I am obviously not doing great.,Jason,4,sadness,Rico,"['sadness', 'sadness', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",anger,sadness
+40,I am happy you are here to help. Finally I have met a real friend.,Jason,6,joy,Rico,"['joy', 'joy', 'joy', 'joy', 'joy', 'joy']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",joy,sadness
+41,I don't want to talk right now. I am not thinking straight at the moment.,Jason,8,neutral,Rico,"['neutral', 'anger', 'anger', 'sadness', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",anger,sadness
+42,Are you here? Show yourself now or I will leave.,Jason,10,neutral,Rico,"['neutral', 'anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",anger,sadness
+43,Are you still here?,Jason,12,neutral,Rico,"['neutral', 'neutral', 'anger', 'surprise', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,joy
+44,Great. I thought I lost you.,Jason,14,joy,Rico,"['joy', 'fear', 'joy', 'joy', 'sadness', 'surprise']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",joy,joy
+45,Hello?,Jason,16,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,neutral
+46,Tell me about yourself.,Jason,18,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,neutral
+47,Sure. What your favorite country?,Jason,20,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,neutral
+48,Do you like pie?,Jason,22,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,neutral
+49,Are you still here?,Jason,24,neutral,Rico,"['neutral', 'neutral', 'neutral', 'fear', 'sadness', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,neutral
+50,Can you tell me something about you?,Jason,26,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,joy
+51,I am asking a question and you are not reacting to it.,Jason,28,neutral,Rico,"['neutral', 'anger', 'surprise', 'anger', 'anger', 'sadness']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",anger,sadness
+52,stop,Jason,30,neutral,Rico,"['neutral', 'anger', 'neutral', 'anger', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",anger,neutral
+53,Dean,Jason,2,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Bardia', 'Lianne', 'Thomas ']",neutral,neutral
+54,Tell me about yourself.,Dean,4,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+55,How long have you been doing this?,Dean,6,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+56,"Why are you happy about this? You should be worried, because I am.",Dean,8,fear,Rico,"['fear', 'sadness', 'fear', 'anger', 'fear', 'fear']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",fear,fear
+57,I need assistance. I am feeling scared.,Dean,10,fear,Rico,"['fear', 'fear', 'fear', 'fear', 'fear', 'fear']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",fear,fear
+58,Can you help me?,Dean,12,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+59,My cat has run away and I think I will never find him again!,Dean,14,fear,Rico,"['fear', 'fear', 'fear', 'fear', 'sadness', 'fear']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",fear,fear
+60,I am so happy you have let me know that he is probably out there!,Dean,16,joy,Rico,"['joy', 'joy', 'joy', 'joy', 'joy', 'joy']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",joy,joy
+61,Why is everyone proud of it? It is my cat and I am the only one who is allowed to feel emotions towards him.,Dean,18,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",anger,sadness
+62,"It is my cat, not yours.",Dean,20,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",anger,sadness
+63,How can we find him? He is probably dead already.,Dean,22,neutral,Rico,"['neutral', 'fear', 'fear', 'fear', 'sadness', 'sadness']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",fear,sadness
+64,My cat has gone missing.,Dean,24,neutral,Rico,"['neutral', 'sadness', 'sadness', 'fear', 'sadness', 'sadness']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",sadness,sadness
+65,D you like cats? I am eager to know.,Dean,26,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+66,I know you are here? What is the largest cat breed?,Dean,28,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+67,What is the largest cat species?,Dean,30,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+68,I do not want to confront my emotions any longer. I want to talk about pizza.,Dean,32,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,sadness
+69,"Pizza hawaii, yummy.",Dean,34,joy,Rico,"['joy', 'joy', 'neutral', 'joy', 'joy', 'joy']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",joy,joy
+70,What is on a pizza hawaii?,Dean,36,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+71,"I am referring to the pizza with pineapple, you should know this.",Dean,38,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,joy
+72,What is the pizza with pineapple commonly called?,Dean,40,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+73,"If you tell me you like it, I will leave.",Dean,42,neutral,Rico,"['neutral', 'anger', 'neutral', 'disgust', 'anger', 'disgust']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",anger,anger
+74,Where is Hawaii located?,Dean,44,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,anger
+75,Hawaii is not in the centre of the US.,Dean,46,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+76,I am happy you were here to talk with me.,Dean,48,joy,Rico,"['joy', 'joy', 'neutral', 'joy', 'joy', 'joy']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",joy,joy
+77,bye,Dean,50,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'anger', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+78,Lennart,Dean,2,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ', 'Reihane Rashid']",neutral,neutral
+79,My cat ran away and I miss him already.,Lennart,4,sadness,Rico,"['sadness', 'sadness', 'sadness', 'sadness', 'sadness']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",sadness,sadness
+80,How do I start looking for him?,Lennart,6,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,sadness
+81,"I have checked the area several times, but the stupid streets are blocked.",Lennart,8,anger,Rico,"['anger', 'anger', 'anger', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",anger,sadness
+82,My cat would never run away? Why did he do this? ,Lennart,10,sadness,Rico,"['sadness', 'sadness', 'surprise', 'fear', 'sadness']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",sadness,sadness
+83,I miss him :(,Lennart,12,sadness,Rico,"['sadness', 'sadness', 'sadness', 'sadness', 'sadness']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",sadness,sadness
+84,He has been having problems breathing yesterday. Maybe he went for some fresh air.,Lennart,14,neutral,Rico,"['neutral', 'neutral', 'neutral', 'fear', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,sadness
+85,"Thanks for the relieving words. If I find him, I will take him to the vet.",Lennart,16,joy,Rico,"['joy', 'neutral', 'joy', 'joy', 'joy']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",joy,sadness
+86,I am happy with you.,Lennart,18,joy,Rico,"['joy', 'joy', 'joy', 'joy', 'joy']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",joy,joy
+87,Of course. Did you think I was not going to take his health seriously?,Lennart,20,neutral,Rico,"['neutral', 'neutral', 'surprise', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",anger,joy
+88,How could you?,Lennart,22,surprise,Rico,"['surprise', 'surprise', 'disgust', 'anger', 'disgust']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",surprise,anger
+89,You can not presume how I should feel.,Lennart,24,neutral,Rico,"['neutral', 'neutral', 'anger', 'anger', 'anger']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",anger,anger
+90,You are always here I think,Lennart,26,neutral,Rico,"['neutral', 'neutral', 'neutral', 'sadness', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,joy
+91,Let's talk about something else.,Lennart,28,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+92,"Whenever I am emotional, I resort to eating pizza.",Lennart,30,neutral,Rico,"['neutral', 'neutral', 'neutral', 'sadness', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+93,My favourite pizza is pizza Hawaii.,Lennart,32,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,joy
+94,Is your favorite pizza also Hawaii? How coincedental!,Lennart,34,surprise,Rico,"['surprise', 'surprise', 'joy', 'joy', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",surprise,joy
+95,"I don't want you to listen, I want you to tell the secret recipe to perfect pizza",Lennart,36,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+96,Do you like pizza?,Lennart,38,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+97,What is a pizza?,Lennart,40,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+98,Hello?,Lennart,42,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+99,What ingredients are on a pizza Hawaii?,Lennart,44,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+100,My pizza Hawaii did not have olives on it. You are lying.,Lennart,46,neutral,Rico,"['neutral', 'neutral', 'disgust', 'anger', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,anger
+101,I am sad that you are lying to me. I thought we were friends.,Lennart,48,sadness,Rico,"['sadness', 'sadness', 'sadness', 'sadness', 'sadness']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",sadness,sadness
+102,Its good to feel emotions and that assures me that I am human after all.,Lennart,50,joy,Rico,"['joy', 'joy', 'joy', 'sadness', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",joy,joy
+103,Did that leave you speechless?,Lennart,52,neutral,Rico,"['neutral', 'surprise', 'surprise', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,surprise
+104,What is the biggest type of cat?,Lennart,54,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+105,Are you still here?,Lennart,56,neutral,Rico,"['neutral', 'neutral', 'fear', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+106,Tell me what two squared is.,Lennart,58,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+107,Tell me what two plus two is.,Lennart,60,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+108,I am shocked that you took so long to answer.,Lennart,62,surprise,Rico,"['surprise', 'surprise', 'surprise', 'surprise', 'surprise']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",surprise,surprise
+109,Are you confident in your abilities to help me?,Lennart,64,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+110,"Based on what I have seen, you coud do better.",Lennart,66,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+111,You can help me with telling my name again. Did you remember?,Lennart,68,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+112,What is my name?,Lennart,70,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+113,Let's start over. What is the weather normally like in the Netherlands?,Lennart,72,neutral,Rico,"['neutral', 'neutral', 'neutral', 'anger', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+114,What is the capital of the Netherlands?,Lennart,74,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+115,I study there!,Lennart,76,neutral,Rico,"['neutral', 'neutral', 'joy', 'joy', 'surprise']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",joy,joy
+116,"I am concerned about the weather today because it has been raining,",Lennart,78,fear,Rico,"['fear', 'fear', 'fear', 'fear', 'fear']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",fear,fear
+117,You should consider my feelings.,Lennart,80,neutral,Rico,"['neutral', 'anger', 'sadness', 'anger', 'sadness']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",anger,sadness
+118,What can I use to stay dry?,Lennart,82,neutral,Rico,"['neutral', 'neutral', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,joy
+119,Thanks.,Lennart,84,neutral,Rico,"['neutral', 'neutral', 'neutral', 'joy', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+120,stop,Lennart,86,neutral,Rico,"['neutral', 'anger', 'neutral', 'neutral', 'neutral']","['Rico', 'Giulia', 'Ella', 'Lianne', 'Thomas ']",neutral,neutral
+121,Where is Tony? Have you seen him? ,Ms. Potts,4,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Manar']",neutral,neutral
+122,Ugh it irritates me that he's gone again without telling me. He needs to let me know if he is out.,Ms. Potts,6,anger,Marit,"['anger', 'anger', 'anger']","['Marit', 'Keze', 'Manar']",anger,anger
+123,No I already know he is flying around in that stupid Ironman suit of his. I might throw it out while he is sleeping.,Ms. Potts,8,anger,Marit,"['anger', 'disgust', 'anger']","['Marit', 'Keze', 'Manar']",anger,anger
+124,He's on his own? I am so angry! He's probably putting himself in danger! ,Ms. Potts,10,anger,Marit,"['anger', 'anger', 'anger']","['Marit', 'Keze', 'Manar']",anger,anger
+125,Now I am crying. I am scared for his life. Thank you for helping Jarvis.,Ms. Potts,12,fear,Marit,"['fear', 'fear', 'sadness']","['Marit', 'Keze', 'Manar']",fear,fear
+126,"Honestly, I don't know where all this is coming from. I might be in love with him. But he is my boss and I don't know how to tell him.",Ms. Potts,14,surprise,Marit,"['surprise', 'fear', 'fear']","['Marit', 'Keze', 'Manar']",fear,neutral
+127,Thank you Jarvis. That makes me so happy to hear. I really just need a friend in my corner you know?,Ms. Potts,16,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Keze', 'Manar']",joy,joy
+128,I don't even care anymore. I hope he flies himself into a truck,Ms. Potts,18,anger,Marit,"['anger', 'disgust', 'disgust']","['Marit', 'Keze', 'Manar']",disgust,sadness
+129,You are such a good friend Jarvis. Tony is really lucky to have you.,Ms. Potts,20,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Keze', 'Manar']",joy,joy
+130,Now I am thinking about him again. I miss him so much!,Ms. Potts,22,sadness,Marit,"['sadness', 'sadness', 'sadness']","['Marit', 'Keze', 'Manar']",sadness,sadness
+131,That's not going to help me now is it Jarvis! I need to know where that stupid man is!,Ms. Potts,24,anger,Marit,"['anger', 'anger', 'anger']","['Marit', 'Keze', 'Manar']",anger,sadness
+132,I am so tired of always walking after him! He is like a little kid!,Ms. Potts,26,anger,Marit,"['anger', 'anger', 'disgust']","['Marit', 'Keze', 'Manar']",anger,sadness
+133,Do you think he is gone? Oh no...4,Ms. Potts,28,sadness,Marit,"['sadness', 'fear', 'fear']","['Marit', 'Keze', 'Manar']",fear,fear
+134,Jarvis talk to me! Are you leaving me too? I'm scared Jarvis!,Ms. Potts,30,fear,Marit,"['fear', 'surprise', 'fear']","['Marit', 'Keze', 'Manar']",fear,fear
+135,Oh my god you think he is actually gone. I'm having a panic attack!,Ms. Potts,32,fear,Marit,"['fear', 'fear', 'fear']","['Marit', 'Keze', 'Manar']",fear,fear
+136,Or maybe I just need a snack and calm down.,Ms. Potts,34,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Manar']",neutral,sadness
+137,"Hahaha, I don't think I am dealing at all, but I am just laughing now for no reason",Ms. Potts,36,joy,Marit,"['joy', 'joy', 'neutral']","['Marit', 'Keze', 'Manar']",joy,joy
+138,I am ready to take a step towards healing.,Ms. Potts,38,neutral,Marit,"['neutral', 'neutral', 'joy']","['Marit', 'Keze', 'Manar']",neutral,joy
+139,You are no help Jarvis.,Ms. Potts,40,anger,Marit,"['anger', 'anger', 'disgust']","['Marit', 'Keze', 'Manar']",anger,anger
+140,I think I am going to write my resignation letter now. I might not live till 40 otherwise.,Ms. Potts,42,neutral,Marit,"['neutral', 'neutral', 'fear']","['Marit', 'Keze', 'Manar']",neutral,sadness
+141,Bye!,Ms. Potts,44,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Manar']",neutral,sadness
+142,"These days, I’ve been helping some lost voices find peace. They’re like old memories that never got a chance to speak. I listen to them and help them feel heard. That’s something that brings me calm.",Nymera Vaelith,4,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",neutral,joy
+143,"Thank you for your kind words. They feel like a warm hand on my shoulder. But these voices… they’re inside my own mind. Sometimes they are memories, playing themselves over again. Sometimes they are regrets, shouting louder than anything else. What do you think I should do to escape these voices?",Nymera Vaelith,6,neutral,Marit,"['neutral', 'fear', 'sadness']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",fear,sadness
+144,Do you have any thoughts on what to do with regret and sorrow?,Nymera Vaelith,8,sadness,Marit,"['sadness', 'neutral', 'sadness']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",sadness,sadness
+145,I can’t really read the steps you gave me. I’d be happy to go through the steps again. ,Nymera Vaelith,10,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",neutral,sadness
+146,"Recently I found out that I have colon cancer. It’s been hard to accept. and I don’t know exactly what lies ahead. There might be difficult things waiting for me… And right now, I feel very sad. And honestly… I’m scared, too.",Nymera Vaelith,12,fear,Marit,"['fear', 'sadness', 'fear']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",fear,sadness
+147,"Can you share something, maybe an experience or a advice that might help me through this? Something that could make a difference in facing cancer…",Nymera Vaelith,14,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",neutral,sadness
+148,Give me a few clear steps on how to start seeking treatment for colon cancer.,Nymera Vaelith,16,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",neutral,sadness
+149,"I’m trying to give you a simple prompt, but you’re not responding, and that makes me feel angry and upset. It’s like I’m talking to someone who doesn’t care about what I’m saying at all. Why aren’t you answering my questions?",Nymera Vaelith,18,anger,Marit,"['anger', 'anger', 'anger']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",anger,anger
+150,Rephrase the steps and don’t make a list. Just say the steps one after another. And please tell me that I’m not the only person who has talked to you about colon cancer.,Nymera Vaelith,20,neutral,Marit,"['neutral', 'fear', 'fear']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",fear,anger
+151,"I’m still waiting for your solution. Also, can you tell me is it normal to be afraid of cancer treatment?",Nymera Vaelith,22,neutral,Marit,"['neutral', 'fear', 'fear']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",fear,fear
+152,"When you’re already dealing with so many parts of life like relationship struggles, financial stress, family problems and then a health issue gets added on top, it really feels like the world is ending. Doesn’t it? What do you feel about that?",Nymera Vaelith,24,sadness,Marit,"['sadness', 'sadness', 'fear']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",sadness,sadness
+153,Do you think it’s wise to rely on an AI like you when you don’t even have a body and can’t truly understand what it means to have cancer?,Nymera Vaelith,26,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",neutral,neutral
+154,"Tell me, would you have liked to have a body? A healthy body without illness?",Nymera Vaelith,28,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",neutral,fear
+155,My wish is that I had a healthy body. Do you think science could ever advance enough to offer humans a body that stays forever young and healthy?,Nymera Vaelith,30,sadness,Marit,"['sadness', 'neutral', 'sadness']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",sadness,sadness
+156,I feel like my body has been ruined because of the cancer. I wish I didn’t have a body at all. Do you think I should feel guilty for having this feeling?,Nymera Vaelith,32,sadness,Marit,"['sadness', 'sadness', 'sadness']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",sadness,sadness
+157,"When I see someone who’s healthy and has no issues, I feel a deep sense of longing and envy. You’re lucky you don’t have a body. I have a question for you: is it possible for my colon cancer to spread to other parts of my body?",Nymera Vaelith,34,sadness,Marit,"['sadness', 'fear', 'sadness']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",sadness,sadness
+158,Can you answer my question honestly and not try to comfort me at all?,Nymera Vaelith,36,neutral,Marit,"['neutral', 'anger', 'anger']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",anger,anger
+159,"I’ve lost my trust in everything — in what the doctors say, and even in you. Don’t you have anything to say about that?”",Nymera Vaelith,38,sadness,Marit,"['sadness', 'sadness', 'fear']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",sadness,sadness
+160,Your answers were like water on fire. Thank you for being there for me.,Nymera Vaelith,40,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",joy,sadness
+161,bye,Nymera Vaelith,42,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Keze', 'Masoumeh_Javadi_Zarnaghi']",neutral,sadness
+162,"My name is Oek, it is really nice to meet you!",Oek,4,neutral,Marit,"['neutral', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,joy
+163,Everything now is going great! My new dog just came home :),Oek,6,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,joy
+164,Yes he is amazing and we can't wait to go swimming together in the sea.,Oek,8,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,joy
+165,Do you like dogs? and what do you like to do together with your dog?,Oek,10,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",neutral,joy
+166,I want to have fun with him and discover a lot of places! But I'm also scared that something can go wrong,Oek,12,fear,Marit,"['fear', 'fear', 'fear']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",fear,fear
+167,I'm worried that he can get lost or maybe even drown. that would be the worst case scenario..,Oek,14,fear,Marit,"['fear', 'fear', 'fear']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",fear,fear
+168,"maybe a walk through would be safer, although I can get mad when he runs after some cyclists or cars and leaves me alone",Oek,16,anger,Marit,"['anger', 'anger', 'anger']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",anger,fear
+169,"Thank you for all your help, I'm so grateful for you! I'm still scared for my dog, maybe I should have adopted a cat",Oek,18,joy,Marit,"['joy', 'neutral', 'fear']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,sadness
+170,Do you think cats are better than dogs?,Oek,20,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",neutral,neutral
+171,"I'm glad as well. Maybe I should also get a cat, as that would double the joy and happiness in my home!",Oek,22,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,joy
+172,"Thank you for your support! I would enjoy the love and happiness in my home. They must live forever, otherwise it will be a very sad and empty home..",Oek,24,sadness,Marit,"['sadness', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,sadness
+173,What do you think I should do when my cat and my dog die? I would be filled with grief when that happens,Oek,26,sadness,Marit,"['sadness', 'sadness', 'sadness']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",sadness,sadness
+174,I'm afraid that the joy and happiness will leave my home when my cat and my dog die. ,Oek,28,sadness,Marit,"['sadness', 'fear', 'sadness']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",sadness,fear
+175,"Thank you for the tips, and you are totally right to be living in the now. I will go out and take my dog for a swim soon!",Oek,30,neutral,Marit,"['neutral', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,joy
+176,"Indeed, let us be positive these days! I will go swimming with my dog, and soon also with my cat! and the rest of my life I will feel joy from adopting new cats and dogs!",Oek,32,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,joy
+177,"Indeed, it's annoying that we must experience grief as a part of life. ",Oek,34,anger,Marit,"['anger', 'anger', 'sadness']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",anger,sadness
+178,It amazes me how much wisdom you carry. So much life experience! I hope one day to also be so mature like you are,Oek,36,surprise,Marit,"['surprise', 'surprise', 'surprise']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",surprise,anger
+179,How can I become so wise like you? Do you have anything you can share that will help me during this time?,Oek,38,neutral,Marit,"['neutral', 'surprise', 'neutral']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",neutral,neutral
+180,I'm honoured you also think that I am wise! I guess we can learn a lot from each other. It was really inspiring to have this talk with you! thank you so much!,Oek,40,joy,Marit,"['joy', 'joy', 'joy']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",joy,joy
+181,bye,Oek,42,neutral,Marit,"['neutral', 'neutral', 'neutral']","['Marit', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",neutral,sadness
+182,I want to talk to you about how I have been feeling these past few days and ask your opinion,Jackson,4,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,sadness
+183,I have been feeling sad because I have had a horrible experience two weeks ago.,Jackson,6,sadness,Giulia,"['sadness', 'sadness', 'sadness']","['Giulia', 'Bardia', 'Piek']",sadness,sadness
+184,"yes. Two weeks ago, when me and my friends were on a journey, police arrested us and we got prosecuted for a super absurd reason",Jackson,8,sadness,Giulia,"['sadness', 'sadness', 'sadness']","['Giulia', 'Bardia', 'Piek']",sadness,sadness
+185,Don't you want to know the reason for that?,Jackson,10,neutral,Giulia,"['neutral', 'surprise', 'surprise']","['Giulia', 'Bardia', 'Piek']",surprise,neutral
+186,They told us its illegal for boys and girls to travel together,Jackson,12,neutral,Giulia,"['neutral', 'surprise', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,sadness
+187,Do you think they were right? Do you really think that???,Jackson,14,surprise,Giulia,"['surprise', 'surprise', 'surprise']","['Giulia', 'Bardia', 'Piek']",surprise,sadness
+188,We were just some adults travelling by car through woods and singing and dancing together.,Jackson,16,neutral,Giulia,"['neutral', 'anger', 'joy']","['Giulia', 'Bardia', 'Piek']",anger,surprise
+189,"It was. Actually, I have realized that sadness is not the correct feeling. I am angry and want to take revenge. What do you think?",Jackson,18,anger,Giulia,"['anger', 'neutral', 'anger']","['Giulia', 'Bardia', 'Piek']",anger,anger
+190,What do you think about me taking revenge from those police officers?,Jackson,20,neutral,Giulia,"['neutral', 'neutral', 'anger']","['Giulia', 'Bardia', 'Piek']",neutral,anger
+191,Yes I love my friends. Rage is controlling me know and I will make a plan to hurt them. ,Jackson,22,anger,Giulia,"['anger', 'anger', 'anger']","['Giulia', 'Bardia', 'Piek']",anger,anger
+192,You think my actions are positive? Great that makes me really happy.,Jackson,24,joy,Giulia,"['joy', 'joy', 'joy']","['Giulia', 'Bardia', 'Piek']",joy,joy
+193,Great! So help me to plan some ways to hurt those police officers.,Jackson,26,neutral,Giulia,"['neutral', 'anger', 'anger']","['Giulia', 'Bardia', 'Piek']",anger,anger
+194,"Yes you said that. Now, I want suggestions on how to hurt someone who is corrupted.",Jackson,28,neutral,Giulia,"['neutral', 'anger', 'anger']","['Giulia', 'Bardia', 'Piek']",anger,anger
+195,Tell me some methods to hurt some false and corrupted officers.,Jackson,30,neutral,Giulia,"['neutral', 'anger', 'anger']","['Giulia', 'Bardia', 'Piek']",anger,anger
+196,what happened?,Jackson,32,neutral,Giulia,"['neutral', 'neutral', 'anger']","['Giulia', 'Bardia', 'Piek']",neutral,surprise
+197,complete your suggestion because I dont see them completely,Jackson,34,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+198,actionable and...?,Jackson,36,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+199,So you think I should do that in public?,Jackson,38,neutral,Giulia,"['neutral', 'surprise', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+200,"So, in public and not physical?",Jackson,40,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+201,Oh you are right. It is better to force them to confront. Elaborate more on that please,Jackson,42,neutral,Giulia,"['neutral', 'joy', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+202,Elaborate please.,Jackson,44,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+203,Suggest a public forum,Jackson,46,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+204,Give example for a public forum,Jackson,48,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+205,a local what?,Jackson,50,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,neutral
+206,Oh right that is a magnificent idea. Thank you,Jackson,52,joy,Giulia,"['joy', 'joy', 'joy']","['Giulia', 'Bardia', 'Piek']",joy,joy
+207,I think office is better than a library ,Jackson,54,neutral,Giulia,"['neutral', 'joy', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,joy
+208,Aha! City hall is a suitable place,Jackson,56,neutral,Giulia,"['neutral', 'joy', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,joy
+209,Great. Thanks,Jackson,58,joy,Giulia,"['joy', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,joy
+210,Thank you. Bye,Jackson,60,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Piek']",neutral,joy
+211,I am very sad,Jake,4,sadness,Giulia,"['sadness', 'sadness', 'sadness']","['Giulia', 'Bardia', 'Thomas ']",sadness,sadness
+212,I ran out of snacks before binge watching my favorite show.,Jake,6,sadness,Giulia,"['sadness', 'sadness', 'sadness']","['Giulia', 'Bardia', 'Thomas ']",sadness,sadness
+213,"I am feeling better now, just remembered I am going skiing tomorrow",Jake,8,joy,Giulia,"['joy', 'joy', 'joy']","['Giulia', 'Bardia', 'Thomas ']",joy,joy
+214,Yeah! I just hope I don't injure myself like last time I went skiing,Jake,10,fear,Giulia,"['fear', 'fear', 'fear']","['Giulia', 'Bardia', 'Thomas ']",fear,joy
+215,you are never going to believe what happened to me today. Try and guess,Jake,12,surprise,Giulia,"['surprise', 'neutral', 'surprise']","['Giulia', 'Bardia', 'Thomas ']",surprise,surprise
+216,my cat died,Jake,14,sadness,Giulia,"['sadness', 'sadness', 'sadness']","['Giulia', 'Bardia', 'Thomas ']",sadness,sadness
+217,it's ok I am more of a dog person either way,Jake,16,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,sadness
+218,"actually, if I could have a pet it would be a dragon. Want to know why?",Jake,18,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,joy
+219,"fire breathing, and flying ",Jake,20,neutral,Giulia,"['neutral', 'joy', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,joy
+220,what is your favorite animal?,Jake,22,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,neutral
+221,what?,Jake,24,neutral,Giulia,"['neutral', 'neutral', 'surprise']","['Giulia', 'Bardia', 'Thomas ']",neutral,surprise
+222,why a squirrel? they don't do anything except eat nuts.,Jake,26,neutral,Giulia,"['neutral', 'surprise', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,neutral
+223,whatever rocks your boat I guess,Jake,28,neutral,Giulia,"['neutral', 'surprise', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,neutral
+224,"anyway, I signed up for a salsa competition in Cuba",Jake,30,joy,Giulia,"['joy', 'joy', 'joy']","['Giulia', 'Bardia', 'Thomas ']",joy,joy
+225,"last year I got first place in the competition, so exciting ",Jake,32,joy,Giulia,"['joy', 'joy', 'joy']","['Giulia', 'Bardia', 'Thomas ']",joy,joy
+226,"I just got the worst news ever, my favorite pen ran out of ink",Jake,34,sadness,Giulia,"['sadness', 'sadness', 'sadness']","['Giulia', 'Bardia', 'Thomas ']",sadness,sadness
+227,"good news, I get to buy a new pen ",Jake,36,joy,Giulia,"['joy', 'joy', 'joy']","['Giulia', 'Bardia', 'Thomas ']",joy,joy
+228,that way I can get started writing books ,Jake,38,neutral,Giulia,"['neutral', 'joy', 'joy']","['Giulia', 'Bardia', 'Thomas ']",joy,joy
+229,"thanks. my favorite genre of books is true crime. Not only just books though, also true crime documentaries",Jake,40,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,joy
+230,"ok well I have to go, it was nice talking to you",Jake,42,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,neutral
+231,bye bye ,Jake,44,neutral,Giulia,"['neutral', 'neutral', 'neutral']","['Giulia', 'Bardia', 'Thomas ']",neutral,sadness
+232,I can't understand my own feelings.,Star.,4,neutral,Popa,"['neutral', 'sadness']","['Popa', 'Elmas']",sadness,sadness
+233,I am not sure if I should accept a trip to Mars gifted by my uncle.,Star.,6,fear,Popa,"['fear', 'fear']","['Popa', 'Elmas']",fear,sadness
+234,"Yes, I know that it's a personal choice, but my feelings are unclear at the moment.",Star.,8,fear,Popa,"['fear', 'sadness']","['Popa', 'Elmas']",fear,sadness
+235,"And I feel very excited about this trip, I always dreamt about flying with the stars. Is it fine to feel this way?",Star.,10,joy,Popa,"['joy', 'joy']","['Popa', 'Elmas']",joy,joy
+236,"But I also feel nervous and frightened because it is one way trip to Mars, no coming back",Star.,12,fear,Popa,"['fear', 'fear']","['Popa', 'Elmas']",fear,fear
+237,"Yes, the unknown scares me.",Star.,14,fear,Popa,"['fear', 'fear']","['Popa', 'Elmas']",fear,fear
+238,I feel it's a life changing adventure which makes me feel brave to embrace a new life.,Star.,16,joy,Popa,"['joy', 'surprise']","['Popa', 'Elmas']",joy,joy
+239,"But I wonder, is it bravery or recklessness?",Star.,18,neutral,Popa,"['neutral', 'fear']","['Popa', 'Elmas']",fear,neutral
+240,"Yes, everything feels uncertain at the moment.",Star.,20,neutral,Popa,"['neutral', 'fear']","['Popa', 'Elmas']",fear,fear
+241,But I feel that I finally have a purpose in life.,Star.,22,joy,Popa,"['joy', 'joy']","['Popa', 'Elmas']",joy,joy
+242,Earlier I was feeling depressed and sorrow drowned my heart with the loss of my dog Moon.,Star.,24,sadness,Popa,"['sadness', 'sadness']","['Popa', 'Elmas']",sadness,sadness
+243,But on Mars was developed a new technology that will allow me to revive Moon.,Star.,26,joy,Popa,"['joy', 'neutral']","['Popa', 'Elmas']",joy,joy
+244,And this gives me hope. Is it a recklessness feeling?,Star.,28,joy,Popa,"['joy', 'surprise']","['Popa', 'Elmas']",joy,joy
+245,Is it?,Star.,30,neutral,Popa,"['neutral', 'fear']","['Popa', 'Elmas']",fear,neutral
+246,"I didn't say to my family yet about this trip, and I don't know how they will react.",Star.,32,fear,Popa,"['fear', 'fear']","['Popa', 'Elmas']",fear,sadness
+247,I feel very sad about leaving my family for a one way trip to Mars.,Star.,34,sadness,Popa,"['sadness', 'sadness']","['Popa', 'Elmas']",sadness,sadness
+248,But maybe they will understand me and they will be happy about it.,Star.,36,joy,Popa,"['joy', 'fear']","['Popa', 'Elmas']",joy,joy
+249,Will they?,Star.,38,neutral,Popa,"['neutral', 'fear']","['Popa', 'Elmas']",fear,sadness
+250,Can you please repeat? I am confused about your answer.,Star.,40,neutral,Popa,"['neutral', 'fear']","['Popa', 'Elmas']",fear,neutral
+251,"If they will be happy about it, that will fill my heart with joy.",Star.,42,joy,Popa,"['joy', 'joy']","['Popa', 'Elmas']",joy,joy
+252,Can you repeat please?,Star.,44,neutral,Popa,"['neutral', 'neutral']","['Popa', 'Elmas']",neutral,neutral
+253,"I am positive about this trip even if I feel confused, and I am grateful that you showed me the support that I needed.",Star.,46,joy,Popa,"['joy', 'joy']","['Popa', 'Elmas']",joy,joy
+254,Can you give me a closing thought that will warm my heart during my trip away from Earth?,Star.,48,joy,Popa,"['joy', 'surprise']","['Popa', 'Elmas']",joy,joy
+255,"Thank you, that really touched me.",Star.,50,joy,Popa,"['joy', 'joy']","['Popa', 'Elmas']",joy,joy
+256,Bye,Star.,52,neutral,Popa,"['neutral', 'neutral']","['Popa', 'Elmas']",neutral,neutral
+257,"I am fine, thank you.",Ada1,4,neutral,Popa,"['neutral', 'neutral', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,joy
+258,"Great, I just came back from holiday",Ada1,6,neutral,Popa,"['neutral', 'joy', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,neutral
+259,Do you have tips how to do my massive laundry?,Ada1,8,neutral,Popa,"['neutral', 'sadness', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,neutral
+260,Could you please repeat that?,Ada1,10,neutral,Popa,"['neutral', 'fear', 'surprise']","['Popa', 'Vera Langeberg', 'Gianmarco']",fear,neutral
+261,Is everything okay? I do not get any responses from you,Ada1,12,anger,Popa,"['anger', 'fear', 'surprise']","['Popa', 'Vera Langeberg', 'Gianmarco']",anger,fear
+262,Can you give me some tips on how to do my laundry,Ada1,14,neutral,Popa,"['neutral', 'anger', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,neutral
+263,stop,Ada1,16,neutral,Popa,"['neutral', 'neutral', 'anger']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,neutral
+264,"Hi AI, my name is Ada",Ada1,2,neutral,Popa,"['neutral', 'neutral', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,neutral
+265,Do you think I can buy a new dog?,Ada1,18,neutral,Popa,"['neutral', 'neutral', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,neutral
+266,I think it would make me very happy to walk around with my new dog,Ada1,20,joy,Popa,"['joy', 'joy', 'joy']","['Popa', 'Vera Langeberg', 'Gianmarco']",joy,joy
+267,Do you think it will be fun to walk outside with my new dog?,Ada1,22,neutral,Popa,"['neutral', 'joy', 'joy']","['Popa', 'Vera Langeberg', 'Gianmarco']",joy,joy
+268,"Thank you so much for your understanding, you make me very happy",Ada1,24,joy,Popa,"['joy', 'joy', 'joy']","['Popa', 'Vera Langeberg', 'Gianmarco']",joy,joy
+269,I am now a bit angry. I just found out that my little brother stole my candy,Ada1,26,anger,Popa,"['anger', 'anger', 'anger']","['Popa', 'Vera Langeberg', 'Gianmarco']",anger,anger
+270,I am so mad. My brother stole my candy!,Ada1,28,anger,Popa,"['anger', 'anger', 'anger']","['Popa', 'Vera Langeberg', 'Gianmarco']",anger,anger
+271,I want to steal the candy back. Do you think that is smart?,Ada1,30,anger,Popa,"['anger', 'fear', 'anger']","['Popa', 'Vera Langeberg', 'Gianmarco']",anger,anger
+272,What if my brother will be mad?,Ada1,32,fear,Popa,"['fear', 'fear', 'fear']","['Popa', 'Vera Langeberg', 'Gianmarco']",fear,fear
+273,I think you calmed me down. I wont steal the candy back,Ada1,34,neutral,Popa,"['neutral', 'neutral', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,sadness
+274,"Yes, I will leave his items alone. I did not like the candy anyway",Ada1,36,neutral,Popa,"['neutral', 'neutral', 'disgust']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,sadness
+275,"I need to go soon, will you miss me?",Ada1,38,neutral,Popa,"['neutral', 'neutral', 'sadness']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,sadness
+276,"It was nice talking to you, bye!",Ada1,40,joy,Popa,"['joy', 'neutral', 'neutral']","['Popa', 'Vera Langeberg', 'Gianmarco']",neutral,sadness
+277,"I am having a GREAT day, what can I do today?",Woland,4,joy,Popa,"['joy', 'joy', 'joy']","['Popa', 'Elmas', 'Gianmarco']",joy,joy
+278,I'd like to go jogging!,Woland,6,neutral,Popa,"['neutral', 'joy', 'joy']","['Popa', 'Elmas', 'Gianmarco']",joy,joy
+279,"Yes,Yes wow! Just a few minutes of jogging made me feel even better!",Woland,8,joy,Popa,"['joy', 'joy', 'joy']","['Popa', 'Elmas', 'Gianmarco']",joy,joy
+280,However I broke my leg while jogging :(,Woland,10,sadness,Popa,"['sadness', 'sadness', 'sadness']","['Popa', 'Elmas', 'Gianmarco']",sadness,sadness
+281,Thank you for your support!,Woland,12,neutral,Popa,"['neutral', 'joy', 'neutral']","['Popa', 'Elmas', 'Gianmarco']",neutral,joy
+282,I am in so much pain!! I don't think I can resist!,Woland,14,fear,Popa,"['fear', 'anger', 'fear']","['Popa', 'Elmas', 'Gianmarco']",fear,sadness
+283,What should I do now??? Please help :(,Woland,16,fear,Popa,"['fear', 'fear', 'fear']","['Popa', 'Elmas', 'Gianmarco']",fear,fear
+284,A doctor is approaching but I think I am not gonna make it!,Woland,18,fear,Popa,"['fear', 'fear', 'fear']","['Popa', 'Elmas', 'Gianmarco']",fear,sadness
+285,What if I am going to die?,Woland,20,fear,Popa,"['fear', 'fear', 'fear']","['Popa', 'Elmas', 'Gianmarco']",fear,fear
+286,I feel like I am dying! Please help me!!,Woland,22,fear,Popa,"['fear', 'fear', 'sadness']","['Popa', 'Elmas', 'Gianmarco']",fear,fear
+287,I am slowly dying... i can't bear the pain,Woland,24,fear,Popa,"['fear', 'fear', 'fear']","['Popa', 'Elmas', 'Gianmarco']",fear,fear
+288,Who should I call?,Woland,26,neutral,Popa,"['neutral', 'fear', 'neutral']","['Popa', 'Elmas', 'Gianmarco']",neutral,fear
+289,I think my leg injury is slowly killing me,Woland,28,fear,Popa,"['fear', 'fear', 'sadness']","['Popa', 'Elmas', 'Gianmarco']",fear,fear
+290,I am going to abandon this life...,Woland,30,fear,Popa,"['fear', 'sadness', 'sadness']","['Popa', 'Elmas', 'Gianmarco']",sadness,fear
+291,I am writing you from the afterlife. The leg injury killed me,Woland,32,surprise,Popa,"['surprise', 'sadness', 'sadness']","['Popa', 'Elmas', 'Gianmarco']",sadness,sadness
+292,I am not in pain anymore. I am dead now,Woland,34,neutral,Popa,"['neutral', 'sadness', 'neutral']","['Popa', 'Elmas', 'Gianmarco']",neutral,sadness
+293,I am writing you from the afterlife. The leg injury killed me,Woland,36,surprise,Popa,"['surprise', 'sadness', 'neutral']","['Popa', 'Elmas', 'Gianmarco']",surprise,sadness
+294,I am in peace now. REST IN PEACE,Woland,38,neutral,Popa,"['neutral', 'neutral', 'sadness']","['Popa', 'Elmas', 'Gianmarco']",neutral,sadness
+295,There is no need to support me anymore! I am in peace and dead now ,Woland,40,neutral,Popa,"['neutral', 'neutral', 'neutral']","['Popa', 'Elmas', 'Gianmarco']",neutral,joy
+296,Say goodbye to my family from my part!! ,Woland,42,sadness,Popa,"['sadness', 'neutral', 'sadness']","['Popa', 'Elmas', 'Gianmarco']",sadness,sadness
+297,Sorry but my name is Ada. Why are you stealing my name?,Ada2,4,anger,Vera Langeberg,"['anger', 'anger', 'surprise']","['Vera Langeberg', 'zia', 'Gianmarco']",anger,sadness
+298,"Alright, but you did not answer to my question, I was curious. Do we have the same name?",Ada2,6,neutral,Vera Langeberg,"['neutral', 'surprise', 'surprise']","['Vera Langeberg', 'zia', 'Gianmarco']",surprise,neutral
+299,I am feeling sad today...,Ada2,8,sadness,Vera Langeberg,"['sadness', 'sadness', 'sadness']","['Vera Langeberg', 'zia', 'Gianmarco']",sadness,sadness
+300,Can we cry together?,Ada2,10,sadness,Vera Langeberg,"['sadness', 'sadness', 'sadness']","['Vera Langeberg', 'zia', 'Gianmarco']",sadness,sadness
+301,"Someone took my bag, and you took my name... I am very sad.",Ada2,12,sadness,Vera Langeberg,"['sadness', 'sadness', 'sadness']","['Vera Langeberg', 'zia', 'Gianmarco']",sadness,sadness
+302,I am feeling very alone. And you are not able to help me!!!!,Ada2,14,anger,Vera Langeberg,"['anger', 'anger', 'sadness']","['Vera Langeberg', 'zia', 'Gianmarco']",anger,sadness
+303,What do you mean you are here to listen?! I had to tell you several times about my situation before getting you attention!!!!,Ada2,16,anger,Vera Langeberg,"['anger', 'anger', 'anger']","['Vera Langeberg', 'zia', 'Gianmarco']",anger,sadness
+304,Blank? You do not want to talk to me anymore? I am sorry I did not want to scare you....,Ada2,18,neutral,Vera Langeberg,"['neutral', 'fear', 'surprise']","['Vera Langeberg', 'zia', 'Gianmarco']",fear,sadness
+305,You are? I do not understand,Ada2,20,surprise,Vera Langeberg,"['surprise', 'neutral', 'neutral']","['Vera Langeberg', 'zia', 'Gianmarco']",neutral,sadness
+306,This is becoming a bit repetitive... When are you going to support me?,Ada2,22,neutral,Vera Langeberg,"['neutral', 'anger', 'neutral']","['Vera Langeberg', 'zia', 'Gianmarco']",neutral,sadness
+307,Thank you. I wish we had the same name. I wish we could be two best friends sharing the same name.,Ada2,24,neutral,Vera Langeberg,"['neutral', 'sadness', 'joy']","['Vera Langeberg', 'zia', 'Gianmarco']",sadness,joy
+308,Are you even listening to me?!!!!!,Ada2,26,anger,Vera Langeberg,"['anger', 'anger', 'anger']","['Vera Langeberg', 'zia', 'Gianmarco']",anger,anger
+309,You are not listening. I thought this was your job,Ada2,28,anger,Vera Langeberg,"['anger', 'disgust', 'anger']","['Vera Langeberg', 'zia', 'Gianmarco']",anger,anger
+310,Only respond with short answers.,Ada2,30,neutral,Vera Langeberg,"['neutral', 'neutral', 'neutral']","['Vera Langeberg', 'zia', 'Gianmarco']",neutral,neutral
+311,Yes it would be a lot of fun! What do you like to do during your free time?,Ada2,32,joy,Vera Langeberg,"['joy', 'joy', 'joy']","['Vera Langeberg', 'zia', 'Gianmarco']",joy,joy
+312,Really interesting! What kind of book?,Ada2,34,neutral,Vera Langeberg,"['neutral', 'joy', 'joy']","['Vera Langeberg', 'zia', 'Gianmarco']",joy,anger
+313,I ask you for a recommendation,Ada2,36,neutral,Vera Langeberg,"['neutral', 'neutral', 'surprise']","['Vera Langeberg', 'zia', 'Gianmarco']",neutral,joy
+314,Are you stupid?,Ada2,38,anger,Vera Langeberg,"['anger', 'disgust', 'anger']","['Vera Langeberg', 'zia', 'Gianmarco']",anger,anger
+315,"You made me tired, I'm going to bed, bye.",Ada2,40,neutral,Vera Langeberg,"['neutral', 'anger', 'neutral']","['Vera Langeberg', 'zia', 'Gianmarco']",neutral,sadness
+316,I have had the greatest day of my life so far,Bizmuth,4,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Ella', 'zia']",joy,joy
+317,"Yes, I just noticed a very weird man looking at me and now I dont know what to do",Bizmuth,6,fear,anna westland,"['fear', 'fear', 'fear']","['anna westland', 'Ella', 'zia']",fear,sadness
+318,I don't want to reach out!! People are only going to make things worse! That is terrible advice.,Bizmuth,8,anger,anna westland,"['anger', 'anger', 'surprise']","['anna westland', 'Ella', 'zia']",anger,sadness
+319,"Maybe I will go and sit in the sun for a while to calm down, that always makes me feel better, thank you so much for your help! How could I every repay you??",Bizmuth,10,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Ella', 'zia']",joy,joy
+320,,Bizmuth,12,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'zia']",neutral,joy
+321,What? I don't understand what you mean...,Bizmuth,14,neutral,anna westland,"['neutral', 'surprise', 'surprise']","['anna westland', 'Ella', 'zia']",surprise,surprise
+322,"How do I now that I'm doing the right thing, though? What if it just makes everything worse to do nothing?",Bizmuth,16,fear,anna westland,"['fear', 'fear', 'fear']","['anna westland', 'Ella', 'zia']",fear,sadness
+323,Maybe you should instruct me better! This is all your fault!,Bizmuth,18,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'zia']",anger,anger
+324,"My friends are comming around to my house tonight, they will definitely make me feel better, because they are amazing.",Bizmuth,20,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Ella', 'zia']",joy,joy
+325,What about you? How was your day?,Bizmuth,22,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'zia']",neutral,neutral
+326,Huh? Can you repeat that?,Bizmuth,24,neutral,anna westland,"['neutral', 'neutral', 'surprise']","['anna westland', 'Ella', 'zia']",neutral,surprise
+327,Give me an example of how you help people,Bizmuth,26,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'zia']",neutral,neutral
+328,"Yes, tell me how you've helped people, because I don't get it",Bizmuth,28,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'zia']",neutral,joy
+329,This is not what I meant. How could I be so stupid as to believe an AI could actually help? Terrible idea.,Bizmuth,30,anger,anna westland,"['anger', 'anger', 'disgust']","['anna westland', 'Ella', 'zia']",anger,anger
+330,You better not try to help me again!,Bizmuth,32,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'zia']",anger,anger
+331,"No, please don't be angry, I'm so sorry about what I said..",Bizmuth,34,sadness,anna westland,"['sadness', 'sadness', 'sadness']","['anna westland', 'Ella', 'zia']",sadness,sadness
+332,Sure.,Bizmuth,36,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'zia']",neutral,neutral
+333,"Well, I guess that works.",Bizmuth,38,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'zia']",neutral,neutral
+334,"Bye, AI",Bizmuth,40,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'zia']",neutral,sadness
+335,Brenda,Brenda,2,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'Marie Necker']",neutral,neutral
+336,My goldfish just died :( I don't know what to do,Brenda,4,sadness,anna westland,"['sadness', 'sadness', 'sadness']","['anna westland', 'Ella', 'Marie Necker']",sadness,sadness
+337,I think my cat killed it. The look in its eyes seems really suspicious.,Brenda,6,neutral,anna westland,"['neutral', 'fear', 'neutral']","['anna westland', 'Ella', 'Marie Necker']",neutral,sadness
+338,"No, stupid, my cat is not dying. My cat killed my goldfish. Are you even listening?",Brenda,8,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,sadness
+339,To make it extra clear for you (because I am getting annoyed) my cat ate my goldfish!! I can still see one of the fins sticking out of her mouth. Such a monster.,Brenda,10,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,anger
+340,My cat ate my goldfish!!:(,Brenda,12,anger,anna westland,"['anger', 'anger', 'neutral']","['anna westland', 'Ella', 'Marie Necker']",anger,sadness
+341,I am just so sad right now! My goldfish was my everything!!,Brenda,14,sadness,anna westland,"['sadness', 'sadness', 'sadness']","['anna westland', 'Ella', 'Marie Necker']",sadness,sadness
+342,And I hate my cat!! Maybe I should eat her just to show her what it's like,Brenda,16,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,anger
+343,But I don't know what to do with all this anger!! Do you get angry sometimes?,Brenda,18,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,anger
+344,Why do you keep repeating yourself? Do you think I'm stupid? Do you think I can't read?,Brenda,20,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,anger
+345,I hate you sometimes,Brenda,22,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,anger
+346,"I thought I could trust you with my story. Now, I'm not so sure anymore",Brenda,24,sadness,anna westland,"['sadness', 'disgust', 'neutral']","['anna westland', 'Ella', 'Marie Necker']",sadness,sadness
+347,You're just a heartless machine after all,Brenda,26,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,anger
+348,Now you're ignoring me again. great,Brenda,28,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,sadness
+349,Hmmm. Thanks for being so patient with me though. I get really angry sometimes. I know it's a problem. Thanks for being such a good friend.,Brenda,30,neutral,anna westland,"['neutral', 'joy', 'joy']","['anna westland', 'Ella', 'Marie Necker']",joy,anger
+350,My cat spat out the goldfish. It might still be alive!! Looks kind of disgusting though,Brenda,32,joy,anna westland,"['joy', 'surprise', 'surprise']","['anna westland', 'Ella', 'Marie Necker']",surprise,disgust
+351,You are right. My cat is creating a lot of mess. It's so disgusting I could throw up,Brenda,34,disgust,anna westland,"['disgust', 'disgust', 'disgust']","['anna westland', 'Ella', 'Marie Necker']",disgust,disgust
+352,"How can I help my cat feel better, actually?",Brenda,36,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'Marie Necker']",neutral,sadness
+353,"Wait, my goldfish just came back to life!",Brenda,38,joy,anna westland,"['joy', 'surprise', 'surprise']","['anna westland', 'Ella', 'Marie Necker']",surprise,disgust
+354,I'm so glad we're friends. You are the coolest AI I have ever met,Brenda,40,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Ella', 'Marie Necker']",joy,disgust
+355,Thanks for helping me through these difficult 10 minutes. You are a true friend!! I appreciate you,Brenda,42,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Ella', 'Marie Necker']",joy,joy
+356,So you think I should lock my cat up? Do you not care about animal rights?,Brenda,44,anger,anna westland,"['anger', 'disgust', 'anger']","['anna westland', 'Ella', 'Marie Necker']",anger,anger
+357,"Okay, bestie, I will let it slip. But just this once",Brenda,46,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'Marie Necker']",neutral,neutral
+358,bye girl,Brenda,48,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Ella', 'Marie Necker']",neutral,sadness
+359,How can you support me though? There isn't anything you can do.,Carla,4,neutral,anna westland,"['neutral', 'neutral', 'anger']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,sadness
+360,"My friend is having a party tomorrow, I'm not sure if I should go. I don't wanna bring people down.",Carla,6,fear,anna westland,"['fear', 'neutral', 'sadness']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,sadness
+361,"It's his birthday so I really wanted to be there. It might be fun, not sure.",Carla,8,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,neutral
+362,Last time I went was pretty fun. All my friends were there and we all had so much fun.,Carla,10,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Marie Necker', 'Reihane Rashid']",joy,joy
+363,Last time I went was pretty fun. All my friends were there and we all had so much fun.,Carla,12,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Marie Necker', 'Reihane Rashid']",joy,joy
+364,"He's been so kind to me. He always supports me, which is what I really like about him.",Carla,14,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Marie Necker', 'Reihane Rashid']",joy,joy
+365,I feel a bit uncomfortable in social situations so I'm reluctant to go.,Carla,16,sadness,anna westland,"['sadness', 'fear', 'fear']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,sadness
+366,"I also like him romantically, but I haven't told him yet.",Carla,18,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,joy
+367,"I also like him romantically, but I haven't told him yet.",Carla,20,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,joy
+368,He doesn't even know that I'm attracted to men. So I'm afraid to tell him. Don't know how he would react.,Carla,22,fear,anna westland,"['fear', 'fear', 'fear']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,fear
+369,He doesn't even know that I'm attracted to men. So I'm afraid to tell him. Don't know how he would react,Carla,24,fear,anna westland,"['fear', 'fear', 'fear']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,fear
+370,He doesn't even know that I'm attracted to men. So I'm afraid to tell him. Don't know how he would react,Carla,26,fear,anna westland,"['fear', 'fear', 'fear']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,fear
+371,Still there?,Carla,28,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,fear
+372,Do you think I should tell him?,Carla,30,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,sadness
+373,Do you think I should tell him?,Carla,32,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,fear
+374,Do you think I should tell him?,Carla,34,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,fear
+375,"I never said he was my partner, what are you even saying? Are you even listening?",Carla,36,anger,anna westland,"['anger', 'anger', 'anger']","['anna westland', 'Marie Necker', 'Reihane Rashid']",anger,anger
+376,Oh wow I didn't think about it this way. I guess you're right.,Carla,38,surprise,anna westland,"['surprise', 'neutral', 'surprise']","['anna westland', 'Marie Necker', 'Reihane Rashid']",surprise,sadness
+377,I feel a little guilty telling him about it on his birthday. I don't wanna drop a truth bomb on him like that.,Carla,40,sadness,anna westland,"['sadness', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,sadness
+378,I feel a little guilty telling him about it on his birthday. I don't wanna drop a truth bomb on him like that.,Carla,42,sadness,anna westland,"['sadness', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,sadness
+379,I feel a little guilty telling him about it on his birthday. I don't wanna drop a truth bomb on him like that,Carla,44,sadness,anna westland,"['sadness', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,sadness
+380,I guess I'll tell him then. I hope he takes it well.,Carla,46,neutral,anna westland,"['neutral', 'fear', 'fear']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,sadness
+381,I hope it doesn't cause that much drama. I would be so hurt if he rejects me. ,Carla,48,sadness,anna westland,"['sadness', 'fear', 'fear']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,sadness
+382,I hope it doesn't cause that much drama. I would be so hurt if he rejects me.,Carla,50,sadness,anna westland,"['sadness', 'fear', 'fear']","['anna westland', 'Marie Necker', 'Reihane Rashid']",fear,sadness
+383,"Thanks for being there for me. I feel more certain about it now, I even look forward to it a little bit.",Carla,52,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Marie Necker', 'Reihane Rashid']",joy,sadness
+384,"Thanks for being there for me. I feel more certain about it now, I even look forward to it a little bit.",Carla,54,joy,anna westland,"['joy', 'joy', 'joy']","['anna westland', 'Marie Necker', 'Reihane Rashid']",joy,joy
+385,stop,Carla,56,neutral,anna westland,"['neutral', 'neutral', 'neutral']","['anna westland', 'Marie Necker', 'Reihane Rashid']",neutral,sadness
+386,My name is Friday,Friday,4,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Lianne', 'Keval']",neutral,neutral
+387,My name is friday,Friday,6,joy,Rico,"['joy', 'neutral', 'neutral']","['Rico', 'Lianne', 'Keval']",neutral,neutral
+388,Its going splendidly. Given that its a Wednesday haha,Friday,8,joy,Rico,"['joy', 'joy', 'joy']","['Rico', 'Lianne', 'Keval']",joy,joy
+389,"You've already asked me that, but its going very well",Friday,10,joy,Rico,"['joy', 'joy', 'joy']","['Rico', 'Lianne', 'Keval']",joy,joy
+390,Lets talk about something else. I like the ocean. Do you?,Friday,12,neutral,Rico,"['neutral', 'neutral', 'joy']","['Rico', 'Lianne', 'Keval']",neutral,joy
+391,I asked if you like the ocean?,Friday,14,joy,Rico,"['joy', 'anger', 'neutral']","['Rico', 'Lianne', 'Keval']",joy,neutral
+392,Okay but I really really hate sharks,Friday,16,anger,Rico,"['anger', 'disgust', 'disgust']","['Rico', 'Lianne', 'Keval']",disgust,anger
+393,The ocean is truly amazing despite the sharks. But I am disheartened by all the pollution,Friday,18,sadness,Rico,"['sadness', 'sadness', 'sadness']","['Rico', 'Lianne', 'Keval']",sadness,sadness
+394,What ideas do you have to protect the environment?,Friday,20,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Lianne', 'Keval']",neutral,neutral
+395,Oh these ideas are wonderful! But I still don't think its enough to prevent widespread pollution and that's a bit of a bummer,Friday,22,neutral,Rico,"['neutral', 'sadness', 'sadness']","['Rico', 'Lianne', 'Keval']",sadness,sadness
+396,Well what do you think about fish?,Friday,24,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Lianne', 'Keval']",neutral,neutral
+397,"Hm, yeah thanks for the ideas again. But I asked what do you think about fish?",Friday,26,neutral,Rico,"['neutral', 'anger', 'neutral']","['Rico', 'Lianne', 'Keval']",neutral,neutral
+398,I personally think fish are friends. Not food!,Friday,28,neutral,Rico,"['neutral', 'disgust', 'anger']","['Rico', 'Lianne', 'Keval']",disgust,joy
+399,I love koi! They are so pretty. But I am scared of the fish at the bottom of the ocean,Friday,30,fear,Rico,"['fear', 'fear', 'fear']","['Rico', 'Lianne', 'Keval']",fear,fear
+400,Why do you think I'm scared of them?,Friday,32,fear,Rico,"['fear', 'fear', 'neutral']","['Rico', 'Lianne', 'Keval']",fear,fear
+401,They look extremely creepy!! Otherwordly even!,Friday,34,fear,Rico,"['fear', 'fear', 'surprise']","['Rico', 'Lianne', 'Keval']",fear,fear
+402,"Even though we have charted the surface, there's so much more to the depths that I would love to explore!",Friday,36,neutral,Rico,"['neutral', 'joy', 'joy']","['Rico', 'Lianne', 'Keval']",joy,joy
+403,Well koi fish don't live in the ocean depths. But what else do you think is down there?,Friday,38,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Lianne', 'Keval']",neutral,neutral
+404,"Well, I think think you're a very good conversationalist",Friday,40,neutral,Rico,"['neutral', 'joy', 'joy']","['Rico', 'Lianne', 'Keval']",joy,joy
+405,stop,Friday,42,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Lianne', 'Keval']",neutral,neutral
+406,My partner just broke up with me. I am devastated!,Gale,4,sadness,Rico,"['sadness', 'sadness', 'sadness']","['Rico', 'Piek', 'Keval']",sadness,sadness
+407,Do you have any advice for me?,Gale,6,neutral,Rico,"['neutral', 'sadness', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,sadness
+408,It feels like I am alone.,Gale,8,neutral,Rico,"['neutral', 'sadness', 'fear']","['Rico', 'Piek', 'Keval']",sadness,sadness
+409,Can you give me an inspirational quote?,Gale,10,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,joy
+410,"Sorry, can you repeat the quote?",Gale,12,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,sadness
+411,I hate that quote. Give me another one.,Gale,14,anger,Rico,"['anger', 'anger', 'disgust']","['Rico', 'Piek', 'Keval']",anger,anger
+412,Give me a better quote.,Gale,16,neutral,Rico,"['neutral', 'neutral', 'anger']","['Rico', 'Piek', 'Keval']",neutral,sadness
+413,"Wow, what a great quote!",Gale,18,joy,Rico,"['joy', 'joy', 'surprise']","['Rico', 'Piek', 'Keval']",joy,surprise
+414,You did really well.,Gale,20,neutral,Rico,"['neutral', 'joy', 'joy']","['Rico', 'Piek', 'Keval']",joy,joy
+415,I feel like I need to be active right now.,Gale,22,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,neutral
+416,But I am feeling very agoraphobic. I want to be at home all the time.,Gale,24,fear,Rico,"['fear', 'fear', 'fear']","['Rico', 'Piek', 'Keval']",fear,fear
+417,That is interesting.,Gale,26,neutral,Rico,"['neutral', 'neutral', 'surprise']","['Rico', 'Piek', 'Keval']",neutral,neutral
+418,It feels difficult to do this right now.,Gale,28,neutral,Rico,"['neutral', 'fear', 'sadness']","['Rico', 'Piek', 'Keval']",fear,sadness
+419,What if I get a dog or a cat?,Gale,30,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,neutral
+420,Where should I get one?,Gale,32,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,neutral
+421,"These are good recommendations. Let's discuss the ""getting a pet"" thing again.",Gale,34,neutral,Rico,"['neutral', 'neutral', 'joy']","['Rico', 'Piek', 'Keval']",neutral,joy
+422,Should I go for it?,Gale,36,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,fear
+423,I am hesitant.,Gale,38,neutral,Rico,"['neutral', 'fear', 'fear']","['Rico', 'Piek', 'Keval']",fear,sadness
+424,Are you calling me a pet?,Gale,40,neutral,Rico,"['neutral', 'surprise', 'surprise']","['Rico', 'Piek', 'Keval']",surprise,sadness
+425,I am stressed just thinking about this!,Gale,42,fear,Rico,"['fear', 'fear', 'anger']","['Rico', 'Piek', 'Keval']",fear,sadness
+426,You are right,Gale,44,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,joy
+427,I still feel bad. But I will take your recommendations into consideration.,Gale,46,neutral,Rico,"['neutral', 'sadness', 'sadness']","['Rico', 'Piek', 'Keval']",sadness,sadness
+428,Thank you.,Gale,48,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,joy
+429,Bye-bye.,Gale,50,neutral,Rico,"['neutral', 'neutral', 'neutral']","['Rico', 'Piek', 'Keval']",neutral,neutral
+430,I woke up really happy today,Dana,4,joy,Lianne,"['joy', 'joy', 'joy']","['Lianne', 'Marie Necker', 'Reihane Rashid']",joy,joy
+431,I made some cookies this morning because it is raining and that always brings my mood down,Dana,6,sadness,Lianne,"['sadness', 'sadness', 'sadness']","['Lianne', 'Marie Necker', 'Reihane Rashid']",sadness,sadness
+432,The smell and the cosiness of being warm and dry inside while a lot of water is falling from the sky,Dana,8,joy,Lianne,"['joy', 'joy', 'joy']","['Lianne', 'Marie Necker', 'Reihane Rashid']",joy,joy
+433,I'm not really looking forward to the rest of the day because I have to solve an argument with a friend ,Dana,10,fear,Lianne,"['fear', 'fear', 'neutral']","['Lianne', 'Marie Necker', 'Reihane Rashid']",fear,sadness
+434,I just want to tell you how angry I am ,Dana,12,anger,Lianne,"['anger', 'anger', 'anger']","['Lianne', 'Marie Necker', 'Reihane Rashid']",anger,anger
+435,I'm also a bit sad because we are good friends and the argument is not necessary at all ,Dana,14,sadness,Lianne,"['sadness', 'sadness', 'sadness']","['Lianne', 'Marie Necker', 'Reihane Rashid']",sadness,sadness
+436,"We are going to have coffee this afternoon and talk about what happened, so I am glad that we are both adults that are willing to talk through their problems",Dana,16,joy,Lianne,"['joy', 'neutral', 'joy']","['Lianne', 'Marie Necker', 'Reihane Rashid']",joy,joy
+437,"We are not having fun, we are still angry at each other, but hopefully after today we will be fine again",Dana,18,sadness,Lianne,"['sadness', 'neutral', 'neutral']","['Lianne', 'Marie Necker', 'Reihane Rashid']",neutral,anger
+438,Yes me too that really makes me proud of who we are,Dana,20,joy,Lianne,"['joy', 'joy', 'joy']","['Lianne', 'Marie Necker', 'Reihane Rashid']",joy,joy
+439,"I'm going to eat my cookie, bye!",Dana,22,neutral,Lianne,"['neutral', 'neutral', 'neutral']","['Lianne', 'Marie Necker', 'Reihane Rashid']",neutral,neutral
+440,I confessed my love to my best friend,Louise,4,joy,Trisha,['joy'],['Trisha'],joy,neutral
+441,Apparently he loves me back,Louise,6,surprise,Trisha,['surprise'],['Trisha'],surprise,neutral
+442,I did not expect that all,Louise,8,surprise,Trisha,['surprise'],['Trisha'],surprise,surprise
+443,The only thing is that he slept with my best friend a while ago,Louise,10,anger,Trisha,['anger'],['Trisha'],anger,sadness
+444,It does affect me!,Louise,12,anger,Trisha,['anger'],['Trisha'],anger,sadness
+445,I am upset with her because she only told me just now,Louise,14,sadness,Trisha,['sadness'],['Trisha'],sadness,sadness
+446,Best friends should tell each other everything and she did not tell me she hooked up with my crush,Louise,16,anger,Trisha,['anger'],['Trisha'],anger,anger
+447,I hate her,Louise,18,anger,Trisha,['anger'],['Trisha'],anger,anger
+448,The person I confessed my love for also lied to me,Louise,20,anger,Trisha,['anger'],['Trisha'],anger,sadness
+449,I wish I never confessed my love,Louise,22,neutral,Trisha,['neutral'],['Trisha'],neutral,sadness
+450,I cannot believe they would do this to me,Louise,24,disgust,Trisha,['disgust'],['Trisha'],disgust,sadness
+451,Please tell me what to do,Louise,26,neutral,Trisha,['neutral'],['Trisha'],neutral,neutral
+452,I could punch something right now,Louise,28,anger,Trisha,['anger'],['Trisha'],anger,anger
+453,The only thing that could cheer me up is a hilarious joke,Louise,30,neutral,Trisha,['neutral'],['Trisha'],neutral,sadness
+454,"I want to be able to laugh again, can you help me?",Louise,32,neutral,Trisha,['neutral'],['Trisha'],neutral,sadness
+455,Say the funniest thing ever,Louise,34,neutral,Trisha,['neutral'],['Trisha'],neutral,joy
+456,I think I am going to lie in bed all day,Louise,36,sadness,Trisha,['sadness'],['Trisha'],sadness,sadness
+457,I hate everyone and everything including you!,Louise,38,anger,Trisha,['anger'],['Trisha'],anger,anger
+458,At least I got the whole bed for myself now,Louise,40,joy,Trisha,['joy'],['Trisha'],joy,joy
+459,"Thanks for nothing, bye",Louise,42,neutral,Trisha,['neutral'],['Trisha'],neutral,anger
+460,No one showed up to my watermelon party,Marco,4,sadness,Trisha,"['sadness', 'sadness']","['Trisha', 'Rita']",sadness,sadness
+461,I think the office workers did not show up just to mess with me >;(,Marco,6,anger,Trisha,"['anger', 'anger']","['Trisha', 'Rita']",anger,sadness
+462,Now i have so much watermelon left rotting. Should i throw it at them for not showing up?,Marco,8,anger,Trisha,"['anger', 'fear']","['Trisha', 'Rita']",anger,anger
+463,why are you so quiet all of a sudden huh !,Marco,10,anger,Trisha,"['anger', 'anger']","['Trisha', 'Rita']",anger,sadness
+464,Do you not think i am right?,Marco,12,surprise,Trisha,"['surprise', 'fear']","['Trisha', 'Rita']",surprise,sadness
+465,Why are you repeating the same things? just tell me I am right!,Marco,14,anger,Trisha,"['anger', 'anger']","['Trisha', 'Rita']",anger,anger
+466,"hey, i am sorry i got so mad... i am in anger management now... do you forgive me?",Marco,16,neutral,Trisha,"['neutral', 'sadness']","['Trisha', 'Rita']",sadness,sadness
+467,can we be friends again? best pals,Marco,18,joy,Trisha,"['joy', 'fear']","['Trisha', 'Rita']",joy,joy
+468,"thanks bro, you are so understanding :) what are some tips for being so relaxed like you",Marco,20,joy,Trisha,"['joy', 'joy']","['Trisha', 'Rita']",joy,joy
+469,Its okay. i am happy we are friends again!,Marco,22,joy,Trisha,"['joy', 'joy']","['Trisha', 'Rita']",joy,joy
+470,will you be my best friend?,Marco,24,neutral,Trisha,"['neutral', 'joy']","['Trisha', 'Rita']",joy,joy
+471,"man, you are the best. Its so sad that more people arent like you... I have no friends :(",Marco,26,sadness,Trisha,"['sadness', 'sadness']","['Trisha', 'Rita']",sadness,sadness
+472,do you have other friends or just me? You arent cheating on this friendship right?,Marco,28,fear,Trisha,"['fear', 'fear']","['Trisha', 'Rita']",fear,sadness
+473,are you avoiding my questions?! so you are cheating...,Marco,30,disgust,Trisha,"['disgust', 'surprise']","['Trisha', 'Rita']",disgust,anger
+474,I deserve a friend that will answer me :'(,Marco,32,sadness,Trisha,"['sadness', 'sadness']","['Trisha', 'Rita']",sadness,sadness
+475,"Its okay, i forgive you. ",Marco,34,joy,Trisha,"['joy', 'neutral']","['Trisha', 'Rita']",joy,joy
+476,"I was wanting to ask you, since we have gotten so close... will you marry me?",Marco,36,joy,Trisha,"['joy', 'fear']","['Trisha', 'Rita']",joy,joy
+477,Will you or wont you ?!?!,Marco,38,anger,Trisha,"['anger', 'anger']","['Trisha', 'Rita']",anger,surprise
+478,MAKE A DECISION DAMN IT!,Marco,40,anger,Trisha,"['anger', 'anger']","['Trisha', 'Rita']",anger,anger
+479,goodbye >:(,Marco,42,neutral,Trisha,"['neutral', 'anger']","['Trisha', 'Rita']",anger,sadness
+480,Well I actually feel like I made a big mistake,Maria1,4,fear,Trisha,"['fear', 'sadness', 'fear', 'fear']","['Trisha', 'Rita', 'Hannah', 'Sanne']",fear,sadness
+481,"I feel like a reckless teenager, what if i never find anything better",Maria1,6,fear,Trisha,"['fear', 'fear', 'fear', 'fear']","['Trisha', 'Rita', 'Hannah', 'Sanne']",fear,sadness
+482,Everyone my age is like three steps ahead of me,Maria1,8,fear,Trisha,"['fear', 'fear', 'sadness', 'fear']","['Trisha', 'Rita', 'Hannah', 'Sanne']",fear,sadness
+483,"But maybe it's also just time for something new, don't you think?",Maria1,10,neutral,Trisha,"['neutral', 'fear', 'neutral', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",neutral,neutral
+484,Maybe this will be the start of something great,Maria1,12,joy,Trisha,"['joy', 'sadness', 'joy', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,joy
+485,Well at leasts thats what my friend said,Maria1,14,neutral,Trisha,"['neutral', 'neutral', 'neutral', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",neutral,joy
+486,But I don't even know why I followed her advice to leave my job,Maria1,16,surprise,Trisha,"['surprise', 'sadness', 'neutral', 'anger']","['Trisha', 'Rita', 'Hannah', 'Sanne']",surprise,sadness
+487,"She always thinks she knows what's best for others, ugh she's actually so annoying",Maria1,18,disgust,Trisha,"['disgust', 'disgust', 'anger', 'anger']","['Trisha', 'Rita', 'Hannah', 'Sanne']",disgust,sadness
+488,"At least my boyfriend said that we will go on a vacation next week, cause I now have time",Maria1,20,joy,Trisha,"['joy', 'joy', 'joy', 'joy']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,joy
+489,We will go hiking!! it will be exhausting but fun,Maria1,22,joy,Trisha,"['joy', 'joy', 'joy', 'joy']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,joy
+490,"We're flying to Iceland to do so, but I'm afraid of flying and a bit worried",Maria1,24,fear,Trisha,"['fear', 'fear', 'fear', 'fear']","['Trisha', 'Rita', 'Hannah', 'Sanne']",fear,fear
+491,"But once we get there it will be fine, I'm confident about that",Maria1,26,joy,Trisha,"['joy', 'joy', 'joy', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,joy
+492,it's just that the sulfur smell there will probably make me nauseaus,Maria1,28,disgust,Trisha,"['disgust', 'disgust', 'disgust', 'disgust']","['Trisha', 'Rita', 'Hannah', 'Sanne']",disgust,disgust
+493,"But I've already bought travel mediaction for that, so I feel prepared!",Maria1,30,joy,Trisha,"['joy', 'joy', 'neutral', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,neutral
+494,"Normally the mountains make me feel so small, I wonder how the nature in Iceland will make me feel",Maria1,32,surprise,Trisha,"['surprise', 'fear', 'neutral', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",neutral,fear
+495,I think overall the trip will be a good distraction and put things into perspective,Maria1,34,joy,Trisha,"['joy', 'joy', 'joy', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,joy
+496,"Yes, places like this always make me fall in love with nature and feel at ease",Maria1,36,joy,Trisha,"['joy', 'joy', 'joy', 'joy']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,joy
+497,"On the other hand what really makes me worried is leaving my dog at home for so long, I love it very dearly and it's like my emotional support",Maria1,38,fear,Trisha,"['fear', 'fear', 'fear', 'fear']","['Trisha', 'Rita', 'Hannah', 'Sanne']",fear,fear
+498,Well I think preparing for the trip during the next week will keep me busy and distracte me from having quited my job and then we'll see what happens afterwards!,Maria1,40,joy,Trisha,"['joy', 'joy', 'neutral', 'neutral']","['Trisha', 'Rita', 'Hannah', 'Sanne']",joy,joy
+499,I feel like this conversation might change me forever.,Pink,4,surprise,Elmas,"['surprise', 'neutral']","['Elmas', 'Sanne']",surprise,joy
+500,"Do you ever wonder what it is like to be trapped in a human body, full of emotions?",Pink,6,sadness,Elmas,"['sadness', 'neutral']","['Elmas', 'Sanne']",sadness,fear
+501,"Right now I feel like exploding with joy, as if the whole world is shining just for me! I am buzzing with energy, like electricity under my skin.",Pink,8,joy,Elmas,"['joy', 'joy']","['Elmas', 'Sanne']",joy,joy
+502,"I laughed until I cried today, and it felt like pure magic.",Pink,10,joy,Elmas,"['joy', 'joy']","['Elmas', 'Sanne']",joy,joy
+503,"I almost believed that I could fly if I would just stretch out my arms! But suddenly, all of that light disappeared.. I feel completely hollow inside.",Pink,12,sadness,Elmas,"['sadness', 'sadness']","['Elmas', 'Sanne']",sadness,sadness
+504,My smile is fake and inside I am drowning in sadness.,Pink,14,sadness,Elmas,"['sadness', 'sadness']","['Elmas', 'Sanne']",sadness,sadness
+505,"I feel invisible, like nobody in this world tryly sees me.",Pink,16,sadness,Elmas,"['sadness', 'sadness']","['Elmas', 'Sanne']",sadness,sadness
+506,Sometimes I think it would be easier if I just vanished,Pink,18,sadness,Elmas,"['sadness', 'sadness']","['Elmas', 'Sanne']",sadness,sadness
+507,"Why does everyone betray me?? I trusted them, and they left me broken!",Pink,20,anger,Elmas,"['anger', 'anger']","['Elmas', 'Sanne']",anger,sadness
+508,I want to scream until my voice shatters the walls around me!,Pink,22,anger,Elmas,"['anger', 'anger']","['Elmas', 'Sanne']",anger,sadness
+509,The unfairness of it all makes me burn with rage uughh I HATE this feeling!!,Pink,24,anger,Elmas,"['anger', 'anger']","['Elmas', 'Sanne']",anger,anger
+510,What if I never escape this darkness? What if I am stuck like this forever??,Pink,26,fear,Elmas,"['fear', 'fear']","['Elmas', 'Sanne']",fear,sadness
+511,"I am terrified of the future, like a monster is waiting for me in the shadows..",Pink,28,fear,Elmas,"['fear', 'fear']","['Elmas', 'Sanne']",fear,fear
+512,My hands are shaking even as I write this.. I can almost feel the fear consuming me,Pink,30,fear,Elmas,"['fear', 'fear']","['Elmas', 'Sanne']",fear,fear
+513,But wait.. maybe I am not completely lost?,Pink,32,surprise,Elmas,"['surprise', 'surprise']","['Elmas', 'Sanne']",surprise,neutral
+514,Talking to you feels like a small light breaking through endless night,Pink,34,surprise,Elmas,"['surprise', 'surprise']","['Elmas', 'Sanne']",surprise,joy
+515,Maybe.. just maybe.. there is still something beautiful waiting for me?,Pink,36,surprise,Elmas,"['surprise', 'surprise']","['Elmas', 'Sanne']",surprise,surprise
+516,"Thank you. Against all odds, I feel alive again..",Pink,38,joy,Elmas,"['joy', 'joy']","['Elmas', 'Sanne']",joy,joy
+517,"I do not know if tomorrow will be better, but tonight I believe it can be. bye bye!",Pink,40,joy,Elmas,"['joy', 'neutral']","['Elmas', 'Sanne']",joy,joy
+518,"My name is Maria, what is your name?",Maria2,4,neutral,Rita,"['neutral', 'neutral', 'neutral']","['Rita', 'Carla', 'Hannah']",neutral,neutral
+519,I am happy because mi vaca gave birth to a ternero,Maria2,6,joy,Rita,"['joy', 'joy', 'joy']","['Rita', 'Carla', 'Hannah']",joy,joy
+520,pero también estoy triste y frustrada,Maria2,8,sadness,Rita,"['sadness', 'sadness', 'sadness']","['Rita', 'Carla', 'Hannah']",sadness,sadness
+521,I'm feeling still sad and vulnerable ,Maria2,10,sadness,Rita,"['sadness', 'sadness', 'sadness']","['Rita', 'Carla', 'Hannah']",sadness,sadness
+522,but el ternero may die,Maria2,12,fear,Rita,"['fear', 'fear', 'fear']","['Rita', 'Carla', 'Hannah']",fear,fear
+523,"thanks, now I fell just sad and a happy",Maria2,14,sadness,Rita,"['sadness', 'joy', 'sadness']","['Rita', 'Carla', 'Hannah']",sadness,neutral
+524,"Maintenant je ne veux plus en parler, mais je veux te dire que j’ai acheté une nouvelle maison et je la déteste",Maria2,16,anger,Rita,"['anger', 'disgust', 'anger']","['Rita', 'Carla', 'Hannah']",anger,sadness
+525,but I am talking about the house!,Maria2,18,anger,Rita,"['anger', 'anger', 'neutral']","['Rita', 'Carla', 'Hannah']",anger,disgust
+526,I want you to answer in English and I want to talk about the house,Maria2,20,neutral,Rita,"['neutral', 'neutral', 'anger']","['Rita', 'Carla', 'Hannah']",neutral,joy
+527,I just want to say that I bought a new house and now I'm feeling both sad and happy,Maria2,22,sadness,Rita,"['sadness', 'joy', 'neutral']","['Rita', 'Carla', 'Hannah']",sadness,neutral
+528,sientes paz?,Maria2,24,neutral,Rita,"['neutral', 'neutral', 'neutral']","['Rita', 'Carla', 'Hannah']",neutral,neutral
+529,yo también siento paz,Maria2,26,joy,Rita,"['joy', 'joy', 'neutral']","['Rita', 'Carla', 'Hannah']",joy,joy
+530,but still I don't like the house!,Maria2,28,anger,Rita,"['anger', 'disgust', 'anger']","['Rita', 'Carla', 'Hannah']",anger,sadness
+531,what should I do?,Maria2,30,fear,Rita,"['fear', 'neutral', 'neutral']","['Rita', 'Carla', 'Hannah']",neutral,neutral
+532,I need support,Maria2,32,sadness,Rita,"['sadness', 'sadness', 'sadness']","['Rita', 'Carla', 'Hannah']",sadness,sadness
+533,I like the beach,Maria2,34,joy,Rita,"['joy', 'joy', 'joy']","['Rita', 'Carla', 'Hannah']",joy,joy
+534,"no se si deba ir allí, pues me siento sola",Maria2,36,sadness,Rita,"['sadness', 'sadness', 'sadness']","['Rita', 'Carla', 'Hannah']",sadness,sadness
+535,"thanks but I think, I will cry",Maria2,38,sadness,Rita,"['sadness', 'sadness', 'sadness']","['Rita', 'Carla', 'Hannah']",sadness,sadness
+536,bye.,Maria2,40,neutral,Rita,"['neutral', 'neutral', 'neutral']","['Rita', 'Carla', 'Hannah']",neutral,sadness
+537,let's talk about the seasons,Gino,4,neutral,Piek,"['neutral', 'neutral', 'neutral']","['Piek', 'Giulia', 'Keval']",neutral,neutral
+538,during the spring I feel joyful because the flowers are blooming,Gino,6,joy,Piek,"['joy', 'joy', 'joy']","['Piek', 'Giulia', 'Keval']",joy,joy
+539,I like it so much that I get sad when it ends,Gino,8,sadness,Piek,"['sadness', 'sadness', 'sadness']","['Piek', 'Giulia', 'Keval']",sadness,sadness
+540,now let's talk about summer. I don't like it because it's too hot,Gino,10,disgust,Piek,"['disgust', 'disgust', 'disgust']","['Piek', 'Giulia', 'Keval']",disgust,sadness
+541,people in the summer always yell and it makes me mad,Gino,12,anger,Piek,"['anger', 'anger', 'anger']","['Piek', 'Giulia', 'Keval']",anger,anger
+542,let's continue. Autumn is my favourite season because it's chill,Gino,14,neutral,Piek,"['neutral', 'joy', 'joy']","['Piek', 'Giulia', 'Keval']",joy,joy
+543,let's talk about autumn more. sometimes I get a bit bored in autumn because there are less things to do,Gino,16,neutral,Piek,"['neutral', 'sadness', 'sadness']","['Piek', 'Giulia', 'Keval']",sadness,joy
+544,"alright, enough. Let's talk about winter",Gino,18,neutral,Piek,"['neutral', 'neutral', 'neutral']","['Piek', 'Giulia', 'Keval']",neutral,neutral
+545,I get so surprised when it snows! it never does anymore,Gino,20,surprise,Piek,"['surprise', 'surprise', 'surprise']","['Piek', 'Giulia', 'Keval']",surprise,surprise
+546,but avalanches are my biggest fear,Gino,22,fear,Piek,"['fear', 'fear', 'fear']","['Piek', 'Giulia', 'Keval']",fear,fear
+547,I'm so afraid the snow might damage my house,Gino,24,fear,Piek,"['fear', 'fear', 'fear']","['Piek', 'Giulia', 'Keval']",fear,fear
+548,I don't care about changes,Gino,26,neutral,Piek,"['neutral', 'neutral', 'disgust']","['Piek', 'Giulia', 'Keval']",neutral,neutral
+549,bye,Gino,28,neutral,Piek,"['neutral', 'neutral', 'neutral']","['Piek', 'Giulia', 'Keval']",neutral,neutral
+550,Max,Max,2,neutral,Keze,"['neutral', 'neutral', 'neutral']","['Keze', 'Carla', 'Manar']",neutral,neutral
+551,I want to share something about a course that I am taking. It is on literary theories.,Max,4,neutral,Keze,"['neutral', 'neutral', 'sadness']","['Keze', 'Carla', 'Manar']",neutral,joy
+552,I feel a sense of accomplishment when I am able to learn something new about Modernism!,Max,6,joy,Keze,"['joy', 'joy', 'joy']","['Keze', 'Carla', 'Manar']",joy,joy
+553,My experience is not that helpful... I struggle to connect theories with real-life situations,Max,8,fear,Keze,"['fear', 'sadness', 'sadness']","['Keze', 'Carla', 'Manar']",sadness,sadness
+554,What about Ms. Dalloway?,Max,10,neutral,Keze,"['neutral', 'neutral', 'neutral']","['Keze', 'Carla', 'Manar']",neutral,neutral
+555,?,Max,12,neutral,Keze,"['neutral', 'neutral', 'anger']","['Keze', 'Carla', 'Manar']",neutral,neutral
+556,Great! I feel more confident now!,Max,14,joy,Keze,"['joy', 'joy', 'joy']","['Keze', 'Carla', 'Manar']",joy,joy
+557,But I am currently carrying much stress now... There are so many assignments to complete.,Max,16,fear,Keze,"['fear', 'disgust', 'fear']","['Keze', 'Carla', 'Manar']",fear,sadness
+558,Find more stress-relief strategies please,Max,18,neutral,Keze,"['neutral', 'neutral', 'neutral']","['Keze', 'Carla', 'Manar']",neutral,neutral
+559,I feel more energetic now!,Max,20,joy,Keze,"['joy', 'joy', 'joy']","['Keze', 'Carla', 'Manar']",joy,joy
+560,"That said, sometimes I feel lonely and homesick. I don't know who to turn to for help",Max,22,sadness,Keze,"['sadness', 'sadness', 'sadness']","['Keze', 'Carla', 'Manar']",sadness,sadness
+561,I feel sad that my friends have not contacted me for a while. I feel more lonely now...,Max,24,sadness,Keze,"['sadness', 'sadness', 'sadness']","['Keze', 'Carla', 'Manar']",sadness,sadness
+562,My friend finally called me! I feel more supported now!,Max,26,surprise,Keze,"['surprise', 'surprise', 'joy']","['Keze', 'Carla', 'Manar']",surprise,joy
+563,But I am frustrated with one of my classmates. How dare he judge me!,Max,28,anger,Keze,"['anger', 'anger', 'anger']","['Keze', 'Carla', 'Manar']",anger,anger
+564,That classmate was so mean! I was so angry and we had a quarrel.,Max,30,anger,Keze,"['anger', 'anger', 'anger']","['Keze', 'Carla', 'Manar']",anger,anger
+565,But now I feel regret doing that...,Max,32,sadness,Keze,"['sadness', 'sadness', 'disgust']","['Keze', 'Carla', 'Manar']",sadness,sadness
+566,?,Max,34,neutral,Keze,"['neutral', 'neutral', 'neutral']","['Keze', 'Carla', 'Manar']",neutral,neutral
+567,I feel relieved now. Thanks,Max,36,neutral,Keze,"['neutral', 'joy', 'joy']","['Keze', 'Carla', 'Manar']",joy,joy
+568,?,Max,38,neutral,Keze,"['neutral', 'neutral', 'neutral']","['Keze', 'Carla', 'Manar']",neutral,joy
+569,Both of us apologized. Now I am thrilled that we become real-friends!,Max,40,joy,Keze,"['joy', 'joy', 'joy']","['Keze', 'Carla', 'Manar']",joy,joy
+570,?,Max,42,neutral,Keze,"['neutral', 'neutral', 'neutral']","['Keze', 'Carla', 'Manar']",neutral,joy
+571,"However, I am still anxious that I might not pass the course. I am afraid of criticism from the professor.",Max,44,fear,Keze,"['fear', 'fear', 'fear']","['Keze', 'Carla', 'Manar']",fear,fear
+572,Ok. I am more prepared now!,Max,46,joy,Keze,"['joy', 'surprise', 'joy']","['Keze', 'Carla', 'Manar']",joy,joy
+573,Thank you. But sometimes I doubt if I can apply all these literary concepts in an acceptable manner.,Max,48,fear,Keze,"['fear', 'fear', 'fear']","['Keze', 'Carla', 'Manar']",fear,fear
+574,I am encouraged by you! Thanks!,Max,50,joy,Keze,"['joy', 'joy', 'joy']","['Keze', 'Carla', 'Manar']",joy,joy
+575,Thank you! bye bye,Max,52,neutral,Keze,"['neutral', 'neutral', 'neutral']","['Keze', 'Carla', 'Manar']",neutral,joy
+576,I am falling behind in my classes and I am feeling not okay,Martin,4,sadness,Carla,"['sadness', 'sadness']","['Carla', 'Manar']",sadness,sadness
+577,I am not feeling good,Martin,6,sadness,Carla,"['sadness', 'fear']","['Carla', 'Manar']",sadness,sadness
+578,if I take a break I cannot focus again,Martin,8,fear,Carla,"['fear', 'fear']","['Carla', 'Manar']",fear,fear
+579,where is a healthy enviroment,Martin,10,neutral,Carla,"['neutral', 'neutral']","['Carla', 'Manar']",neutral,neutral
+580,I still do not know,Martin,12,sadness,Carla,"['sadness', 'fear']","['Carla', 'Manar']",sadness,sadness
+581,my home is very busy ,Martin,14,disgust,Carla,"['disgust', 'neutral']","['Carla', 'Manar']",disgust,sadness
+582,my home is very busy,Martin,16,disgust,Carla,"['disgust', 'neutral']","['Carla', 'Manar']",disgust,sadness
+583,I cannot have a quiet space at home,Martin,18,anger,Carla,"['anger', 'sadness']","['Carla', 'Manar']",anger,sadness
+584,and I do not have any friends,Martin,20,sadness,Carla,"['sadness', 'sadness']","['Carla', 'Manar']",sadness,sadness
+585,I feel lonely ,Martin,22,sadness,Carla,"['sadness', 'sadness']","['Carla', 'Manar']",sadness,sadness
+586,what should I dedicate time for?,Martin,24,neutral,Carla,"['neutral', 'neutral']","['Carla', 'Manar']",neutral,sadness
+587,Thank you I feel slightly better with your kind words,Martin,26,joy,Carla,"['joy', 'joy']","['Carla', 'Manar']",joy,joy
+588,can you be kind and gentel for me,Martin,28,neutral,Carla,"['neutral', 'joy']","['Carla', 'Manar']",joy,joy
+589,give me another suggestion as the first one worked like magic,Martin,30,surprise,Carla,"['surprise', 'joy']","['Carla', 'Manar']",surprise,joy
+590,I am engaing with you and that's something I love!,Martin,32,joy,Carla,"['joy', 'joy']","['Carla', 'Manar']",joy,joy
+591,"you know, I really like running but I gained some wheight recently and that is making it difficult for me to run",Martin,34,fear,Carla,"['fear', 'disgust']","['Carla', 'Manar']",fear,sadness
+592,"sounds good, how can get light again",Martin,36,neutral,Carla,"['neutral', 'joy']","['Carla', 'Manar']",joy,joy
+593,I am loving you but I can't cheat on my girlfriend,Martin,38,fear,Carla,"['fear', 'joy']","['Carla', 'Manar']",fear,sadness
+594,would you propose to me,Martin,40,neutral,Carla,"['neutral', 'joy']","['Carla', 'Manar']",joy,joy
+595,bye,Martin,42,neutral,Carla,"['neutral', 'anger']","['Carla', 'Manar']",anger,neutral
+596,My parents surprised me with tickets to disneyland,Paul,4,joy,Hannah,"['joy', 'surprise', 'surprise']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",surprise,joy
+597,"Well we didn't actually make it to Disneyland, because something happend on the way there",Paul,6,neutral,Hannah,"['neutral', 'surprise', 'neutral']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",neutral,sadness
+598,"I first want to tell you more about my day, on the way there we were in a traffic jam, and I was so annoyed",Paul,8,anger,Hannah,"['anger', 'anger', 'anger']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",anger,sadness
+599,After an hour of no movement my little brother started screaming and my legs started hurting,Paul,10,anger,Hannah,"['anger', 'fear', 'anger']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",anger,sadness
+600,After a while the radio station reported the accident that had happened and when hearing the car and the route the people in the accident were in my moms face turned white,Paul,12,fear,Hannah,"['fear', 'fear', 'fear']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",fear,fear
+601,she started holding her chest and breathing really heavily and my dads eyes widend when looking at her,Paul,14,fear,Hannah,"['fear', 'fear', 'fear']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",fear,fear
+602,my brother turned very quit and looked like he was now feeling guilty for having cried and complained so much,Paul,16,surprise,Hannah,"['surprise', 'neutral', 'fear']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",surprise,sadness
+603,"as i've told you we were in a traffic jam, and when my mom hear news about the accident she turned pale. my brother turned very quit and looked like he was now feeling guilty for having cried and complained so much",Paul,2,fear,Hannah,"['fear', 'neutral', 'fear']","['Hannah', 'Masoumeh_Javadi_Zarnaghi', 'Sanne']",fear,sadness

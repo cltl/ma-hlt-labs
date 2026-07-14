@@ -1,4 +1,4 @@
-## Python 3.10
+## Python 3.11
 
 ### NLP and machine learning
 nltk==3.9.1
@@ -22,3 +22,6 @@ openai==1.97.0
 ### visualising data and results
 seaborn==0.13.2
 matplotlib==3.10.3
+
+### Jupyter lab
+jupyterlab==4.5.7

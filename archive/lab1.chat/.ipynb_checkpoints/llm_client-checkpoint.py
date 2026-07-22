@@ -1,0 +1,278 @@
+from langchain_ollama import ChatOllama
+import json
+import os
+
+#https://ollama.com/models
+#ollama pull qwen3:1.7b
+#ollama pull qwen3:0.6b
+
+class LLMClient:
+    
+    def __init__(self,  model="qwen3:0.6b",
+                        temperature=0.1, 
+                        character="You are friendly.", 
+                        ctx_limit=2048):
+        
+        self._client = ChatOllama(
+            model=model,
+            temperature= temperature,
+            think=False,
+            num_predict = 256, ## max number of tokens to predict
+        )
+        self._ctx = ctx_limit
+        self._system_name="AI"
+        self._human_name='Human'
+        self._annotator = ""
+        self._persona= ""
+        self._friends = []
+        self._file_name = "chat_with_"+model.replace(":", "")+".json"
+        self._history = []
+        self._conversation=[]
+        self._turn_id = 0
+        self._instruct = []
+        self.create_chat_instruct(character)
+        
+    def create_chat_instruct(self, character):
+        self._instruct = [{"role": "system", "content": "You act as a person and your name is {}.".format(self._system_name)}]
+        self._instruct.append({"role": "system", "content": "Give short answers, no more than two sentences."})
+        self._instruct.append({"role": "system", "content": character})
+        self._instruct.append({"role": "system", "content": "Introduce yourself with your name {} and start the conversation by asking for the name of the user. Ask the name.".format(self._system_name)})
+        print("My instructions are:", self._instruct)
+
+    def add_to_history_check_context_limit(self, input):
+        context = ""
+        for message in self._history:
+            context += str(message)
+        if len(context+str(input))>self._ctx:
+            if len(self._history)>4:
+                ##### shorten the history with 4 turns
+                self._history = self._history[4:]
+            else:
+                self._history ==[]
+        self._history.append(input)
+
+    def talk_to_me(self):
+        stopwords = ["quit", "exit", "bye", "stop"]
+        self._conversation = []
+        self._history = []
+        self._turn_id = 1
+
+        ### For the first turn in the chat, we instruct the LLM server and prompt it to ask for your name.
+        new_message = {"role": "system", "content": ""}
+        response = ""
+        response = self._client.invoke(self._instruct)
+        end_of_think = response.content.find("</think>")
+        think = response.content[:end_of_think+8]
+        answer = response.content[end_of_think+8:].replace("\n", "")
+        print(self._system_name+":"+str(self._turn_id)+"> "+answer)
+        
+        ### We extend the history with new message
+        new_message["content"] += answer
+        self.add_to_history_check_context_limit(new_message)
+        
+        ### We also save the turn in conversation
+        turn = {'utterance':new_message['content'], 'think':think, 'speaker': self._system_name, 'turn_id':self._turn_id}
+        self._conversation.append(turn)
+    
+        ### We assume that the server asked for your name and that you gave your name as well
+        self._turn_id += 1
+        userinput=input(self._human_name+":"+str(self._turn_id)+"> ")
+        
+        ### We add your input to the history and the conversation as well
+        self.add_to_history_check_context_limit({"role": "user", "content": userinput})
+        turn = {'utterance':userinput, 'speaker': self._human_name, 'turn_id':self._turn_id}
+        self._conversation.append(turn)
+    
+        ### We try to get you name from the input
+        # if userinput.lower().startswith("my name is "):
+        #     self._human_name = userinput[11:]
+        # elif userinput.lower().startswith("i am called "):
+        #     self._human_name = userinput[11:]
+        # elif userinput.lower().startswith("they call me "):
+        #     self._human_name = userinput[13:]
+        # else:
+        #     self._human_name = userinput
+
+        if userinput.lower().find("my name is ")>0:
+            idx = userinput.lower().find("my name is ")
+            self._human_name = userinput[idx+11:]
+        elif userinput.lower().find("i am called ")>0:
+            idx = userinput.lower().find("i am called ")
+            self._human_name = userinput[idx+11:]
+        elif userinput.lower().find("they call me ")>0:
+            idx = userinput.lower().find("they call me ")
+            self._human_name = userinput[idx+13:]
+        else:
+            self._human_name = userinput
+        if not self._human_name:
+            self._human_name="Human"
+        self._persona = self._human_name
+        while True:
+            ### We now iteratively call the server through the client with a high temperature
+            ### We add the history as the prompt 
+            self._turn_id += 1
+            print(self._system_name+":"+str(self._turn_id)+"> ")
+            new_message = {"role": "system", "content": ""}
+            answer = ""
+            think = ""
+            end_of_thinking = False
+            for chunk in self._client.stream(self._history):
+#                print("DEBUG chunk:", chunk.text())
+                if not end_of_thinking:
+                    think += chunk.text()
+                    if chunk.text()=="</think>":
+                        end_of_thinking = True
+                else:
+                    answer += chunk.text()
+                    print(chunk.text(), end= "")
+            new_message["content"] = answer
+            self.add_to_history_check_context_limit(new_message)
+            turn = {'utterance':new_message['content'], 'think': think, 'speaker': self._system_name, 'turn_id':self._turn_id}
+            self._conversation.append(turn)
+            
+            ### We now ask for the next user input and add it to the history
+            print()
+            self._turn_id += 1
+            userinput = input(self._human_name+":"+str(self._turn_id)+"> ")
+            self.add_to_history_check_context_limit({"role": "user", "content": userinput})
+            turn = {'utterance':userinput, 'speaker': self._human_name, 'turn_id':self._turn_id}
+            self._conversation.append(turn)
+            for word in stopwords:
+                if word in userinput.lower():
+                    print("BYE BYE!")
+                    filename = "human_"+self._human_name+"_"+ os.path.basename(self._file_name)
+                    self.save_to_json(filename)
+                    print("I saved the conversation in:", filename)
+                    return
+            
+    
+    def save_to_json(self, filename = "human_chat_with_llm.json"):
+        my_data = {"persona":self._persona, "friends":self._friends, "annotator": self._annotator}
+        my_data["conversations"]=[self._conversation]
+        with open(filename,'w') as file:
+            json.dump(my_data, file, indent = 4)
+
+    def load_from_json(self, filename = "chat_with_llm.json"):
+        self.__init__()
+        self._file_name = filename
+        f = open(filename)
+        data = json.load(f)
+        if "friends" in data:
+            self._friends = data["friends"]
+        else:
+            self._friends = []
+        if "persona" in data:
+            self._persona = data["persona"]
+        else:
+            self._persona = ""
+        if "annotator" in data:
+            self._annotator = data["annotator"]
+        else:
+            self._annotator = ""
+        if "conversations" in data:
+            self._conversation = data["conversations"]
+        else:
+            self._conversations = []
+
+        
+        print("Persona:", self._persona)
+        print("Friends:", self._friends)
+        print("Annotator:", self._annotator)
+        print("Conversations:", len(self._conversation))
+        for nr, conversation in enumerate(self._conversation):
+            print('Conversation', nr, "has", len(conversation), 'turns in total (persona and AI)')
+
+    def print_chat(self):
+        for turn in self._conversation:
+            print(turn)
+
+    def get_annotator(self, d:dict):
+        for item in d:
+            if "Annotator" in item:
+                annotator = item["Annotator"]
+                if not annotator=="auto":
+                    return annotator
+        return ""
+
+    def clear_annotations_multi_chat(self, labels=[]):
+        for conversation in self._conversation:
+            for turn in conversation:
+                if 'Annotator' in turn:
+                    turn['Annotator']=""
+                if 'Gold' in turn:
+                    turn['Gold']=""
+
+    def annotate_multi_chat(self, labels=[]):
+        annotator = ""
+        if not self._annotator:
+            print("You first need to set the annotator!!!!")
+            while len(self._annotator.strip())==0:
+                print("Please provide the name of the annotator")
+                self._annotator=input("> ")
+        print("The annotator is", self._annotator)
+        print("There will be", len(self._conversation), "conversations to annotate with one of the following labels:", labels)
+        print("When you are done, the annotations will be saved in a separate JSON file prefixed with the name of the annotator")
+        print("Turns that are already annotated are skipped.")
+        for conversation in self._conversation:
+            print("Labels", labels)
+            print("This conversation has", len(conversation), "turns.")
+            input("Press ENTER to start> ")
+            for turn in conversation:
+                speaker = turn['speaker']
+                utterance = turn['utterance']
+                turn_id = turn["turn_id"]
+                print(turn_id, speaker, ":", utterance)
+                if speaker==self._system_name:
+                    turn['Gold']="neutral"
+                    turn['Annotator']="auto"
+                elif not 'Gold' in turn or not turn['Gold']:
+                    if speaker in self._friends or speaker == self._persona:
+                        gold = ""
+                        ### we keep getting the user input till one of them matches a label
+                        while not gold in labels:
+                            print('GOLD labels', labels)
+                            gold = input("Enter one of the GOLD labels> ")
+                        turn['Gold']=gold
+                        turn['Annotator']=self._annotator
+                    else:
+                        print("Some other speaker", speaker, "Not in:", self._friends, self._persona)
+                else:
+                    print("The GOLD label is",turn['Gold'])
+            print("---------- DONE ---------")
+        filename = "annotator_"+self._annotator+"_"+self._file_name
+        print("Thank you for annotating. The annotations are saved in", filename)
+        self.save_to_json(filename)
+        
+    def annotate_chat(self, labels=[]):
+        annotator = ""
+        while len(annotator.strip())==0:
+            print("Please provide the name of the annotator")
+            annotator=input("> ")
+        print("The annotator is", annotator)
+        print("There will be", len(self._conversation)/2, "turns to annotate with one of the following labels:", labels)
+        print("When you are done, the annotations will be saved in a separate JSON file prefixed with the name of the annotator")
+        for turn in self._conversation:
+            gold = ""
+            speaker = turn['speaker']
+            utterance = turn['utterance']
+            print(speaker, ":", utterance)
+            if speaker==self._system_name:
+                turn['Gold']="neutral"
+                turn['Annotator']="auto"
+            else: 
+                ### we keep getting the user input till one of them matches a label
+                while not gold in labels:
+                    gold = input("label> ")
+                turn['Gold']=gold
+                turn['Annotator']=annotator
+        filename = "annotator_"+annotator+"_"+self._file_name
+        print("Thank you for annotating. The annotations are saved in", filename)
+        self.save_to_json(filename)
+
+if __name__ == "__main__":
+    character="Your answers should be agressive and grumpy."
+    #character="Your answers should be uncertain and emotional."
+    llm = LLMClient(character=character)
+    llm.talk_to_me()
+
+                         

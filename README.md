@@ -3,12 +3,11 @@ Notebooks for the Introduction to Human Language Technology Lab sessions.
 
 Master courses: Research Master Humanities and Text Mining.
 
-This GitHub contains the python notebooks for the course  Introduction into Human Language Technology at the Vrije Universiteit Amsterdam, Faculty of Humanities. This course targets _Language and AI_ Master students and _Research Master Humanities_ students. We assume you have some basic knowledge of Python or are following the Python for NLP course that runs in parallel.
+This GitHub contains the python notebooks for the course Introduction into Human Language Technology at the Vrije Universiteit Amsterdam, Faculty of Humanities. This course targets _Language and AI_ Master students and _Research Master Humanities_ students. We assume you have some basic knowledge of Python or are following the Python for NLP course that runs in parallel.
 
 The notebooks are grouped in lab sessions:
 
-* lab0: getting started and learn to work with Natural Language Processing toolkits
-* lab1: chatting with Large Langauge Models and annotating the conversation with emotion labels
+* lab1: getting started and learn to work with Natural Language Processing toolkits
 * lab2: modeling the meaning of words: wordnets and word embeddings
 * lab3: modeling the meaning of text: machine learning for Natural Language Processing
 * lab4: evaluating text interpretation systems
